@@ -16,7 +16,13 @@ is available [here](https://github.com/marmalade/s3eMapView/tags). Note that
 some work will still be required to use the precompiled version on Android or
 on OS X, as described in the platform notes below.
 
-Screenshot
+If/when you get the **error: The specified android-external-jars does not exist:**
+message, you will need to follow the instructions in the Android platform notes
+below to install the two missing .jar files, or if you don't need Android support,
+just comment out the `anroid-external-jars` lines in `s3eMapView.mkf`.
+
+
+### Screenshot ###
 ![Screenshot](http://i.imgur.com/DWZL3.png)
 Left: Android, center: iOS (Apple Maps), right: Mac OS X simulator
 
