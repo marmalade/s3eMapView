@@ -11,6 +11,11 @@ will appear above your application's UI.
 POIs provide an event callback so that your app can be notified when the user
 has "selected" a POI.
 
+**Precompiled version**: A source tarball that includes binaries for each platform
+is available [here](https://github.com/marmalade/s3eMapView/tags). Note that
+some work will still be required to use the precompiled version on Android or
+on OS X, as described in the platform notes below.
+
 Screenshot
 ![Screenshot](http://i.imgur.com/DWZL3.png)
 Left: Android, center: iOS (Apple Maps), right: Mac OS X simulator
