@@ -1,0 +1,18 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the s3eMapView extension on android
+platform JAVA
+
+files
+{
+    (source/android)
+    s3eMapView.java
+    s3eMapActivity.java
+}
+
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
+#librarypath "$ANDROID_SDK_ROOT/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar" 
+librarypath "lib/android/google-play-services.jar"
+librarypath "lib/android/android-support-v4.jar"
+
+option output-name=lib/android/s3eMapView.jar

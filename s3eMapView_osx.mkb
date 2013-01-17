@@ -1,0 +1,18 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the s3eMapView extension on osx
+platform OSX
+
+options
+{
+    dll
+    x86
+}
+
+options
+{
+    output-name="lib/osx/libs3eMapView.dylib"
+    output-name-debug="lib/osx/libs3eMapView_d.dylib"
+}
+define S3E_BUILD_EXT
+
+subproject s3eMapView_build

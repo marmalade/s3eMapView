@@ -1,0 +1,59 @@
+# The s3eMapView extension
+# 
+# Displays a map using native Android or iOS controls.
+#
+callbacks
+
+include:
+#include <s3eTypes.h>
+
+enum s3eMapViewCallback
+{
+	S3E_MAPVIEW_CALLBACK_POI_SELECTED, // User has tapped/clicked on a POI
+	S3E_MAPVIEW_CALLBACK_MAX
+};
+
+struct s3eMapView;
+struct s3eMapViewPOI;
+struct s3eMapViewCoord {
+	double lat;
+	double lng;
+	s3eMapViewCoord(double _lat, double _lng) : lat(_lat), lng(_lng) {}
+};
+struct s3eMapViewSpan {
+	double latDelta;
+	double lngDelta;
+	s3eMapViewSpan(double _latDelta, double _lngDelta) : latDelta(_latDelta), lngDelta(_lngDelta) {}
+};
+enum s3eMapViewType {
+	S3E_MAPVIEW_TYPE_STANDARD,
+	S3E_MAPVIEW_TYPE_SATELLITE,
+	S3E_MAPVIEW_TYPE_HYBRID
+};
+
+// Helpers to convert references to pointers.  These are required because only POD data can be passed as arguments to methods that run on the OS thread.
+extern "C" {
+	void _s3eMapViewGoTo(s3eMapView* pMapView, const s3eMapViewCoord* center, const s3eMapViewSpan* span, bool animate);
+	s3eMapViewPOI* _s3eMapViewAddPOI(s3eMapView* pMapView, const s3eMapViewCoord* location, const char* title, const char* subtitle, bool clickable, void* clickData);
+}
+inline void s3eMapViewGoTo(s3eMapView* pMapView, const s3eMapViewCoord& center, const s3eMapViewSpan& span, bool animate)
+	{ _s3eMapViewGoTo(pMapView, &center, &span, animate); }
+inline s3eMapViewPOI* s3eMapViewAddPOI(s3eMapView* pMapView, const s3eMapViewCoord location, const char* title = NULL, const char* subtitle = NULL, bool clickable = false, void* clickData = NULL)
+	{ return _s3eMapViewAddPOI(pMapView, &location, title, subtitle, clickable, clickData); }
+
+functions:
+
+s3eMapView* s3eMapViewCreate() NULL run_on_os_thread
+s3eResult s3eMapViewDestroy(s3eMapView* pMapView) S3E_RESULT_ERROR run_on_os_thread
+
+void s3eMapViewSetScreenRect(s3eMapView* pMapView, int x, int y, int w, int h) void run_on_os_thread
+void s3eMapViewSetVisible(s3eMapView* pMapView, bool visible) void run_on_os_thread
+
+void s3eMapViewSetType(s3eMapView* pMapView, s3eMapViewType type) void run_on_os_thread
+void s3eMapViewSetShowUserLocation(s3eMapView* pMapView, bool show) void run_on_os_thread
+void _s3eMapViewGoTo(s3eMapView* pMapView, const s3eMapViewCoord* center, const s3eMapViewSpan* span, bool animate) void run_on_os_thread
+
+s3eMapViewPOI* _s3eMapViewAddPOI(s3eMapView* pMapView, const s3eMapViewCoord* location, const char* title, const char* subtitle, bool clickable, void* clickData) NULL run_on_os_thread
+void s3eMapViewRemovePOI(s3eMapView* pMapView, s3eMapViewPOI* poi) void run_on_os_thread
+
+const char* s3eMapViewGetPlatformLicensingString() NULL run_on_os_thread

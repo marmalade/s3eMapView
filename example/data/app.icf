@@ -1,0 +1,32 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted; see the
+# S3E documentation for details.
+
+[s3e]
+DispFixRot = 1 #Force portrait
+MemSize = 31457280 #30 MB, default = 3 MB (Check max value in simulator metrics to determine appropriate value: System->Memory->Heap 0 Allocated)
+IOSDispScaleFactor = 200 # Use retina display if available
+
+[GX]
+DataCacheSize = 1048576 #1 MB, default = 16 kB (Check max value in simulator metrics to determine appropriate value: Studio->IwGx->Data Cache Bytes)
+#VertCacheSize = 5400 # Default = 2048 (2048 is reported as ~ 102 because each vertex is 20 bytes)
+
+[GxFont]
+CacheTextureMaxSize=512
+
+[Util]
+#MemoryBreakpoint = 123

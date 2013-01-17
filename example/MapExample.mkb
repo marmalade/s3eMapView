@@ -1,0 +1,49 @@
+#!/usr/bin/env mkb
+
+options 
+{
+	module_path="../"
+	enable-exceptions=1
+}
+
+define IW_GXFONT_TTF
+debug_define IW_USE_CALLSTACK
+
+includepaths
+{
+	src
+}
+
+files
+{
+
+	(src)
+	"*.cpp"
+	"*.h"
+
+	[Config]
+		(./)
+		MapExample.mkb
+
+		(data)
+		"*.icf"
+}
+
+subprojects
+{
+	iwui
+	s3eMapView
+}
+
+assets
+{
+	(data-ram/data-gles1)
+	iwui_style/iwui_style.group.bin
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	name='MapExample'
+	splashscreen-auto-onblack='1'
+}

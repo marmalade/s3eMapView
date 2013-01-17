@@ -1,0 +1,16 @@
+build_*/
+stamp/
+*.exp
+example/data-ram/
+development.icf
+
+# Windows specific
+lib/win32/*.lib
+*.ilk
+
+# Android specific
+lib/android/android-support-v4.jar
+lib/android/google-play-services.jar
+
+# To exclude the compiled binaries completely:
+lib

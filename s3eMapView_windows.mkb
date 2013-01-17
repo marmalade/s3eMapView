@@ -1,0 +1,21 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the s3eMapView extension on windows
+platform WIN32
+
+options
+{
+    dll
+    x86
+    output-name="lib/win32/s3eMapView.dll"
+    output-name-debug="lib/win32/s3eMapView_d.dll"
+}
+librarys 
+{
+    kernel32.lib
+    user32.lib
+    gdi32.lib
+    gdiplus.lib
+}
+define S3E_BUILD_EXT
+
+subproject s3eMapView_build
