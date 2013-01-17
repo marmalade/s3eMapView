@@ -1,0 +1,448 @@
+Archive member included because of file (symbol)
+
+/Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+                              release/s3eMapView_platform.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ _ZN7_JNIEnv22CallStaticObjectMethodEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release/s3eMapView_platform.os
+ _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release/s3eMapView_platform.os
+ _ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release/s3eMapView_platform.os
+ _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release/s3eMapView_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release/s3eMapView_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release/s3eMapView.os
+ .note.GNU-stack
+                0x00000000        0x0 release/s3eMapView_register.os
+ .note.GNU-stack
+                0x00000000        0x0 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+LOAD release/s3eMapView_platform.os
+LOAD release/s3eMapView.os
+LOAD release/s3eMapView_register.os
+LOAD /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a
+LOAD /Developer/Marmalade/6.2/s3e/edk/lib/android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/liblog.so
+LOAD /usr/local/Cellar/android-ndk/r8c/sources/cxx-stl/gnu-libstdc++/4.4.3/libs/armeabi/libgnustl_static.a
+LOAD /usr/local/Cellar/android-ndk/r8c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/libgcc.a
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/libstdc++.so
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/libm.so
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/libc.so
+LOAD /usr/local/Cellar/android-ndk/r8c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/libgcc.a
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/libc.so
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/libdl.so
+LOAD /usr/local/Cellar/android-ndk/r8c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/libgcc.a
+LOAD /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4       0xb0
+ *(.hash)
+ .hash          0x000000d4       0xb0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000184      0x190
+ *(.dynsym)
+ .dynsym        0x00000184      0x190 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.dynstr         0x00000314      0x1a7
+ *(.dynstr)
+ .dynstr        0x00000314      0x1a7 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version    0x000004bc        0x0 load address 0x000004bb
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version_d  0x000004bc        0x0 load address 0x000004bb
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version_r  0x000004bc        0x0 load address 0x000004bb
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rel.dyn        0x000004bc       0x80
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x000004bc       0x18 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000004d4       0x60 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.fini_array
+                0x00000534        0x8 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x0000053c       0x58
+ *(.rel.plt)
+ .rel.plt       0x0000053c       0x58 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x00000594       0x98
+ *(.plt)
+ .plt           0x00000594       0x98 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.text           0x0000062c     0x1044
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000062c       0x14 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x0000062c                atexit
+ .text.exit     0x00000640       0x10 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00000640                __on_dlclose
+ .text          0x00000650      0x9ac release/s3eMapView_platform.os
+                0x00000688                _Z23s3eMapViewInit_platformv
+                0x00000650                _Z35Java_s3eMapView_notifyAppOfPOIClickP7_JNIEnvP8_jobjecti
+                0x00000d38                _Z25s3eMapViewAddPOI_platformP10s3eMapViewPK15s3eMapViewCoordPKcS5_bPv
+                0x00000b04                _Z26s3eMapViewSetType_platformP10s3eMapView14s3eMapViewType
+                0x00000c80                _Z45s3eMapViewGetPlatformLicensingString_platformv
+                0x00000a24                _Z23s3eMapViewGoTo_platformP10s3eMapViewPK15s3eMapViewCoordPK14s3eMapViewSpanb
+                0x00000958                _Z28s3eMapViewRemovePOI_platformP10s3eMapViewP13s3eMapViewPOI
+                0x000009b4                _Z32s3eMapViewSetScreenRect_platformP10s3eMapViewiiii
+                0x00000c10                _Z26s3eMapViewDestroy_platformP10s3eMapView
+                0x00000b60                _Z29s3eMapViewSetVisible_platformP10s3eMapViewb
+                0x00000aa8                _Z38s3eMapViewSetShowUserLocation_platformP10s3eMapViewb
+                0x00000edc                _Z25s3eMapViewCreate_platformv
+                0x00000bbc                _Z28s3eMapViewTerminate_platformv
+ .text._ZN7_JNIEnv22CallStaticObjectMethodEP7_jclassP10_jmethodIDz
+                0x00000ffc       0x34 release/s3eMapView_platform.os
+                0x00000ffc                _ZN7_JNIEnv22CallStaticObjectMethodEP7_jclassP10_jmethodIDz
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00001030       0x34 release/s3eMapView_platform.os
+                0x00001030                _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+ .text._ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x00001064       0x34 release/s3eMapView_platform.os
+                0x00001064                _ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00001098       0x34 release/s3eMapView_platform.os
+                0x00001098                _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+ .text          0x000010cc       0x38 release/s3eMapView.os
+                0x000010d0                s3eMapViewRemovePOI
+                0x000010cc                s3eMapViewGetPlatformLicensingString
+                0x000010f0                s3eMapViewSetScreenRect
+                0x000010fc                _Z19s3eMapViewTerminatev
+                0x000010ec                s3eMapViewSetVisible
+                0x000010e0                _s3eMapViewGoTo
+                0x000010e8                s3eMapViewSetType
+                0x000010f4                s3eMapViewDestroy
+                0x00001100                _Z14s3eMapViewInitv
+                0x000010f8                s3eMapViewCreate
+                0x000010e4                s3eMapViewSetShowUserLocation
+                0x000010d4                _s3eMapViewAddPOI
+ .text          0x00001104      0x4dc release/s3eMapView_register.os
+                0x000013f8                s3eMapViewUnRegister
+                0x00001428                s3eMapViewRegister
+                0x00001104                _Z21s3eMapViewRegisterExtv
+                0x0000145c                RegisterExt
+ .text          0x000015e0        0x0 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x000015e0       0x30 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+                0x000015e0                s3eEdkThreadRunOnOSAsync
+ .text.s3eEdkThreadRunOnOS
+                0x00001610       0x30 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+                0x00001610                s3eEdkThreadRunOnOS
+ .text.s3eEdkErrorSetString
+                0x00001640       0x30 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+                0x00001640                s3eEdkErrorSetString
+ .text          0x00001670        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini
+ *(.fini)
+                0x00001670                PROVIDE (__etext, .)
+                0x00001670                PROVIDE (_etext, .)
+                0x00001670                PROVIDE (etext, .)
+
+.rodata         0x00001670      0x104
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00001670      0x104 release/s3eMapView_platform.os
+ .rodata.str1.4
+                0x00000000        0xc release/s3eMapView_register.os
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001774                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001774                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00001774                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00002e88                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x00002e88        0x4
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00002e88        0x4 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+
+.fini_array     0x00002e8c        0x8
+ *(.fini_array)
+ .fini_array    0x00002e8c        0x4 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00002e90        0x4 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x00002e94        0xc
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00002e94        0xc release/s3eMapView_platform.os
+
+.dynamic        0x00002ea0       0xf8
+ *(.dynamic)
+ .dynamic       0x00002ea0       0xf8 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00002ea0                _DYNAMIC
+
+.got            0x00002f98       0x68
+ *(.got.plt)
+ .got.plt       0x00002f98       0x38 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00002f98                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x00002fd0       0x30 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00003000                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.data           0x00003000        0x4
+                0x00003000                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00003000        0x4 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00003000                __dso_handle
+ .data          0x00003004        0x0 release/s3eMapView_platform.os
+ .data          0x00003004        0x0 release/s3eMapView.os
+ .data          0x00003004        0x0 release/s3eMapView_register.os
+ .data          0x00003004        0x0 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+ .data          0x00003004        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+
+.data1
+ *(.data1)
+                0x00003004                _edata = .
+                0x00003004                PROVIDE (edata, .)
+                0x00003004                __bss_start = .
+                0x00003004                __bss_start__ = .
+
+.bss            0x00003004      0x280
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00003004        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00003004      0x280 release/s3eMapView_platform.os
+ .bss           0x00003284        0x0 release/s3eMapView.os
+ .bss           0x00003284        0x0 release/s3eMapView_register.os
+ .bss           0x00003284        0x0 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+ .bss           0x00003284        0x0 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ *(COMMON)
+                0x00003284                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00003284                _bss_end__ = .
+                0x00003284                __bss_end__ = .
+                0x00003284                . = ALIGN (0x4)
+                0x00003284                . = ALIGN (0x4)
+                0x00003284                __end__ = .
+                0x00003284                _end = .
+                0x00003284                PROVIDE (end, .)
+                0x00003284                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x6d
+ *(.comment)
+ .comment       0x00000000       0x25 /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                                 0x26 (size before relaxing)
+ .comment       0x00000025       0x12 release/s3eMapView_platform.os
+ .comment       0x00000037       0x12 release/s3eMapView.os
+ .comment       0x00000049       0x12 release/s3eMapView_register.os
+ .comment       0x0000005b       0x12 /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(/Users/braden/Documents/Projects/s3eMapView/lib/android/libs3eMapView.so elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x2d /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .ARM.attributes
+                0x0000002d       0x2d release/s3eMapView_platform.os
+ .ARM.attributes
+                0x0000005a       0x2b release/s3eMapView.os
+ .ARM.attributes
+                0x00000085       0x2b release/s3eMapView_register.os
+ .ARM.attributes
+                0x000000b0       0x2b /Developer/Marmalade/6.2/s3e/edk/lib/android/libedk.a(edk_helpers.o)
+ .ARM.attributes
+                0x000000db       0x1f /usr/local/Cellar/android-ndk/r8c/platforms/android-9/arch-arm/usr/lib/crtend_so.o
