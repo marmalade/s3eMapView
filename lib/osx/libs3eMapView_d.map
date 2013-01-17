@@ -1,0 +1,3350 @@
+# Path: /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Products/Debug/s3eMapView_osx.dylib
+# Arch: i386
+# Object files:
+[  0] linker synthesized
+[  1] /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Intermediates/s3eMapView_osx.build/Debug/s3eMapView_osx.build/Objects-normal/i386/s3eMapView.o
+[  2] /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Intermediates/s3eMapView_osx.build/Debug/s3eMapView_osx.build/Objects-normal/i386/s3eMapView_register.o
+[  3] /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Intermediates/s3eMapView_osx.build/Debug/s3eMapView_osx.build/Objects-normal/i386/annotation.o
+[  4] /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Intermediates/s3eMapView_osx.build/Debug/s3eMapView_osx.build/Objects-normal/i386/controller.o
+[  5] /Users/braden/Library/Developer/Xcode/DerivedData/s3eMapView_osx-agcxzquvgamjpldodgnowljesoth/Build/Intermediates/s3eMapView_osx.build/Debug/s3eMapView_osx.build/Objects-normal/i386/s3eMapView_platform.o
+[  6] /Developer/Marmalade/6.2/s3e/edk/lib/osx/libedk.a(iwcrt_api_bind.o)
+[  7] /Developer/Marmalade/6.2/s3e/edk/lib/osx/libedk.a(iwcrt_api_define.o)
+[  8] /Developer/Marmalade/6.2/s3e/edk/lib/osx/libedk.a(edk_helpers.o)
+[  9] /Developer/Marmalade/6.2/s3e/edk/lib/osx/libedk.a(IwDebug.o)
+[ 10] /Developer/Marmalade/6.2/s3e/edk/lib/osx/libedk.a(IwMain.o)
+[ 11] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//CoreLocation.framework/CoreLocation
+[ 12] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libstdc++.dylib
+[ 13] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+[ 14] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks//Foundation.framework/Foundation
+[ 15] /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libobjc.A.dylib
+# Sections:
+# Address	Size    	Segment	Section
+0x00001C60	0x0000C5A2	__TEXT	__text
+0x0000E202	0x000000C0	__TEXT	__symbol_stub
+0x0000E2C4	0x000000C0	__TEXT	__stub_helper
+0x0000E384	0x0000344E	__TEXT	__cstring
+0x000117D2	0x000000F8	__TEXT	__unwind_info
+0x000118D0	0x0000A728	__TEXT	__eh_frame
+0x0001C000	0x00000040	__DATA	__nl_symbol_ptr
+0x0001C040	0x00000080	__DATA	__la_symbol_ptr
+0x0001C0C0	0x00000004	__DATA	__mod_init_func
+0x0001C0C4	0x00000070	__DATA	__cfstring
+0x0001C140	0x00002202	__DATA	__data
+0x0001E360	0x00000300	__DATA	__bss
+0x0001E660	0x00002928	__DATA	__common
+0x00021000	0x00000060	__OBJC	__class
+0x00021060	0x000000D0	__OBJC	__message_refs
+0x00021130	0x0000002C	__OBJC	__symbols
+0x0002115C	0x00000074	__OBJC	__instance_vars
+0x000211D0	0x00000118	__OBJC	__inst_meth
+0x000212E8	0x00000040	__OBJC	__property
+0x00021328	0x0000000C	__OBJC	__class_ext
+0x00021334	0x00000050	__OBJC	__protocol
+0x00021384	0x00000040	__OBJC	__cat_cls_meth
+0x000213C4	0x00000060	__OBJC	__meta_class
+0x00021424	0x00000204	__OBJC	__cat_inst_meth
+0x00021628	0x00000040	__OBJC	__protocol_ext
+0x00021668	0x00000030	__OBJC	__module_info
+0x00021698	0x00000024	__OBJC	__cls_refs
+0x000216BC	0x00000008	__OBJC	__image_info
+# Symbols:
+# Address	Size    	File  Name
+0x00001C60	0x00000020	[  1] __Z14s3eMapViewInitv
+0x00001C80	0x00000020	[  1] _s3eMapViewGetPlatformLicensingString
+0x00001CA0	0x00000030	[  1] _s3eMapViewRemovePOI
+0x00001CD0	0x00000080	[  1] __s3eMapViewAddPOI
+0x00001D50	0x00000050	[  1] __s3eMapViewGoTo
+0x00001DA0	0x00000030	[  1] _s3eMapViewSetShowUserLocation
+0x00001DD0	0x00000030	[  1] _s3eMapViewSetType
+0x00001E00	0x00000030	[  1] _s3eMapViewSetVisible
+0x00001E30	0x00000060	[  1] _s3eMapViewSetScreenRect
+0x00001E90	0x00000030	[  1] _s3eMapViewDestroy
+0x00001EC0	0x00000020	[  1] _s3eMapViewCreate
+0x00001EE0	0x00000010	[  1] __Z19s3eMapViewTerminatev
+0x00001EF0	0x00000060	[  2] _s3eMapViewRegister
+0x00001F50	0x00000120	[  2] __Z21s3eMapViewRegisterExtv
+0x00002070	0x00000050	[  2] _s3eMapViewUnRegister
+0x000020C0	0x00000090	[  2] __ZL21s3eMapViewCreate_wrapv
+0x00002150	0x000000A0	[  2] __ZL22s3eMapViewDestroy_wrapP10s3eMapView
+0x000021F0	0x000000C0	[  2] __ZL28s3eMapViewSetScreenRect_wrapP10s3eMapViewiiii
+0x000022B0	0x000000A0	[  2] __ZL25s3eMapViewSetVisible_wrapP10s3eMapViewb
+0x00002350	0x000000A0	[  2] __ZL22s3eMapViewSetType_wrapP10s3eMapView14s3eMapViewType
+0x000023F0	0x000000A0	[  2] __ZL34s3eMapViewSetShowUserLocation_wrapP10s3eMapViewb
+0x00002490	0x000000C0	[  2] __ZL20_s3eMapViewGoTo_wrapP10s3eMapViewPK15s3eMapViewCoordPK14s3eMapViewSpanb
+0x00002550	0x000000F0	[  2] __ZL22_s3eMapViewAddPOI_wrapP10s3eMapViewPK15s3eMapViewCoordPKcS5_bPv
+0x00002640	0x000000A0	[  2] __ZL24s3eMapViewRemovePOI_wrapP10s3eMapViewP13s3eMapViewPOI
+0x000026E0	0x00000090	[  2] __ZL41s3eMapViewGetPlatformLicensingString_wrapv
+0x00002770	0x00000010	[  2] _RegisterExt
+0x00002780	0x00000090	[  3] -[S3eMapViewAnnotation initWithCoordinate:]
+0x00002810	0x00000030	[  3] -[S3eMapViewAnnotation customData]
+0x00002840	0x00000030	[  3] -[S3eMapViewAnnotation setCustomData:]
+0x00002870	0x00000030	[  3] -[S3eMapViewAnnotation clickable]
+0x000028A0	0x00000030	[  3] -[S3eMapViewAnnotation setClickable:]
+0x000028D0	0x00000030	[  3] -[S3eMapViewAnnotation subtitle]
+0x00002900	0x00000050	[  3] -[S3eMapViewAnnotation setSubtitle:]
+0x00002950	0x00000030	[  3] -[S3eMapViewAnnotation title]
+0x00002980	0x00000050	[  3] -[S3eMapViewAnnotation setTitle:]
+0x000029D0	0x00000040	[  3] -[S3eMapViewAnnotation coordinate]
+0x00002A10	0x00000042	[  3] -[S3eMapViewAnnotation setCoordinate:]
+0x00002A60	0x00000040	[  4] __ZL20MKCoordinateSpanMakedd
+0x00002AA0	0x00000060	[  4] __ZL22MKCoordinateRegionMake22CLLocationCoordinate2D16MKCoordinateSpan
+0x00002B00	0x00000030	[  4] -[S3eMapViewController isMapJsReady]
+0x00002B30	0x00000030	[  4] -[S3eMapViewController mapView]
+0x00002B60	0x000000D0	[  4] -[S3eMapViewController dealloc]
+0x00002C30	0x00000260	[  4] -[S3eMapViewController mapViewDidFinishLoadingMap:]
+0x00002E90	0x000000F0	[  4] -[S3eMapViewController setRegion:animated:]
+0x00002F80	0x000000B0	[  4] -[S3eMapViewController annotationSelectMenuClicked:]
+0x00003030	0x00000680	[  4] -[S3eMapViewController mapView:contextMenuItemsForAnnotationView:]
+0x000036B0	0x00000120	[  4] -[S3eMapViewController removeAnnotation:]
+0x000037D0	0x00000090	[  4] -[S3eMapViewController addAnnotation:]
+0x00003860	0x00000320	[  4] -[S3eMapViewController mapView:viewForAnnotation:]
+0x00003B80	0x000002E2	[  4] -[S3eMapViewController init]
+0x00003E70	0x00000020	[  5] __Z23s3eMapViewInit_platformv
+0x00003E90	0x00000040	[  5] __ZL20MKCoordinateSpanMakedd
+0x00003ED0	0x00000060	[  5] __ZL22MKCoordinateRegionMake22CLLocationCoordinate2D16MKCoordinateSpan
+0x00003F30	0x00000010	[  5] __Z28s3eMapViewTerminate_platformv
+0x00003F40	0x00000020	[  5] __Z45s3eMapViewGetPlatformLicensingString_platformv
+0x00003F60	0x00000050	[  5] __Z28s3eMapViewRemovePOI_platformP10s3eMapViewP13s3eMapViewPOI
+0x00003FB0	0x000000C0	[  5] __Z26s3eMapViewSetType_platformP10s3eMapView14s3eMapViewType
+0x00004070	0x00000070	[  5] __Z29s3eMapViewSetVisible_platformP10s3eMapViewb
+0x000040E0	0x00000090	[  5] __Z26s3eMapViewDestroy_platformP10s3eMapView
+0x00004170	0x00000280	[  5] __Z25s3eMapViewAddPOI_platformP10s3eMapViewPK15s3eMapViewCoordPKcS5_bPv
+0x000043F0	0x00000120	[  5] __Z23s3eMapViewGoTo_platformP10s3eMapViewPK15s3eMapViewCoordPK14s3eMapViewSpanb
+0x00004510	0x00000050	[  5] __Z38s3eMapViewSetShowUserLocation_platformP10s3eMapViewb
+0x00004560	0x000002C0	[  5] __Z32s3eMapViewSetScreenRect_platformP10s3eMapViewiiii
+0x00004820	0x0000010C	[  5] __Z25s3eMapViewCreate_platformv
+0x0000492C	0x0000003A	[  5] __ZNK10s3eMapView7mapViewEv
+0x00004970	0x000001F0	[  6] __IwBindAPI
+0x00004B60	0x00000016	[  6] __IwAppEntry
+0x00004B80	0x00000020	[  7] ___eglBindAPI
+0x00004BA0	0x00000020	[  7] ___eglBindTexImage
+0x00004BC0	0x00000020	[  7] ___eglChooseConfig
+0x00004BE0	0x00000020	[  7] ___eglCopyBuffers
+0x00004C00	0x00000020	[  7] ___eglCreateContext
+0x00004C20	0x00000020	[  7] ___eglCreatePbufferFromClientBuffer
+0x00004C40	0x00000020	[  7] ___eglCreatePbufferSurface
+0x00004C60	0x00000020	[  7] ___eglCreatePixmapSurface
+0x00004C80	0x00000020	[  7] ___eglCreateWindowSurface
+0x00004CA0	0x00000020	[  7] ___eglDestroyContext
+0x00004CC0	0x00000020	[  7] ___eglDestroySurface
+0x00004CE0	0x00000020	[  7] ___eglGetConfigAttrib
+0x00004D00	0x00000020	[  7] ___eglGetConfigs
+0x00004D20	0x00000020	[  7] ___eglGetCurrentContext
+0x00004D40	0x00000020	[  7] ___eglGetCurrentDisplay
+0x00004D60	0x00000020	[  7] ___eglGetCurrentSurface
+0x00004D80	0x00000020	[  7] ___eglGetDisplay
+0x00004DA0	0x00000020	[  7] ___eglGetError
+0x00004DC0	0x00000020	[  7] ___eglGetProcAddress
+0x00004DE0	0x00000020	[  7] ___eglInitialize
+0x00004E00	0x00000020	[  7] ___eglMakeCurrent
+0x00004E20	0x00000020	[  7] ___eglQueryAPI
+0x00004E40	0x00000020	[  7] ___eglQueryContext
+0x00004E60	0x00000020	[  7] ___eglQueryString
+0x00004E80	0x00000020	[  7] ___eglQuerySurface
+0x00004EA0	0x00000020	[  7] ___eglReleaseTexImage
+0x00004EC0	0x00000020	[  7] ___eglReleaseThread
+0x00004EE0	0x00000020	[  7] ___eglSurfaceAttrib
+0x00004F00	0x00000020	[  7] ___eglSwapBuffers
+0x00004F20	0x00000020	[  7] ___eglSwapInterval
+0x00004F40	0x00000020	[  7] ___eglTerminate
+0x00004F60	0x00000020	[  7] ___eglWaitClient
+0x00004F80	0x00000020	[  7] ___eglWaitGL
+0x00004FA0	0x00000020	[  7] ___eglWaitNative
+0x00004FC0	0x00000020	[  7] ___glActiveTexture
+0x00004FE0	0x00000020	[  7] ___glAlphaFunc
+0x00005000	0x00000020	[  7] ___glAlphaFuncx
+0x00005020	0x00000020	[  7] ___glAttachShader
+0x00005040	0x00000020	[  7] ___glBindAttribLocation
+0x00005060	0x00000020	[  7] ___glBindBuffer
+0x00005080	0x00000020	[  7] ___glBindFramebuffer
+0x000050A0	0x00000020	[  7] ___glBindRenderbuffer
+0x000050C0	0x00000020	[  7] ___glBindTexture
+0x000050E0	0x00000020	[  7] ___glBlendColor
+0x00005100	0x00000020	[  7] ___glBlendEquation
+0x00005120	0x00000020	[  7] ___glBlendEquationSeparate
+0x00005140	0x00000020	[  7] ___glBlendFunc
+0x00005160	0x00000020	[  7] ___glBlendFuncSeparate
+0x00005180	0x00000020	[  7] ___glBufferData
+0x000051A0	0x00000020	[  7] ___glBufferSubData
+0x000051C0	0x00000020	[  7] ___glCheckFramebufferStatus
+0x000051E0	0x00000020	[  7] ___glClear
+0x00005200	0x00000020	[  7] ___glClearColor
+0x00005220	0x00000020	[  7] ___glClearColorx
+0x00005240	0x00000020	[  7] ___glClearDepthf
+0x00005260	0x00000020	[  7] ___glClearDepthx
+0x00005280	0x00000020	[  7] ___glClearStencil
+0x000052A0	0x00000020	[  7] ___glClientActiveTexture
+0x000052C0	0x00000020	[  7] ___glClipPlanef
+0x000052E0	0x00000020	[  7] ___glClipPlanex
+0x00005300	0x00000020	[  7] ___glColor4f
+0x00005320	0x00000020	[  7] ___glColor4ub
+0x00005340	0x00000020	[  7] ___glColor4x
+0x00005360	0x00000020	[  7] ___glColorMask
+0x00005380	0x00000020	[  7] ___glColorPointer
+0x000053A0	0x00000020	[  7] ___glCompileShader
+0x000053C0	0x00000020	[  7] ___glCompressedTexImage2D
+0x000053E0	0x00000020	[  7] ___glCompressedTexSubImage2D
+0x00005400	0x00000020	[  7] ___glCopyTexImage2D
+0x00005420	0x00000020	[  7] ___glCopyTexSubImage2D
+0x00005440	0x00000020	[  7] ___glCreateProgram
+0x00005460	0x00000020	[  7] ___glCreateShader
+0x00005480	0x00000020	[  7] ___glCullFace
+0x000054A0	0x00000020	[  7] ___glCurrentPaletteMatrixOES
+0x000054C0	0x00000020	[  7] ___glDeleteBuffers
+0x000054E0	0x00000020	[  7] ___glDeleteFramebuffers
+0x00005500	0x00000020	[  7] ___glDeleteProgram
+0x00005520	0x00000020	[  7] ___glDeleteRenderbuffers
+0x00005540	0x00000020	[  7] ___glDeleteShader
+0x00005560	0x00000020	[  7] ___glDeleteTextures
+0x00005580	0x00000020	[  7] ___glDepthFunc
+0x000055A0	0x00000020	[  7] ___glDepthMask
+0x000055C0	0x00000020	[  7] ___glDepthRangef
+0x000055E0	0x00000020	[  7] ___glDepthRangex
+0x00005600	0x00000020	[  7] ___glDetachShader
+0x00005620	0x00000020	[  7] ___glDisable
+0x00005640	0x00000020	[  7] ___glDisableClientState
+0x00005660	0x00000020	[  7] ___glDisableVertexAttribArray
+0x00005680	0x00000020	[  7] ___glDrawArrays
+0x000056A0	0x00000020	[  7] ___glDrawElements
+0x000056C0	0x00000020	[  7] ___glEnable
+0x000056E0	0x00000020	[  7] ___glEnableClientState
+0x00005700	0x00000020	[  7] ___glEnableVertexAttribArray
+0x00005720	0x00000020	[  7] ___glFinish
+0x00005740	0x00000020	[  7] ___glFlush
+0x00005760	0x00000020	[  7] ___glFogf
+0x00005780	0x00000020	[  7] ___glFogfv
+0x000057A0	0x00000020	[  7] ___glFogx
+0x000057C0	0x00000020	[  7] ___glFogxv
+0x000057E0	0x00000020	[  7] ___glFramebufferRenderbuffer
+0x00005800	0x00000020	[  7] ___glFramebufferTexture2D
+0x00005820	0x00000020	[  7] ___glFrontFace
+0x00005840	0x00000020	[  7] ___glFrustumf
+0x00005860	0x00000020	[  7] ___glFrustumx
+0x00005880	0x00000020	[  7] ___glGenBuffers
+0x000058A0	0x00000020	[  7] ___glGenFramebuffers
+0x000058C0	0x00000020	[  7] ___glGenRenderbuffers
+0x000058E0	0x00000020	[  7] ___glGenTextures
+0x00005900	0x00000020	[  7] ___glGenerateMipmap
+0x00005920	0x00000020	[  7] ___glGetActiveAttrib
+0x00005940	0x00000020	[  7] ___glGetActiveUniform
+0x00005960	0x00000020	[  7] ___glGetAttachedShaders
+0x00005980	0x00000020	[  7] ___glGetAttribLocation
+0x000059A0	0x00000020	[  7] ___glGetBooleanv
+0x000059C0	0x00000020	[  7] ___glGetBufferParameteriv
+0x000059E0	0x00000020	[  7] ___glGetClipPlanef
+0x00005A00	0x00000020	[  7] ___glGetClipPlanex
+0x00005A20	0x00000020	[  7] ___glGetError
+0x00005A40	0x00000020	[  7] ___glGetFixedv
+0x00005A60	0x00000020	[  7] ___glGetFloatv
+0x00005A80	0x00000020	[  7] ___glGetFramebufferAttachmentParameteriv
+0x00005AA0	0x00000020	[  7] ___glGetIntegerv
+0x00005AC0	0x00000020	[  7] ___glGetLightfv
+0x00005AE0	0x00000020	[  7] ___glGetLightxv
+0x00005B00	0x00000020	[  7] ___glGetMaterialfv
+0x00005B20	0x00000020	[  7] ___glGetMaterialxv
+0x00005B40	0x00000020	[  7] ___glGetPointerv
+0x00005B60	0x00000020	[  7] ___glGetProgramInfoLog
+0x00005B80	0x00000020	[  7] ___glGetProgramiv
+0x00005BA0	0x00000020	[  7] ___glGetRenderbufferParameteriv
+0x00005BC0	0x00000020	[  7] ___glGetShaderInfoLog
+0x00005BE0	0x00000020	[  7] ___glGetShaderPrecisionFormat
+0x00005C00	0x00000020	[  7] ___glGetShaderSource
+0x00005C20	0x00000020	[  7] ___glGetShaderiv
+0x00005C40	0x00000020	[  7] ___glGetString
+0x00005C60	0x00000020	[  7] ___glGetTexEnvfv
+0x00005C80	0x00000020	[  7] ___glGetTexEnviv
+0x00005CA0	0x00000020	[  7] ___glGetTexEnvxv
+0x00005CC0	0x00000020	[  7] ___glGetTexParameterfv
+0x00005CE0	0x00000020	[  7] ___glGetTexParameteriv
+0x00005D00	0x00000020	[  7] ___glGetTexParameterxv
+0x00005D20	0x00000020	[  7] ___glGetUniformLocation
+0x00005D40	0x00000020	[  7] ___glGetUniformfv
+0x00005D60	0x00000020	[  7] ___glGetUniformiv
+0x00005D80	0x00000020	[  7] ___glGetVertexAttribPointerv
+0x00005DA0	0x00000020	[  7] ___glGetVertexAttribfv
+0x00005DC0	0x00000020	[  7] ___glGetVertexAttribiv
+0x00005DE0	0x00000020	[  7] ___glHint
+0x00005E00	0x00000030	[  7] ___glIsBuffer
+0x00005E30	0x00000030	[  7] ___glIsEnabled
+0x00005E60	0x00000030	[  7] ___glIsFramebuffer
+0x00005E90	0x00000030	[  7] ___glIsProgram
+0x00005EC0	0x00000030	[  7] ___glIsRenderbuffer
+0x00005EF0	0x00000030	[  7] ___glIsShader
+0x00005F20	0x00000030	[  7] ___glIsTexture
+0x00005F50	0x00000020	[  7] ___glLightModelf
+0x00005F70	0x00000020	[  7] ___glLightModelfv
+0x00005F90	0x00000020	[  7] ___glLightModelx
+0x00005FB0	0x00000020	[  7] ___glLightModelxv
+0x00005FD0	0x00000020	[  7] ___glLightf
+0x00005FF0	0x00000020	[  7] ___glLightfv
+0x00006010	0x00000020	[  7] ___glLightx
+0x00006030	0x00000020	[  7] ___glLightxv
+0x00006050	0x00000020	[  7] ___glLineWidth
+0x00006070	0x00000020	[  7] ___glLineWidthx
+0x00006090	0x00000020	[  7] ___glLinkProgram
+0x000060B0	0x00000020	[  7] ___glLoadIdentity
+0x000060D0	0x00000020	[  7] ___glLoadMatrixf
+0x000060F0	0x00000020	[  7] ___glLoadMatrixx
+0x00006110	0x00000020	[  7] ___glLogicOp
+0x00006130	0x00000020	[  7] ___glMaterialf
+0x00006150	0x00000020	[  7] ___glMaterialfv
+0x00006170	0x00000020	[  7] ___glMaterialx
+0x00006190	0x00000020	[  7] ___glMaterialxv
+0x000061B0	0x00000020	[  7] ___glMatrixIndexPointerOES
+0x000061D0	0x00000020	[  7] ___glMatrixMode
+0x000061F0	0x00000020	[  7] ___glMultMatrixf
+0x00006210	0x00000020	[  7] ___glMultMatrixx
+0x00006230	0x00000020	[  7] ___glMultiTexCoord4f
+0x00006250	0x00000020	[  7] ___glMultiTexCoord4x
+0x00006270	0x00000020	[  7] ___glNormal3f
+0x00006290	0x00000020	[  7] ___glNormal3x
+0x000062B0	0x00000020	[  7] ___glNormalPointer
+0x000062D0	0x00000020	[  7] ___glOrthof
+0x000062F0	0x00000020	[  7] ___glOrthox
+0x00006310	0x00000020	[  7] ___glPixelStorei
+0x00006330	0x00000020	[  7] ___glPointParameterf
+0x00006350	0x00000020	[  7] ___glPointParameterfv
+0x00006370	0x00000020	[  7] ___glPointParameterx
+0x00006390	0x00000020	[  7] ___glPointParameterxv
+0x000063B0	0x00000020	[  7] ___glPointSize
+0x000063D0	0x00000020	[  7] ___glPointSizePointerOES
+0x000063F0	0x00000020	[  7] ___glPointSizex
+0x00006410	0x00000020	[  7] ___glPolygonOffset
+0x00006430	0x00000020	[  7] ___glPolygonOffsetx
+0x00006450	0x00000020	[  7] ___glPopMatrix
+0x00006470	0x00000020	[  7] ___glPushMatrix
+0x00006490	0x00000020	[  7] ___glReadPixels
+0x000064B0	0x00000020	[  7] ___glReleaseShaderCompiler
+0x000064D0	0x00000020	[  7] ___glRenderbufferStorage
+0x000064F0	0x00000020	[  7] ___glRotatef
+0x00006510	0x00000020	[  7] ___glRotatex
+0x00006530	0x00000020	[  7] ___glSampleCoverage
+0x00006550	0x00000020	[  7] ___glSampleCoveragex
+0x00006570	0x00000020	[  7] ___glScalef
+0x00006590	0x00000020	[  7] ___glScalex
+0x000065B0	0x00000020	[  7] ___glScissor
+0x000065D0	0x00000020	[  7] ___glShadeModel
+0x000065F0	0x00000020	[  7] ___glShaderBinary
+0x00006610	0x00000020	[  7] ___glShaderSource
+0x00006630	0x00000020	[  7] ___glStencilFunc
+0x00006650	0x00000020	[  7] ___glStencilFuncSeparate
+0x00006670	0x00000020	[  7] ___glStencilMask
+0x00006690	0x00000020	[  7] ___glStencilMaskSeparate
+0x000066B0	0x00000020	[  7] ___glStencilOp
+0x000066D0	0x00000020	[  7] ___glStencilOpSeparate
+0x000066F0	0x00000020	[  7] ___glTexCoordPointer
+0x00006710	0x00000020	[  7] ___glTexEnvf
+0x00006730	0x00000020	[  7] ___glTexEnvfv
+0x00006750	0x00000020	[  7] ___glTexEnvi
+0x00006770	0x00000020	[  7] ___glTexEnviv
+0x00006790	0x00000020	[  7] ___glTexEnvx
+0x000067B0	0x00000020	[  7] ___glTexEnvxv
+0x000067D0	0x00000020	[  7] ___glTexImage2D
+0x000067F0	0x00000020	[  7] ___glTexParameterf
+0x00006810	0x00000020	[  7] ___glTexParameterfv
+0x00006830	0x00000020	[  7] ___glTexParameteri
+0x00006850	0x00000020	[  7] ___glTexParameteriv
+0x00006870	0x00000020	[  7] ___glTexParameterx
+0x00006890	0x00000020	[  7] ___glTexParameterxv
+0x000068B0	0x00000020	[  7] ___glTexSubImage2D
+0x000068D0	0x00000020	[  7] ___glTranslatef
+0x000068F0	0x00000020	[  7] ___glTranslatex
+0x00006910	0x00000020	[  7] ___glUniform1f
+0x00006930	0x00000020	[  7] ___glUniform1fv
+0x00006950	0x00000020	[  7] ___glUniform1i
+0x00006970	0x00000020	[  7] ___glUniform1iv
+0x00006990	0x00000020	[  7] ___glUniform2f
+0x000069B0	0x00000020	[  7] ___glUniform2fv
+0x000069D0	0x00000020	[  7] ___glUniform2i
+0x000069F0	0x00000020	[  7] ___glUniform2iv
+0x00006A10	0x00000020	[  7] ___glUniform3f
+0x00006A30	0x00000020	[  7] ___glUniform3fv
+0x00006A50	0x00000020	[  7] ___glUniform3i
+0x00006A70	0x00000020	[  7] ___glUniform3iv
+0x00006A90	0x00000020	[  7] ___glUniform4f
+0x00006AB0	0x00000020	[  7] ___glUniform4fv
+0x00006AD0	0x00000020	[  7] ___glUniform4i
+0x00006AF0	0x00000020	[  7] ___glUniform4iv
+0x00006B10	0x00000020	[  7] ___glUniformMatrix2fv
+0x00006B30	0x00000020	[  7] ___glUniformMatrix3fv
+0x00006B50	0x00000020	[  7] ___glUniformMatrix4fv
+0x00006B70	0x00000020	[  7] ___glUseProgram
+0x00006B90	0x00000020	[  7] ___glValidateProgram
+0x00006BB0	0x00000020	[  7] ___glVertexAttrib1f
+0x00006BD0	0x00000020	[  7] ___glVertexAttrib1fv
+0x00006BF0	0x00000020	[  7] ___glVertexAttrib2f
+0x00006C10	0x00000020	[  7] ___glVertexAttrib2fv
+0x00006C30	0x00000020	[  7] ___glVertexAttrib3f
+0x00006C50	0x00000020	[  7] ___glVertexAttrib3fv
+0x00006C70	0x00000020	[  7] ___glVertexAttrib4f
+0x00006C90	0x00000020	[  7] ___glVertexAttrib4fv
+0x00006CB0	0x00000020	[  7] ___glVertexAttribPointer
+0x00006CD0	0x00000020	[  7] ___glVertexPointer
+0x00006CF0	0x00000020	[  7] ___glViewport
+0x00006D10	0x00000020	[  7] ___glWeightPointerOES
+0x00006D30	0x00000020	[  7] ___s3eAccelerometerGetError
+0x00006D50	0x00000020	[  7] ___s3eAccelerometerGetErrorString
+0x00006D70	0x00000020	[  7] ___s3eAccelerometerGetInt
+0x00006D90	0x00000020	[  7] ___s3eAccelerometerGetX
+0x00006DB0	0x00000020	[  7] ___s3eAccelerometerGetY
+0x00006DD0	0x00000020	[  7] ___s3eAccelerometerGetZ
+0x00006DF0	0x00000020	[  7] ___s3eAccelerometerStart
+0x00006E10	0x00000020	[  7] ___s3eAccelerometerStop
+0x00006E30	0x00000020	[  7] ___s3eAudioGetError
+0x00006E50	0x00000020	[  7] ___s3eAudioGetErrorString
+0x00006E70	0x00000020	[  7] ___s3eAudioGetInt
+0x00006E90	0x00000030	[  7] ___s3eAudioIsCodecSupported
+0x00006EC0	0x00000020	[  7] ___s3eAudioIsPlaying
+0x00006EE0	0x00000020	[  7] ___s3eAudioPause
+0x00006F00	0x00000020	[  7] ___s3eAudioPlay
+0x00006F20	0x00000020	[  7] ___s3eAudioPlayFromBuffer
+0x00006F40	0x00000020	[  7] ___s3eAudioRegister
+0x00006F60	0x00000020	[  7] ___s3eAudioResume
+0x00006F80	0x00000020	[  7] ___s3eAudioSetInt
+0x00006FA0	0x00000020	[  7] ___s3eAudioStop
+0x00006FC0	0x00000020	[  7] ___s3eAudioUnRegister
+0x00006FE0	0x00000020	[  7] ___s3eCompressionDecomp
+0x00007000	0x00000020	[  7] ___s3eCompressionDecompFinal
+0x00007020	0x00000020	[  7] ___s3eCompressionDecompInit
+0x00007040	0x00000020	[  7] ___s3eCompressionDecompRead
+0x00007060	0x00000020	[  7] ___s3eCompressionGetError
+0x00007080	0x00000020	[  7] ___s3eCompressionGetErrorString
+0x000070A0	0x00000020	[  7] ___s3eConfigGetError
+0x000070C0	0x00000020	[  7] ___s3eConfigGetErrorString
+0x000070E0	0x00000020	[  7] ___s3eConfigGetInt
+0x00007100	0x00000020	[  7] ___s3eConfigGetIntHash
+0x00007120	0x00000020	[  7] ___s3eConfigGetString
+0x00007140	0x00000020	[  7] ___s3eConfigGetStringHash
+0x00007160	0x00000020	[  7] ___s3eCryptoGetError
+0x00007180	0x00000020	[  7] ___s3eCryptoGetErrorString
+0x000071A0	0x00000020	[  7] ___s3eCryptoRand
+0x000071C0	0x00000020	[  7] ___s3eCryptoSha1
+0x000071E0	0x00000020	[  7] ___s3eCryptoSha1Final
+0x00007200	0x00000020	[  7] ___s3eCryptoSha1Init
+0x00007220	0x00000020	[  7] ___s3eCryptoSha1Update
+0x00007240	0x00000020	[  7] ___s3eCryptoVerifyRsa
+0x00007260	0x00000020	[  7] ___s3eDebugAssertShow
+0x00007280	0x00000020	[  7] ___s3eDebugErrorShow
+0x000072A0	0x00000020	[  7] ___s3eDebugGetError
+0x000072C0	0x00000020	[  7] ___s3eDebugGetErrorString
+0x000072E0	0x00000020	[  7] ___s3eDebugGetInt
+0x00007300	0x00000020	[  7] ___s3eDebugIsDebuggerPresent
+0x00007320	0x00000020	[  7] ___s3eDebugOutputString
+0x00007340	0x00000020	[  7] ___s3eDebugPrint
+0x00007360	0x00000020	[  7] ___s3eDebugRegister
+0x00007380	0x00000020	[  7] ___s3eDebugSetInt
+0x000073A0	0x00000030	[  7] ___s3eDebugTraceChannelSwitch
+0x000073D0	0x00000020	[  7] ___s3eDebugTraceClearFile
+0x000073F0	0x00000020	[  7] ___s3eDebugTraceFlush
+0x00007410	0x00000020	[  7] ___s3eDebugTraceLine
+0x00007430	0x00000020	[  7] ___s3eDebugUnRegister
+0x00007450	0x00000020	[  7] ___s3eDeviceBacklightOn
+0x00007470	0x00000020	[  7] ___s3eDeviceCheckPauseRequest
+0x00007490	0x00000020	[  7] ___s3eDeviceCheckQuitRequest
+0x000074B0	0x00000020	[  7] ___s3eDeviceExecPushNext
+0x000074D0	0x00000020	[  7] ___s3eDeviceExit
+0x000074F0	0x00000020	[  7] ___s3eDeviceGetError
+0x00007510	0x00000020	[  7] ___s3eDeviceGetErrorString
+0x00007530	0x00000020	[  7] ___s3eDeviceGetInt
+0x00007550	0x00000020	[  7] ___s3eDeviceGetString
+0x00007570	0x00000020	[  7] ___s3eDeviceLoaderCallDone
+0x00007590	0x00000020	[  7] ___s3eDeviceLoaderCallStart
+0x000075B0	0x00000020	[  7] ___s3eDeviceNetworkCheckStart
+0x000075D0	0x00000020	[  7] ___s3eDeviceNetworkCheckStop
+0x000075F0	0x00000020	[  7] ___s3eDeviceRegister
+0x00007610	0x00000020	[  7] ___s3eDeviceRequestQuit
+0x00007630	0x00000020	[  7] ___s3eDeviceSetInt
+0x00007650	0x00000020	[  7] ___s3eDeviceUnRegister
+0x00007670	0x00000020	[  7] ___s3eDeviceUnYield
+0x00007690	0x00000020	[  7] ___s3eDeviceYield
+0x000076B0	0x00000020	[  7] ___s3eDeviceYieldUntilEvent
+0x000076D0	0x00000020	[  7] ___s3eExtGet
+0x000076F0	0x00000020	[  7] ___s3eExtGetError
+0x00007710	0x00000020	[  7] ___s3eExtGetErrorString
+0x00007730	0x00000020	[  7] ___s3eExtGetHash
+0x00007750	0x00000020	[  7] ___s3eFileAddUserFileSys
+0x00007770	0x00000030	[  7] ___s3eFileCheckExists
+0x000077A0	0x00000020	[  7] ___s3eFileClose
+0x000077C0	0x00000020	[  7] ___s3eFileDelete
+0x000077E0	0x00000020	[  7] ___s3eFileDeleteDirectory
+0x00007800	0x00000030	[  7] ___s3eFileEOF
+0x00007830	0x00000020	[  7] ___s3eFileFlush
+0x00007850	0x00000020	[  7] ___s3eFileGetChar
+0x00007870	0x00000020	[  7] ___s3eFileGetError
+0x00007890	0x00000020	[  7] ___s3eFileGetErrorString
+0x000078B0	0x00000020	[  7] ___s3eFileGetFileInt
+0x000078D0	0x00000020	[  7] ___s3eFileGetFileString
+0x000078F0	0x00000020	[  7] ___s3eFileGetFree
+0x00007910	0x00000020	[  7] ___s3eFileGetInt
+0x00007930	0x00000020	[  7] ___s3eFileGetLastWriteTime
+0x00007950	0x00000020	[  7] ___s3eFileGetSize
+0x00007970	0x00000020	[  7] ___s3eFileListClose
+0x00007990	0x00000020	[  7] ___s3eFileListDirectory
+0x000079B0	0x00000020	[  7] ___s3eFileListNext
+0x000079D0	0x00000020	[  7] ___s3eFileMakeDirectory
+0x000079F0	0x00000020	[  7] ___s3eFileOpen
+0x00007A10	0x00000020	[  7] ___s3eFileOpenFromMemory
+0x00007A30	0x00000020	[  7] ___s3eFilePutChar
+0x00007A50	0x00000020	[  7] ___s3eFileRead
+0x00007A70	0x00000020	[  7] ___s3eFileReadString
+0x00007A90	0x00000020	[  7] ___s3eFileRemoveUserFileSys
+0x00007AB0	0x00000020	[  7] ___s3eFileRename
+0x00007AD0	0x00000020	[  7] ___s3eFileSeek
+0x00007AF0	0x00000020	[  7] ___s3eFileSetInt
+0x00007B10	0x00000020	[  7] ___s3eFileTell
+0x00007B30	0x00000020	[  7] ___s3eFileTruncate
+0x00007B50	0x00000020	[  7] ___s3eFileWrite
+0x00007B70	0x00000020	[  7] ___s3eFree
+0x00007B90	0x00000020	[  7] ___s3eFreeBase
+0x00007BB0	0x00000020	[  7] ___s3eGLGetError
+0x00007BD0	0x00000020	[  7] ___s3eGLGetErrorString
+0x00007BF0	0x00000020	[  7] ___s3eGLGetInt
+0x00007C10	0x00000020	[  7] ___s3eGLGetNativeWindow
+0x00007C30	0x00000020	[  7] ___s3eGLRegister
+0x00007C50	0x00000020	[  7] ___s3eGLUnRegister
+0x00007C70	0x00000020	[  7] ___s3eGLUnavailable
+0x00007C90	0x00000020	[  7] ___s3eInetAton
+0x00007CB0	0x00000020	[  7] ___s3eInetHtonl
+0x00007CD0	0x00000030	[  7] ___s3eInetHtons
+0x00007D00	0x00000020	[  7] ___s3eInetLookup
+0x00007D20	0x00000020	[  7] ___s3eInetLookupCancel
+0x00007D40	0x00000020	[  7] ___s3eInetNtoa
+0x00007D60	0x00000020	[  7] ___s3eInetNtohl
+0x00007D80	0x00000030	[  7] ___s3eInetNtohs
+0x00007DB0	0x00000020	[  7] ___s3eInetToString
+0x00007DD0	0x00000020	[  7] ___s3eKeyboardAnyKey
+0x00007DF0	0x00000020	[  7] ___s3eKeyboardClearState
+0x00007E10	0x00000020	[  7] ___s3eKeyboardGetChar
+0x00007E30	0x00000020	[  7] ___s3eKeyboardGetDisplayName
+0x00007E50	0x00000020	[  7] ___s3eKeyboardGetError
+0x00007E70	0x00000020	[  7] ___s3eKeyboardGetErrorString
+0x00007E90	0x00000020	[  7] ___s3eKeyboardGetInt
+0x00007EB0	0x00000020	[  7] ___s3eKeyboardGetState
+0x00007ED0	0x00000020	[  7] ___s3eKeyboardRegister
+0x00007EF0	0x00000020	[  7] ___s3eKeyboardSetInt
+0x00007F10	0x00000020	[  7] ___s3eKeyboardUnRegister
+0x00007F30	0x00000020	[  7] ___s3eKeyboardUpdate
+0x00007F50	0x00000020	[  7] ___s3eLicenseBuy
+0x00007F70	0x00000020	[  7] ___s3eLicenseGetError
+0x00007F90	0x00000020	[  7] ___s3eLicenseGetErrorString
+0x00007FB0	0x00000020	[  7] ___s3eLicenseGetInt
+0x00007FD0	0x00000020	[  7] ___s3eMalloc
+0x00007FF0	0x00000020	[  7] ___s3eMallocBase
+0x00008010	0x00000020	[  7] ___s3eMemoryGetError
+0x00008030	0x00000020	[  7] ___s3eMemoryGetErrorString
+0x00008050	0x00000020	[  7] ___s3eMemoryGetInt
+0x00008070	0x00000020	[  7] ___s3eMemoryGetUserMemMgr
+0x00008090	0x00000020	[  7] ___s3eMemoryHeapAddress
+0x000080B0	0x00000020	[  7] ___s3eMemoryHeapCreate
+0x000080D0	0x00000020	[  7] ___s3eMemoryHeapDestroy
+0x000080F0	0x00000020	[  7] ___s3eMemorySetInt
+0x00008110	0x00000020	[  7] ___s3eMemorySetUserMemMgr
+0x00008130	0x00000020	[  7] ___s3ePointerGetError
+0x00008150	0x00000020	[  7] ___s3ePointerGetErrorString
+0x00008170	0x00000020	[  7] ___s3ePointerGetInt
+0x00008190	0x00000020	[  7] ___s3ePointerGetState
+0x000081B0	0x00000020	[  7] ___s3ePointerGetTouchState
+0x000081D0	0x00000020	[  7] ___s3ePointerGetTouchX
+0x000081F0	0x00000020	[  7] ___s3ePointerGetTouchY
+0x00008210	0x00000020	[  7] ___s3ePointerGetX
+0x00008230	0x00000020	[  7] ___s3ePointerGetY
+0x00008250	0x00000020	[  7] ___s3ePointerRegister
+0x00008270	0x00000020	[  7] ___s3ePointerSetInt
+0x00008290	0x00000020	[  7] ___s3ePointerUnRegister
+0x000082B0	0x00000020	[  7] ___s3ePointerUpdate
+0x000082D0	0x00000020	[  7] ___s3eRealloc
+0x000082F0	0x00000020	[  7] ___s3eReallocBase
+0x00008310	0x00000020	[  7] ___s3eSecureStorageGet
+0x00008330	0x00000020	[  7] ___s3eSecureStorageGetError
+0x00008350	0x00000020	[  7] ___s3eSecureStorageGetErrorString
+0x00008370	0x00000020	[  7] ___s3eSecureStoragePut
+0x00008390	0x00000020	[  7] ___s3eSocketAccept
+0x000083B0	0x00000020	[  7] ___s3eSocketBind
+0x000083D0	0x00000020	[  7] ___s3eSocketClose
+0x000083F0	0x00000020	[  7] ___s3eSocketConnect
+0x00008410	0x00000020	[  7] ___s3eSocketCreate
+0x00008430	0x00000020	[  7] ___s3eSocketGetError
+0x00008450	0x00000020	[  7] ___s3eSocketGetErrorString
+0x00008470	0x00000020	[  7] ___s3eSocketGetInt
+0x00008490	0x00000020	[  7] ___s3eSocketGetLocalName
+0x000084B0	0x00000020	[  7] ___s3eSocketGetPeerName
+0x000084D0	0x00000020	[  7] ___s3eSocketGetString
+0x000084F0	0x00000020	[  7] ___s3eSocketListen
+0x00008510	0x00000020	[  7] ___s3eSocketReadable
+0x00008530	0x00000020	[  7] ___s3eSocketRecv
+0x00008550	0x00000020	[  7] ___s3eSocketRecvFrom
+0x00008570	0x00000020	[  7] ___s3eSocketSend
+0x00008590	0x00000020	[  7] ___s3eSocketSendTo
+0x000085B0	0x00000020	[  7] ___s3eSocketWritable
+0x000085D0	0x00000020	[  7] ___s3eSoundChannelGetInt
+0x000085F0	0x00000020	[  7] ___s3eSoundChannelPause
+0x00008610	0x00000020	[  7] ___s3eSoundChannelPlay
+0x00008630	0x00000020	[  7] ___s3eSoundChannelRegister
+0x00008650	0x00000020	[  7] ___s3eSoundChannelResume
+0x00008670	0x00000020	[  7] ___s3eSoundChannelSetInt
+0x00008690	0x00000020	[  7] ___s3eSoundChannelStop
+0x000086B0	0x00000020	[  7] ___s3eSoundChannelUnRegister
+0x000086D0	0x00000020	[  7] ___s3eSoundGetError
+0x000086F0	0x00000020	[  7] ___s3eSoundGetErrorString
+0x00008710	0x00000020	[  7] ___s3eSoundGetFreeChannel
+0x00008730	0x00000020	[  7] ___s3eSoundGetInt
+0x00008750	0x00000020	[  7] ___s3eSoundPauseAllChannels
+0x00008770	0x00000020	[  7] ___s3eSoundResumeAllChannels
+0x00008790	0x00000020	[  7] ___s3eSoundSetInt
+0x000087B0	0x00000020	[  7] ___s3eSoundStopAllChannels
+0x000087D0	0x00000020	[  7] ___s3eSurfaceConvertRGB
+0x000087F0	0x00000020	[  7] ___s3eSurfaceGetError
+0x00008810	0x00000020	[  7] ___s3eSurfaceGetErrorString
+0x00008830	0x00000020	[  7] ___s3eSurfaceGetInt
+0x00008850	0x00000020	[  7] ___s3eSurfaceInvalidate
+0x00008870	0x00000020	[  7] ___s3eSurfacePtr
+0x00008890	0x00000020	[  7] ___s3eSurfaceRegister
+0x000088B0	0x00000020	[  7] ___s3eSurfaceSetDisplayID
+0x000088D0	0x00000020	[  7] ___s3eSurfaceSetInt
+0x000088F0	0x00000020	[  7] ___s3eSurfaceSetup
+0x00008910	0x00000020	[  7] ___s3eSurfaceShow
+0x00008930	0x00000020	[  7] ___s3eSurfaceUnRegister
+0x00008950	0x00000020	[  7] ___s3eTimerCancelTimer
+0x00008970	0x00000020	[  7] ___s3eTimerGetError
+0x00008990	0x00000020	[  7] ___s3eTimerGetErrorString
+0x000089B0	0x00000020	[  7] ___s3eTimerGetInt
+0x000089D0	0x00000020	[  7] ___s3eTimerGetLocaltimeOffset
+0x000089F0	0x00000020	[  7] ___s3eTimerGetMs
+0x00008A10	0x00000020	[  7] ___s3eTimerGetUST
+0x00008A30	0x00000020	[  7] ___s3eTimerGetUTC
+0x00008A50	0x00000020	[  7] ___s3eTimerSetTimer
+0x00008A70	0x00000020	[  7] ___s3eVibraGetError
+0x00008A90	0x00000020	[  7] ___s3eVibraGetErrorString
+0x00008AB0	0x00000020	[  7] ___s3eVibraGetInt
+0x00008AD0	0x00000020	[  7] ___s3eVibraSetInt
+0x00008AF0	0x00000020	[  7] ___s3eVibraStop
+0x00008B10	0x00000020	[  7] ___s3eVibraVibrate
+0x00008B30	0x00000020	[  7] ___s3eVideoGetError
+0x00008B50	0x00000020	[  7] ___s3eVideoGetErrorString
+0x00008B70	0x00000020	[  7] ___s3eVideoGetInt
+0x00008B90	0x00000030	[  7] ___s3eVideoIsCodecSupported
+0x00008BC0	0x00000020	[  7] ___s3eVideoIsPlaying
+0x00008BE0	0x00000020	[  7] ___s3eVideoPause
+0x00008C00	0x00000020	[  7] ___s3eVideoPlay
+0x00008C20	0x00000020	[  7] ___s3eVideoPlayFromBuffer
+0x00008C40	0x00000020	[  7] ___s3eVideoRegister
+0x00008C60	0x00000020	[  7] ___s3eVideoResume
+0x00008C80	0x00000020	[  7] ___s3eVideoSetInt
+0x00008CA0	0x00000020	[  7] ___s3eVideoStop
+0x00008CC0	0x00000020	[  7] ___s3eVideoUnRegister
+0x00008CE0	0x00000020	[  7] ___s3eEdkCallbacksEnqueue
+0x00008D00	0x00000020	[  7] ___s3eEdkCallbacksIsRegistered
+0x00008D20	0x00000020	[  7] ___s3eEdkCallbacksRegister
+0x00008D40	0x00000020	[  7] ___s3eEdkCallbacksRegisterInternal
+0x00008D60	0x00000020	[  7] ___s3eEdkCallbacksRegisterSpecific
+0x00008D80	0x00000020	[  7] ___s3eEdkCallbacksUnRegister
+0x00008DA0	0x00000020	[  7] ___s3eEdkCallbacksUnRegisterDevice
+0x00008DC0	0x00000020	[  7] ___s3eEdkErrorGet
+0x00008DE0	0x00000020	[  7] ___s3eEdkErrorGetString
+0x00008E00	0x00000020	[  7] ___s3eEdkErrorSet
+0x00008E20	0x00000020	[  7] ___s3eEdkErrorSetStringV
+0x00008E40	0x00000020	[  7] ___s3eEdkFreeOS
+0x00008E60	0x00000020	[  7] ___s3eEdkGetAppVersionMajor
+0x00008E80	0x00000020	[  7] ___s3eEdkGetAppVersionMinor
+0x00008EA0	0x00000020	[  7] ___s3eEdkGlobalsGet
+0x00008EC0	0x00000020	[  7] ___s3eEdkIsInitialised
+0x00008EE0	0x00000020	[  7] ___s3eEdkLibraryClose
+0x00008F00	0x00000020	[  7] ___s3eEdkLibraryError
+0x00008F20	0x00000020	[  7] ___s3eEdkLibraryGetSymbol
+0x00008F40	0x00000020	[  7] ___s3eEdkLibraryOpen
+0x00008F60	0x00000020	[  7] ___s3eEdkMallocOS
+0x00008F80	0x00000020	[  7] ___s3eEdkReallocOS
+0x00008FA0	0x00000020	[  7] ___s3eEdkRegister
+0x00008FC0	0x00000020	[  7] ___s3eEdkThreadRunOnOSAsyncV
+0x00008FE0	0x00000020	[  7] ___s3eEdkThreadRunOnOSV
+0x00009000	0x00000020	[  7] ___s3eEdkThreadSetResumed
+0x00009020	0x00000020	[  7] ___s3eEdkThreadSetSuspended
+0x00009040	0x00000018	[  7] ___s3eEdkThreadSleep
+0x00009060	0x00000020	[  7] _eglBindAPI
+0x00009080	0x00000020	[  7] _eglBindTexImage
+0x000090A0	0x00000020	[  7] _eglChooseConfig
+0x000090C0	0x00000020	[  7] _eglCopyBuffers
+0x000090E0	0x00000020	[  7] _eglCreateContext
+0x00009100	0x00000020	[  7] _eglCreatePbufferFromClientBuffer
+0x00009120	0x00000020	[  7] _eglCreatePbufferSurface
+0x00009140	0x00000020	[  7] _eglCreatePixmapSurface
+0x00009160	0x00000020	[  7] _eglCreateWindowSurface
+0x00009180	0x00000020	[  7] _eglDestroyContext
+0x000091A0	0x00000020	[  7] _eglDestroySurface
+0x000091C0	0x00000020	[  7] _eglGetConfigAttrib
+0x000091E0	0x00000020	[  7] _eglGetConfigs
+0x00009200	0x00000020	[  7] _eglGetCurrentContext
+0x00009220	0x00000020	[  7] _eglGetCurrentDisplay
+0x00009240	0x00000020	[  7] _eglGetCurrentSurface
+0x00009260	0x00000020	[  7] _eglGetDisplay
+0x00009280	0x00000020	[  7] _eglGetError
+0x000092A0	0x00000020	[  7] _eglGetProcAddress
+0x000092C0	0x00000020	[  7] _eglInitialize
+0x000092E0	0x00000020	[  7] _eglMakeCurrent
+0x00009300	0x00000020	[  7] _eglQueryAPI
+0x00009320	0x00000020	[  7] _eglQueryContext
+0x00009340	0x00000020	[  7] _eglQueryString
+0x00009360	0x00000020	[  7] _eglQuerySurface
+0x00009380	0x00000020	[  7] _eglReleaseTexImage
+0x000093A0	0x00000020	[  7] _eglReleaseThread
+0x000093C0	0x00000020	[  7] _eglSurfaceAttrib
+0x000093E0	0x00000020	[  7] _eglSwapBuffers
+0x00009400	0x00000020	[  7] _eglSwapInterval
+0x00009420	0x00000020	[  7] _eglTerminate
+0x00009440	0x00000020	[  7] _eglWaitClient
+0x00009460	0x00000020	[  7] _eglWaitGL
+0x00009480	0x00000020	[  7] _eglWaitNative
+0x000094A0	0x00000020	[  7] _glActiveTexture
+0x000094C0	0x00000020	[  7] _glAlphaFunc
+0x000094E0	0x00000020	[  7] _glAlphaFuncx
+0x00009500	0x00000020	[  7] _glAttachShader
+0x00009520	0x00000020	[  7] _glBindAttribLocation
+0x00009540	0x00000020	[  7] _glBindBuffer
+0x00009560	0x00000020	[  7] _glBindFramebuffer
+0x00009580	0x00000020	[  7] _glBindRenderbuffer
+0x000095A0	0x00000020	[  7] _glBindTexture
+0x000095C0	0x00000020	[  7] _glBlendColor
+0x000095E0	0x00000020	[  7] _glBlendEquation
+0x00009600	0x00000020	[  7] _glBlendEquationSeparate
+0x00009620	0x00000020	[  7] _glBlendFunc
+0x00009640	0x00000020	[  7] _glBlendFuncSeparate
+0x00009660	0x00000020	[  7] _glBufferData
+0x00009680	0x00000020	[  7] _glBufferSubData
+0x000096A0	0x00000020	[  7] _glCheckFramebufferStatus
+0x000096C0	0x00000020	[  7] _glClear
+0x000096E0	0x00000020	[  7] _glClearColor
+0x00009700	0x00000020	[  7] _glClearColorx
+0x00009720	0x00000020	[  7] _glClearDepthf
+0x00009740	0x00000020	[  7] _glClearDepthx
+0x00009760	0x00000020	[  7] _glClearStencil
+0x00009780	0x00000020	[  7] _glClientActiveTexture
+0x000097A0	0x00000020	[  7] _glClipPlanef
+0x000097C0	0x00000020	[  7] _glClipPlanex
+0x000097E0	0x00000020	[  7] _glColor4f
+0x00009800	0x00000020	[  7] _glColor4ub
+0x00009820	0x00000020	[  7] _glColor4x
+0x00009840	0x00000020	[  7] _glColorMask
+0x00009860	0x00000020	[  7] _glColorPointer
+0x00009880	0x00000020	[  7] _glCompileShader
+0x000098A0	0x00000020	[  7] _glCompressedTexImage2D
+0x000098C0	0x00000020	[  7] _glCompressedTexSubImage2D
+0x000098E0	0x00000020	[  7] _glCopyTexImage2D
+0x00009900	0x00000020	[  7] _glCopyTexSubImage2D
+0x00009920	0x00000020	[  7] _glCreateProgram
+0x00009940	0x00000020	[  7] _glCreateShader
+0x00009960	0x00000020	[  7] _glCullFace
+0x00009980	0x00000020	[  7] _glCurrentPaletteMatrixOES
+0x000099A0	0x00000020	[  7] _glDeleteBuffers
+0x000099C0	0x00000020	[  7] _glDeleteFramebuffers
+0x000099E0	0x00000020	[  7] _glDeleteProgram
+0x00009A00	0x00000020	[  7] _glDeleteRenderbuffers
+0x00009A20	0x00000020	[  7] _glDeleteShader
+0x00009A40	0x00000020	[  7] _glDeleteTextures
+0x00009A60	0x00000020	[  7] _glDepthFunc
+0x00009A80	0x00000020	[  7] _glDepthMask
+0x00009AA0	0x00000020	[  7] _glDepthRangef
+0x00009AC0	0x00000020	[  7] _glDepthRangex
+0x00009AE0	0x00000020	[  7] _glDetachShader
+0x00009B00	0x00000020	[  7] _glDisable
+0x00009B20	0x00000020	[  7] _glDisableClientState
+0x00009B40	0x00000020	[  7] _glDisableVertexAttribArray
+0x00009B60	0x00000020	[  7] _glDrawArrays
+0x00009B80	0x00000020	[  7] _glDrawElements
+0x00009BA0	0x00000020	[  7] _glEnable
+0x00009BC0	0x00000020	[  7] _glEnableClientState
+0x00009BE0	0x00000020	[  7] _glEnableVertexAttribArray
+0x00009C00	0x00000020	[  7] _glFinish
+0x00009C20	0x00000020	[  7] _glFlush
+0x00009C40	0x00000020	[  7] _glFogf
+0x00009C60	0x00000020	[  7] _glFogfv
+0x00009C80	0x00000020	[  7] _glFogx
+0x00009CA0	0x00000020	[  7] _glFogxv
+0x00009CC0	0x00000020	[  7] _glFramebufferRenderbuffer
+0x00009CE0	0x00000020	[  7] _glFramebufferTexture2D
+0x00009D00	0x00000020	[  7] _glFrontFace
+0x00009D20	0x00000020	[  7] _glFrustumf
+0x00009D40	0x00000020	[  7] _glFrustumx
+0x00009D60	0x00000020	[  7] _glGenBuffers
+0x00009D80	0x00000020	[  7] _glGenFramebuffers
+0x00009DA0	0x00000020	[  7] _glGenRenderbuffers
+0x00009DC0	0x00000020	[  7] _glGenTextures
+0x00009DE0	0x00000020	[  7] _glGenerateMipmap
+0x00009E00	0x00000020	[  7] _glGetActiveAttrib
+0x00009E20	0x00000020	[  7] _glGetActiveUniform
+0x00009E40	0x00000020	[  7] _glGetAttachedShaders
+0x00009E60	0x00000020	[  7] _glGetAttribLocation
+0x00009E80	0x00000020	[  7] _glGetBooleanv
+0x00009EA0	0x00000020	[  7] _glGetBufferParameteriv
+0x00009EC0	0x00000020	[  7] _glGetClipPlanef
+0x00009EE0	0x00000020	[  7] _glGetClipPlanex
+0x00009F00	0x00000020	[  7] _glGetError
+0x00009F20	0x00000020	[  7] _glGetFixedv
+0x00009F40	0x00000020	[  7] _glGetFloatv
+0x00009F60	0x00000020	[  7] _glGetFramebufferAttachmentParameteriv
+0x00009F80	0x00000020	[  7] _glGetIntegerv
+0x00009FA0	0x00000020	[  7] _glGetLightfv
+0x00009FC0	0x00000020	[  7] _glGetLightxv
+0x00009FE0	0x00000020	[  7] _glGetMaterialfv
+0x0000A000	0x00000020	[  7] _glGetMaterialxv
+0x0000A020	0x00000020	[  7] _glGetPointerv
+0x0000A040	0x00000020	[  7] _glGetProgramInfoLog
+0x0000A060	0x00000020	[  7] _glGetProgramiv
+0x0000A080	0x00000020	[  7] _glGetRenderbufferParameteriv
+0x0000A0A0	0x00000020	[  7] _glGetShaderInfoLog
+0x0000A0C0	0x00000020	[  7] _glGetShaderPrecisionFormat
+0x0000A0E0	0x00000020	[  7] _glGetShaderSource
+0x0000A100	0x00000020	[  7] _glGetShaderiv
+0x0000A120	0x00000020	[  7] _glGetString
+0x0000A140	0x00000020	[  7] _glGetTexEnvfv
+0x0000A160	0x00000020	[  7] _glGetTexEnviv
+0x0000A180	0x00000020	[  7] _glGetTexEnvxv
+0x0000A1A0	0x00000020	[  7] _glGetTexParameterfv
+0x0000A1C0	0x00000020	[  7] _glGetTexParameteriv
+0x0000A1E0	0x00000020	[  7] _glGetTexParameterxv
+0x0000A200	0x00000020	[  7] _glGetUniformLocation
+0x0000A220	0x00000020	[  7] _glGetUniformfv
+0x0000A240	0x00000020	[  7] _glGetUniformiv
+0x0000A260	0x00000020	[  7] _glGetVertexAttribPointerv
+0x0000A280	0x00000020	[  7] _glGetVertexAttribfv
+0x0000A2A0	0x00000020	[  7] _glGetVertexAttribiv
+0x0000A2C0	0x00000020	[  7] _glHint
+0x0000A2E0	0x00000030	[  7] _glIsBuffer
+0x0000A310	0x00000030	[  7] _glIsEnabled
+0x0000A340	0x00000030	[  7] _glIsFramebuffer
+0x0000A370	0x00000030	[  7] _glIsProgram
+0x0000A3A0	0x00000030	[  7] _glIsRenderbuffer
+0x0000A3D0	0x00000030	[  7] _glIsShader
+0x0000A400	0x00000030	[  7] _glIsTexture
+0x0000A430	0x00000020	[  7] _glLightModelf
+0x0000A450	0x00000020	[  7] _glLightModelfv
+0x0000A470	0x00000020	[  7] _glLightModelx
+0x0000A490	0x00000020	[  7] _glLightModelxv
+0x0000A4B0	0x00000020	[  7] _glLightf
+0x0000A4D0	0x00000020	[  7] _glLightfv
+0x0000A4F0	0x00000020	[  7] _glLightx
+0x0000A510	0x00000020	[  7] _glLightxv
+0x0000A530	0x00000020	[  7] _glLineWidth
+0x0000A550	0x00000020	[  7] _glLineWidthx
+0x0000A570	0x00000020	[  7] _glLinkProgram
+0x0000A590	0x00000020	[  7] _glLoadIdentity
+0x0000A5B0	0x00000020	[  7] _glLoadMatrixf
+0x0000A5D0	0x00000020	[  7] _glLoadMatrixx
+0x0000A5F0	0x00000020	[  7] _glLogicOp
+0x0000A610	0x00000020	[  7] _glMaterialf
+0x0000A630	0x00000020	[  7] _glMaterialfv
+0x0000A650	0x00000020	[  7] _glMaterialx
+0x0000A670	0x00000020	[  7] _glMaterialxv
+0x0000A690	0x00000020	[  7] _glMatrixIndexPointerOES
+0x0000A6B0	0x00000020	[  7] _glMatrixMode
+0x0000A6D0	0x00000020	[  7] _glMultMatrixf
+0x0000A6F0	0x00000020	[  7] _glMultMatrixx
+0x0000A710	0x00000020	[  7] _glMultiTexCoord4f
+0x0000A730	0x00000020	[  7] _glMultiTexCoord4x
+0x0000A750	0x00000020	[  7] _glNormal3f
+0x0000A770	0x00000020	[  7] _glNormal3x
+0x0000A790	0x00000020	[  7] _glNormalPointer
+0x0000A7B0	0x00000020	[  7] _glOrthof
+0x0000A7D0	0x00000020	[  7] _glOrthox
+0x0000A7F0	0x00000020	[  7] _glPixelStorei
+0x0000A810	0x00000020	[  7] _glPointParameterf
+0x0000A830	0x00000020	[  7] _glPointParameterfv
+0x0000A850	0x00000020	[  7] _glPointParameterx
+0x0000A870	0x00000020	[  7] _glPointParameterxv
+0x0000A890	0x00000020	[  7] _glPointSize
+0x0000A8B0	0x00000020	[  7] _glPointSizePointerOES
+0x0000A8D0	0x00000020	[  7] _glPointSizex
+0x0000A8F0	0x00000020	[  7] _glPolygonOffset
+0x0000A910	0x00000020	[  7] _glPolygonOffsetx
+0x0000A930	0x00000020	[  7] _glPopMatrix
+0x0000A950	0x00000020	[  7] _glPushMatrix
+0x0000A970	0x00000020	[  7] _glReadPixels
+0x0000A990	0x00000020	[  7] _glReleaseShaderCompiler
+0x0000A9B0	0x00000020	[  7] _glRenderbufferStorage
+0x0000A9D0	0x00000020	[  7] _glRotatef
+0x0000A9F0	0x00000020	[  7] _glRotatex
+0x0000AA10	0x00000020	[  7] _glSampleCoverage
+0x0000AA30	0x00000020	[  7] _glSampleCoveragex
+0x0000AA50	0x00000020	[  7] _glScalef
+0x0000AA70	0x00000020	[  7] _glScalex
+0x0000AA90	0x00000020	[  7] _glScissor
+0x0000AAB0	0x00000020	[  7] _glShadeModel
+0x0000AAD0	0x00000020	[  7] _glShaderBinary
+0x0000AAF0	0x00000020	[  7] _glShaderSource
+0x0000AB10	0x00000020	[  7] _glStencilFunc
+0x0000AB30	0x00000020	[  7] _glStencilFuncSeparate
+0x0000AB50	0x00000020	[  7] _glStencilMask
+0x0000AB70	0x00000020	[  7] _glStencilMaskSeparate
+0x0000AB90	0x00000020	[  7] _glStencilOp
+0x0000ABB0	0x00000020	[  7] _glStencilOpSeparate
+0x0000ABD0	0x00000020	[  7] _glTexCoordPointer
+0x0000ABF0	0x00000020	[  7] _glTexEnvf
+0x0000AC10	0x00000020	[  7] _glTexEnvfv
+0x0000AC30	0x00000020	[  7] _glTexEnvi
+0x0000AC50	0x00000020	[  7] _glTexEnviv
+0x0000AC70	0x00000020	[  7] _glTexEnvx
+0x0000AC90	0x00000020	[  7] _glTexEnvxv
+0x0000ACB0	0x00000020	[  7] _glTexImage2D
+0x0000ACD0	0x00000020	[  7] _glTexParameterf
+0x0000ACF0	0x00000020	[  7] _glTexParameterfv
+0x0000AD10	0x00000020	[  7] _glTexParameteri
+0x0000AD30	0x00000020	[  7] _glTexParameteriv
+0x0000AD50	0x00000020	[  7] _glTexParameterx
+0x0000AD70	0x00000020	[  7] _glTexParameterxv
+0x0000AD90	0x00000020	[  7] _glTexSubImage2D
+0x0000ADB0	0x00000020	[  7] _glTranslatef
+0x0000ADD0	0x00000020	[  7] _glTranslatex
+0x0000ADF0	0x00000020	[  7] _glUniform1f
+0x0000AE10	0x00000020	[  7] _glUniform1fv
+0x0000AE30	0x00000020	[  7] _glUniform1i
+0x0000AE50	0x00000020	[  7] _glUniform1iv
+0x0000AE70	0x00000020	[  7] _glUniform2f
+0x0000AE90	0x00000020	[  7] _glUniform2fv
+0x0000AEB0	0x00000020	[  7] _glUniform2i
+0x0000AED0	0x00000020	[  7] _glUniform2iv
+0x0000AEF0	0x00000020	[  7] _glUniform3f
+0x0000AF10	0x00000020	[  7] _glUniform3fv
+0x0000AF30	0x00000020	[  7] _glUniform3i
+0x0000AF50	0x00000020	[  7] _glUniform3iv
+0x0000AF70	0x00000020	[  7] _glUniform4f
+0x0000AF90	0x00000020	[  7] _glUniform4fv
+0x0000AFB0	0x00000020	[  7] _glUniform4i
+0x0000AFD0	0x00000020	[  7] _glUniform4iv
+0x0000AFF0	0x00000020	[  7] _glUniformMatrix2fv
+0x0000B010	0x00000020	[  7] _glUniformMatrix3fv
+0x0000B030	0x00000020	[  7] _glUniformMatrix4fv
+0x0000B050	0x00000020	[  7] _glUseProgram
+0x0000B070	0x00000020	[  7] _glValidateProgram
+0x0000B090	0x00000020	[  7] _glVertexAttrib1f
+0x0000B0B0	0x00000020	[  7] _glVertexAttrib1fv
+0x0000B0D0	0x00000020	[  7] _glVertexAttrib2f
+0x0000B0F0	0x00000020	[  7] _glVertexAttrib2fv
+0x0000B110	0x00000020	[  7] _glVertexAttrib3f
+0x0000B130	0x00000020	[  7] _glVertexAttrib3fv
+0x0000B150	0x00000020	[  7] _glVertexAttrib4f
+0x0000B170	0x00000020	[  7] _glVertexAttrib4fv
+0x0000B190	0x00000020	[  7] _glVertexAttribPointer
+0x0000B1B0	0x00000020	[  7] _glVertexPointer
+0x0000B1D0	0x00000020	[  7] _glViewport
+0x0000B1F0	0x00000020	[  7] _glWeightPointerOES
+0x0000B210	0x00000020	[  7] _s3eAccelerometerGetError
+0x0000B230	0x00000020	[  7] _s3eAccelerometerGetErrorString
+0x0000B250	0x00000020	[  7] _s3eAccelerometerGetInt
+0x0000B270	0x00000020	[  7] _s3eAccelerometerGetX
+0x0000B290	0x00000020	[  7] _s3eAccelerometerGetY
+0x0000B2B0	0x00000020	[  7] _s3eAccelerometerGetZ
+0x0000B2D0	0x00000020	[  7] _s3eAccelerometerStart
+0x0000B2F0	0x00000020	[  7] _s3eAccelerometerStop
+0x0000B310	0x00000020	[  7] _s3eAudioGetError
+0x0000B330	0x00000020	[  7] _s3eAudioGetErrorString
+0x0000B350	0x00000020	[  7] _s3eAudioGetInt
+0x0000B370	0x00000030	[  7] _s3eAudioIsCodecSupported
+0x0000B3A0	0x00000020	[  7] _s3eAudioIsPlaying
+0x0000B3C0	0x00000020	[  7] _s3eAudioPause
+0x0000B3E0	0x00000020	[  7] _s3eAudioPlay
+0x0000B400	0x00000020	[  7] _s3eAudioPlayFromBuffer
+0x0000B420	0x00000020	[  7] _s3eAudioRegister
+0x0000B440	0x00000020	[  7] _s3eAudioResume
+0x0000B460	0x00000020	[  7] _s3eAudioSetInt
+0x0000B480	0x00000020	[  7] _s3eAudioStop
+0x0000B4A0	0x00000020	[  7] _s3eAudioUnRegister
+0x0000B4C0	0x00000020	[  7] _s3eCompressionDecomp
+0x0000B4E0	0x00000020	[  7] _s3eCompressionDecompFinal
+0x0000B500	0x00000020	[  7] _s3eCompressionDecompInit
+0x0000B520	0x00000020	[  7] _s3eCompressionDecompRead
+0x0000B540	0x00000020	[  7] _s3eCompressionGetError
+0x0000B560	0x00000020	[  7] _s3eCompressionGetErrorString
+0x0000B580	0x00000020	[  7] _s3eConfigGetError
+0x0000B5A0	0x00000020	[  7] _s3eConfigGetErrorString
+0x0000B5C0	0x00000020	[  7] _s3eConfigGetInt
+0x0000B5E0	0x00000020	[  7] _s3eConfigGetIntHash
+0x0000B600	0x00000020	[  7] _s3eConfigGetString
+0x0000B620	0x00000020	[  7] _s3eConfigGetStringHash
+0x0000B640	0x00000020	[  7] _s3eCryptoGetError
+0x0000B660	0x00000020	[  7] _s3eCryptoGetErrorString
+0x0000B680	0x00000020	[  7] _s3eCryptoRand
+0x0000B6A0	0x00000020	[  7] _s3eCryptoSha1
+0x0000B6C0	0x00000020	[  7] _s3eCryptoSha1Final
+0x0000B6E0	0x00000020	[  7] _s3eCryptoSha1Init
+0x0000B700	0x00000020	[  7] _s3eCryptoSha1Update
+0x0000B720	0x00000020	[  7] _s3eCryptoVerifyRsa
+0x0000B740	0x00000020	[  7] _s3eDebugAssertShow
+0x0000B760	0x00000020	[  7] _s3eDebugErrorShow
+0x0000B780	0x00000020	[  7] _s3eDebugGetError
+0x0000B7A0	0x00000020	[  7] _s3eDebugGetErrorString
+0x0000B7C0	0x00000020	[  7] _s3eDebugGetInt
+0x0000B7E0	0x00000020	[  7] _s3eDebugIsDebuggerPresent
+0x0000B800	0x00000020	[  7] _s3eDebugOutputString
+0x0000B820	0x00000020	[  7] _s3eDebugPrint
+0x0000B840	0x00000020	[  7] _s3eDebugRegister
+0x0000B860	0x00000020	[  7] _s3eDebugSetInt
+0x0000B880	0x00000030	[  7] _s3eDebugTraceChannelSwitch
+0x0000B8B0	0x00000020	[  7] _s3eDebugTraceClearFile
+0x0000B8D0	0x00000020	[  7] _s3eDebugTraceFlush
+0x0000B8F0	0x00000020	[  7] _s3eDebugTraceLine
+0x0000B910	0x00000020	[  7] _s3eDebugUnRegister
+0x0000B930	0x00000020	[  7] _s3eDeviceBacklightOn
+0x0000B950	0x00000020	[  7] _s3eDeviceCheckPauseRequest
+0x0000B970	0x00000020	[  7] _s3eDeviceCheckQuitRequest
+0x0000B990	0x00000020	[  7] _s3eDeviceExecPushNext
+0x0000B9B0	0x00000020	[  7] _s3eDeviceExit
+0x0000B9D0	0x00000020	[  7] _s3eDeviceGetError
+0x0000B9F0	0x00000020	[  7] _s3eDeviceGetErrorString
+0x0000BA10	0x00000020	[  7] _s3eDeviceGetInt
+0x0000BA30	0x00000020	[  7] _s3eDeviceGetString
+0x0000BA50	0x00000020	[  7] _s3eDeviceLoaderCallDone
+0x0000BA70	0x00000020	[  7] _s3eDeviceLoaderCallStart
+0x0000BA90	0x00000020	[  7] _s3eDeviceNetworkCheckStart
+0x0000BAB0	0x00000020	[  7] _s3eDeviceNetworkCheckStop
+0x0000BAD0	0x00000020	[  7] _s3eDeviceRegister
+0x0000BAF0	0x00000020	[  7] _s3eDeviceRequestQuit
+0x0000BB10	0x00000020	[  7] _s3eDeviceSetInt
+0x0000BB30	0x00000020	[  7] _s3eDeviceUnRegister
+0x0000BB50	0x00000020	[  7] _s3eDeviceUnYield
+0x0000BB70	0x00000020	[  7] _s3eDeviceYield
+0x0000BB90	0x00000020	[  7] _s3eDeviceYieldUntilEvent
+0x0000BBB0	0x00000020	[  7] _s3eExtGet
+0x0000BBD0	0x00000020	[  7] _s3eExtGetError
+0x0000BBF0	0x00000020	[  7] _s3eExtGetErrorString
+0x0000BC10	0x00000020	[  7] _s3eExtGetHash
+0x0000BC30	0x00000020	[  7] _s3eFileAddUserFileSys
+0x0000BC50	0x00000030	[  7] _s3eFileCheckExists
+0x0000BC80	0x00000020	[  7] _s3eFileClose
+0x0000BCA0	0x00000020	[  7] _s3eFileDelete
+0x0000BCC0	0x00000020	[  7] _s3eFileDeleteDirectory
+0x0000BCE0	0x00000030	[  7] _s3eFileEOF
+0x0000BD10	0x00000020	[  7] _s3eFileFlush
+0x0000BD30	0x00000020	[  7] _s3eFileGetChar
+0x0000BD50	0x00000020	[  7] _s3eFileGetError
+0x0000BD70	0x00000020	[  7] _s3eFileGetErrorString
+0x0000BD90	0x00000020	[  7] _s3eFileGetFileInt
+0x0000BDB0	0x00000020	[  7] _s3eFileGetFileString
+0x0000BDD0	0x00000020	[  7] _s3eFileGetFree
+0x0000BDF0	0x00000020	[  7] _s3eFileGetInt
+0x0000BE10	0x00000020	[  7] _s3eFileGetLastWriteTime
+0x0000BE30	0x00000020	[  7] _s3eFileGetSize
+0x0000BE50	0x00000020	[  7] _s3eFileListClose
+0x0000BE70	0x00000020	[  7] _s3eFileListDirectory
+0x0000BE90	0x00000020	[  7] _s3eFileListNext
+0x0000BEB0	0x00000020	[  7] _s3eFileMakeDirectory
+0x0000BED0	0x00000020	[  7] _s3eFileOpen
+0x0000BEF0	0x00000020	[  7] _s3eFileOpenFromMemory
+0x0000BF10	0x00000020	[  7] _s3eFilePutChar
+0x0000BF30	0x00000020	[  7] _s3eFileRead
+0x0000BF50	0x00000020	[  7] _s3eFileReadString
+0x0000BF70	0x00000020	[  7] _s3eFileRemoveUserFileSys
+0x0000BF90	0x00000020	[  7] _s3eFileRename
+0x0000BFB0	0x00000020	[  7] _s3eFileSeek
+0x0000BFD0	0x00000020	[  7] _s3eFileSetInt
+0x0000BFF0	0x00000020	[  7] _s3eFileTell
+0x0000C010	0x00000020	[  7] _s3eFileTruncate
+0x0000C030	0x00000020	[  7] _s3eFileWrite
+0x0000C050	0x00000020	[  7] _s3eFree
+0x0000C070	0x00000020	[  7] _s3eFreeBase
+0x0000C090	0x00000020	[  7] _s3eGLGetError
+0x0000C0B0	0x00000020	[  7] _s3eGLGetErrorString
+0x0000C0D0	0x00000020	[  7] _s3eGLGetInt
+0x0000C0F0	0x00000020	[  7] _s3eGLGetNativeWindow
+0x0000C110	0x00000020	[  7] _s3eGLRegister
+0x0000C130	0x00000020	[  7] _s3eGLUnRegister
+0x0000C150	0x00000020	[  7] _s3eGLUnavailable
+0x0000C170	0x00000020	[  7] _s3eInetAton
+0x0000C190	0x00000020	[  7] _s3eInetHtonl
+0x0000C1B0	0x00000030	[  7] _s3eInetHtons
+0x0000C1E0	0x00000020	[  7] _s3eInetLookup
+0x0000C200	0x00000020	[  7] _s3eInetLookupCancel
+0x0000C220	0x00000020	[  7] _s3eInetNtoa
+0x0000C240	0x00000020	[  7] _s3eInetNtohl
+0x0000C260	0x00000030	[  7] _s3eInetNtohs
+0x0000C290	0x00000020	[  7] _s3eInetToString
+0x0000C2B0	0x00000020	[  7] _s3eKeyboardAnyKey
+0x0000C2D0	0x00000020	[  7] _s3eKeyboardClearState
+0x0000C2F0	0x00000020	[  7] _s3eKeyboardGetChar
+0x0000C310	0x00000020	[  7] _s3eKeyboardGetDisplayName
+0x0000C330	0x00000020	[  7] _s3eKeyboardGetError
+0x0000C350	0x00000020	[  7] _s3eKeyboardGetErrorString
+0x0000C370	0x00000020	[  7] _s3eKeyboardGetInt
+0x0000C390	0x00000020	[  7] _s3eKeyboardGetState
+0x0000C3B0	0x00000020	[  7] _s3eKeyboardRegister
+0x0000C3D0	0x00000020	[  7] _s3eKeyboardSetInt
+0x0000C3F0	0x00000020	[  7] _s3eKeyboardUnRegister
+0x0000C410	0x00000020	[  7] _s3eKeyboardUpdate
+0x0000C430	0x00000020	[  7] _s3eLicenseBuy
+0x0000C450	0x00000020	[  7] _s3eLicenseGetError
+0x0000C470	0x00000020	[  7] _s3eLicenseGetErrorString
+0x0000C490	0x00000020	[  7] _s3eLicenseGetInt
+0x0000C4B0	0x00000020	[  7] _s3eMalloc
+0x0000C4D0	0x00000020	[  7] _s3eMallocBase
+0x0000C4F0	0x00000020	[  7] _s3eMemoryGetError
+0x0000C510	0x00000020	[  7] _s3eMemoryGetErrorString
+0x0000C530	0x00000020	[  7] _s3eMemoryGetInt
+0x0000C550	0x00000020	[  7] _s3eMemoryGetUserMemMgr
+0x0000C570	0x00000020	[  7] _s3eMemoryHeapAddress
+0x0000C590	0x00000020	[  7] _s3eMemoryHeapCreate
+0x0000C5B0	0x00000020	[  7] _s3eMemoryHeapDestroy
+0x0000C5D0	0x00000020	[  7] _s3eMemorySetInt
+0x0000C5F0	0x00000020	[  7] _s3eMemorySetUserMemMgr
+0x0000C610	0x00000020	[  7] _s3ePointerGetError
+0x0000C630	0x00000020	[  7] _s3ePointerGetErrorString
+0x0000C650	0x00000020	[  7] _s3ePointerGetInt
+0x0000C670	0x00000020	[  7] _s3ePointerGetState
+0x0000C690	0x00000020	[  7] _s3ePointerGetTouchState
+0x0000C6B0	0x00000020	[  7] _s3ePointerGetTouchX
+0x0000C6D0	0x00000020	[  7] _s3ePointerGetTouchY
+0x0000C6F0	0x00000020	[  7] _s3ePointerGetX
+0x0000C710	0x00000020	[  7] _s3ePointerGetY
+0x0000C730	0x00000020	[  7] _s3ePointerRegister
+0x0000C750	0x00000020	[  7] _s3ePointerSetInt
+0x0000C770	0x00000020	[  7] _s3ePointerUnRegister
+0x0000C790	0x00000020	[  7] _s3ePointerUpdate
+0x0000C7B0	0x00000020	[  7] _s3eRealloc
+0x0000C7D0	0x00000020	[  7] _s3eReallocBase
+0x0000C7F0	0x00000020	[  7] _s3eSecureStorageGet
+0x0000C810	0x00000020	[  7] _s3eSecureStorageGetError
+0x0000C830	0x00000020	[  7] _s3eSecureStorageGetErrorString
+0x0000C850	0x00000020	[  7] _s3eSecureStoragePut
+0x0000C870	0x00000020	[  7] _s3eSocketAccept
+0x0000C890	0x00000020	[  7] _s3eSocketBind
+0x0000C8B0	0x00000020	[  7] _s3eSocketClose
+0x0000C8D0	0x00000020	[  7] _s3eSocketConnect
+0x0000C8F0	0x00000020	[  7] _s3eSocketCreate
+0x0000C910	0x00000020	[  7] _s3eSocketGetError
+0x0000C930	0x00000020	[  7] _s3eSocketGetErrorString
+0x0000C950	0x00000020	[  7] _s3eSocketGetInt
+0x0000C970	0x00000020	[  7] _s3eSocketGetLocalName
+0x0000C990	0x00000020	[  7] _s3eSocketGetPeerName
+0x0000C9B0	0x00000020	[  7] _s3eSocketGetString
+0x0000C9D0	0x00000020	[  7] _s3eSocketListen
+0x0000C9F0	0x00000020	[  7] _s3eSocketReadable
+0x0000CA10	0x00000020	[  7] _s3eSocketRecv
+0x0000CA30	0x00000020	[  7] _s3eSocketRecvFrom
+0x0000CA50	0x00000020	[  7] _s3eSocketSend
+0x0000CA70	0x00000020	[  7] _s3eSocketSendTo
+0x0000CA90	0x00000020	[  7] _s3eSocketWritable
+0x0000CAB0	0x00000020	[  7] _s3eSoundChannelGetInt
+0x0000CAD0	0x00000020	[  7] _s3eSoundChannelPause
+0x0000CAF0	0x00000020	[  7] _s3eSoundChannelPlay
+0x0000CB10	0x00000020	[  7] _s3eSoundChannelRegister
+0x0000CB30	0x00000020	[  7] _s3eSoundChannelResume
+0x0000CB50	0x00000020	[  7] _s3eSoundChannelSetInt
+0x0000CB70	0x00000020	[  7] _s3eSoundChannelStop
+0x0000CB90	0x00000020	[  7] _s3eSoundChannelUnRegister
+0x0000CBB0	0x00000020	[  7] _s3eSoundGetError
+0x0000CBD0	0x00000020	[  7] _s3eSoundGetErrorString
+0x0000CBF0	0x00000020	[  7] _s3eSoundGetFreeChannel
+0x0000CC10	0x00000020	[  7] _s3eSoundGetInt
+0x0000CC30	0x00000020	[  7] _s3eSoundPauseAllChannels
+0x0000CC50	0x00000020	[  7] _s3eSoundResumeAllChannels
+0x0000CC70	0x00000020	[  7] _s3eSoundSetInt
+0x0000CC90	0x00000020	[  7] _s3eSoundStopAllChannels
+0x0000CCB0	0x00000020	[  7] _s3eSurfaceConvertRGB
+0x0000CCD0	0x00000020	[  7] _s3eSurfaceGetError
+0x0000CCF0	0x00000020	[  7] _s3eSurfaceGetErrorString
+0x0000CD10	0x00000020	[  7] _s3eSurfaceGetInt
+0x0000CD30	0x00000020	[  7] _s3eSurfaceInvalidate
+0x0000CD50	0x00000020	[  7] _s3eSurfacePtr
+0x0000CD70	0x00000020	[  7] _s3eSurfaceRegister
+0x0000CD90	0x00000020	[  7] _s3eSurfaceSetDisplayID
+0x0000CDB0	0x00000020	[  7] _s3eSurfaceSetInt
+0x0000CDD0	0x00000020	[  7] _s3eSurfaceSetup
+0x0000CDF0	0x00000020	[  7] _s3eSurfaceShow
+0x0000CE10	0x00000020	[  7] _s3eSurfaceUnRegister
+0x0000CE30	0x00000020	[  7] _s3eTimerCancelTimer
+0x0000CE50	0x00000020	[  7] _s3eTimerGetError
+0x0000CE70	0x00000020	[  7] _s3eTimerGetErrorString
+0x0000CE90	0x00000020	[  7] _s3eTimerGetInt
+0x0000CEB0	0x00000020	[  7] _s3eTimerGetLocaltimeOffset
+0x0000CED0	0x00000020	[  7] _s3eTimerGetMs
+0x0000CEF0	0x00000020	[  7] _s3eTimerGetUST
+0x0000CF10	0x00000020	[  7] _s3eTimerGetUTC
+0x0000CF30	0x00000020	[  7] _s3eTimerSetTimer
+0x0000CF50	0x00000020	[  7] _s3eVibraGetError
+0x0000CF70	0x00000020	[  7] _s3eVibraGetErrorString
+0x0000CF90	0x00000020	[  7] _s3eVibraGetInt
+0x0000CFB0	0x00000020	[  7] _s3eVibraSetInt
+0x0000CFD0	0x00000020	[  7] _s3eVibraStop
+0x0000CFF0	0x00000020	[  7] _s3eVibraVibrate
+0x0000D010	0x00000020	[  7] _s3eVideoGetError
+0x0000D030	0x00000020	[  7] _s3eVideoGetErrorString
+0x0000D050	0x00000020	[  7] _s3eVideoGetInt
+0x0000D070	0x00000030	[  7] _s3eVideoIsCodecSupported
+0x0000D0A0	0x00000020	[  7] _s3eVideoIsPlaying
+0x0000D0C0	0x00000020	[  7] _s3eVideoPause
+0x0000D0E0	0x00000020	[  7] _s3eVideoPlay
+0x0000D100	0x00000020	[  7] _s3eVideoPlayFromBuffer
+0x0000D120	0x00000020	[  7] _s3eVideoRegister
+0x0000D140	0x00000020	[  7] _s3eVideoResume
+0x0000D160	0x00000020	[  7] _s3eVideoSetInt
+0x0000D180	0x00000020	[  7] _s3eVideoStop
+0x0000D1A0	0x00000020	[  7] _s3eVideoUnRegister
+0x0000D1C0	0x00000020	[  7] _s3eEdkCallbacksEnqueue
+0x0000D1E0	0x00000020	[  7] _s3eEdkCallbacksIsRegistered
+0x0000D200	0x00000020	[  7] _s3eEdkCallbacksRegister
+0x0000D220	0x00000020	[  7] _s3eEdkCallbacksRegisterInternal
+0x0000D240	0x00000020	[  7] _s3eEdkCallbacksRegisterSpecific
+0x0000D260	0x00000020	[  7] _s3eEdkCallbacksUnRegister
+0x0000D280	0x00000020	[  7] _s3eEdkCallbacksUnRegisterDevice
+0x0000D2A0	0x00000020	[  7] _s3eEdkErrorGet
+0x0000D2C0	0x00000020	[  7] _s3eEdkErrorGetString
+0x0000D2E0	0x00000020	[  7] _s3eEdkErrorSet
+0x0000D300	0x00000020	[  7] _s3eEdkErrorSetStringV
+0x0000D320	0x00000020	[  7] _s3eEdkFreeOS
+0x0000D340	0x00000020	[  7] _s3eEdkGetAppVersionMajor
+0x0000D360	0x00000020	[  7] _s3eEdkGetAppVersionMinor
+0x0000D380	0x00000020	[  7] _s3eEdkGlobalsGet
+0x0000D3A0	0x00000020	[  7] _s3eEdkIsInitialised
+0x0000D3C0	0x00000020	[  7] _s3eEdkLibraryClose
+0x0000D3E0	0x00000020	[  7] _s3eEdkLibraryError
+0x0000D400	0x00000020	[  7] _s3eEdkLibraryGetSymbol
+0x0000D420	0x00000020	[  7] _s3eEdkLibraryOpen
+0x0000D440	0x00000020	[  7] _s3eEdkMallocOS
+0x0000D460	0x00000020	[  7] _s3eEdkReallocOS
+0x0000D480	0x00000020	[  7] _s3eEdkRegister
+0x0000D4A0	0x00000020	[  7] _s3eEdkThreadRunOnOSAsyncV
+0x0000D4C0	0x00000020	[  7] _s3eEdkThreadRunOnOSV
+0x0000D4E0	0x00000020	[  7] _s3eEdkThreadSetResumed
+0x0000D500	0x00000020	[  7] _s3eEdkThreadSetSuspended
+0x0000D520	0x00000018	[  7] _s3eEdkThreadSleep
+0x0000D540	0x00000020	[  8] _s3eEdkErrorSetString
+0x0000D560	0x00000030	[  8] _s3eEdkThreadRunOnOSAsync
+0x0000D590	0x00000027	[  8] _s3eEdkThreadRunOnOS
+0x0000D5C0	0x00000020	[  9] _IwAssertRegisterTextCallback
+0x0000D5E0	0x00000020	[  9] _IwAssertRegisterCallback
+0x0000D600	0x00000020	[  9] _IwDebugTraceSetTraceChannel
+0x0000D620	0x00000020	[  9] _IwDebugErrorRegisterCallback
+0x0000D640	0x00000020	[  9] _IwDebugAssertSetUID
+0x0000D660	0x000000A0	[  9] _IwDebugClearConfigCache
+0x0000D700	0x000000C0	[  9] _IwDebugErrorShow
+0x0000D7C0	0x00000130	[  9] _IwDebugTraceLineVPrintf
+0x0000D8F0	0x00000020	[  9] _IwDebugTraceLinePrintf
+0x0000D910	0x000001B0	[  9] _IwDebugTraceIsChannelOn
+0x0000DAC0	0x00000150	[  9] _IwDebugTraceChannelSwitch
+0x0000DC10	0x00000160	[  9] _IwDebugAssertIsChannelOn
+0x0000DD70	0x00000030	[  9] _IwDebugTraceDisable
+0x0000DDA0	0x000000E0	[  9] _IwDebugAssertSetMessage
+0x0000DE80	0x000000A0	[  9] _IwDebugAssertSetSolution
+0x0000DF20	0x000001FE	[  9] _IwDebugAssertShow
+0x0000E120	0x000000C4	[  9] __GLOBAL__I_g_DebugGlobals
+0x0000E1F0	0x00000012	[ 10] __IwMain
+0x0000E202	0x00000006	[  7] _s3eConfigGetInt
+0x0000E208	0x00000006	[  7] _s3eDebugAssertShow
+0x0000E20E	0x00000006	[  7] _s3eDebugErrorShow
+0x0000E214	0x00000006	[  7] _s3eDebugIsDebuggerPresent
+0x0000E21A	0x00000006	[  7] _s3eDebugSetInt
+0x0000E220	0x00000006	[  7] _s3eDebugTraceLine
+0x0000E226	0x00000006	[  7] _s3eEdkCallbacksEnqueue
+0x0000E22C	0x00000006	[  7] _s3eEdkCallbacksRegister
+0x0000E232	0x00000006	[  7] _s3eEdkCallbacksUnRegister
+0x0000E238	0x00000006	[  7] _s3eEdkErrorSetStringV
+0x0000E23E	0x00000006	[  7] _s3eEdkRegister
+0x0000E244	0x00000006	[  7] _s3eEdkThreadRunOnOSAsyncV
+0x0000E24A	0x00000006	[  7] _s3eEdkThreadRunOnOSV
+0x0000E250	0x00000006	[  7] _s3eTimerGetUTC
+0x0000E256	0x00000006	[ 11] _CLLocationCoordinate2DMake
+0x0000E25C	0x00000006	[ 12] __Znwm
+0x0000E262	0x00000006	[ 13] ___moddi3
+0x0000E268	0x00000006	[ 13] _localtime
+0x0000E26E	0x00000006	[ 13] _memset
+0x0000E274	0x00000006	[ 13] _snprintf
+0x0000E27A	0x00000006	[ 13] _sprintf
+0x0000E280	0x00000006	[ 13] _strftime$UNIX2003
+0x0000E286	0x00000006	[ 13] _strlen
+0x0000E28C	0x00000006	[ 13] _strncat
+0x0000E292	0x00000006	[ 13] _strncpy
+0x0000E298	0x00000006	[ 13] _time
+0x0000E29E	0x00000006	[ 13] _vsnprintf
+0x0000E2A4	0x00000006	[ 14] _NSLog
+0x0000E2AA	0x00000006	[ 15] _objc_msgSend
+0x0000E2B0	0x00000006	[ 15] _objc_msgSendSuper
+0x0000E2B6	0x00000006	[ 15] _objc_msgSend_stret
+0x0000E2BC	0x00000006	[ 15] _objc_setProperty
+0x0000E2C4	0x0000000C	[  0] helper helper
+0x0000E2D0	0x0000000A	[ 11] _CLLocationCoordinate2DMake
+0x0000E2DA	0x0000000A	[ 12] __Znwm
+0x0000E2E4	0x0000000A	[ 13] ___moddi3
+0x0000E2EE	0x0000000A	[ 13] _localtime
+0x0000E2F8	0x0000000A	[ 13] _memset
+0x0000E302	0x0000000A	[ 13] _snprintf
+0x0000E30C	0x0000000A	[ 13] _sprintf
+0x0000E316	0x0000000A	[ 13] _strftime$UNIX2003
+0x0000E320	0x0000000A	[ 13] _strlen
+0x0000E32A	0x0000000A	[ 13] _strncat
+0x0000E334	0x0000000A	[ 13] _strncpy
+0x0000E33E	0x0000000A	[ 13] _time
+0x0000E348	0x0000000A	[ 13] _vsnprintf
+0x0000E352	0x0000000A	[ 14] _NSLog
+0x0000E35C	0x0000000A	[ 15] _objc_msgSend
+0x0000E366	0x0000000A	[ 15] _objc_msgSendSuper
+0x0000E370	0x0000000A	[ 15] _objc_msgSend_stret
+0x0000E37A	0x0000000A	[ 15] _objc_setProperty
+0x0000E384	0x0000000B	[  2] literal string: s3eMapView
+0x0000E38F	0x00000010	[  2] literal string: MAPVIEW_VERBOSE
+0x0000E3A0	0x0000004D	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewGetPlatformLicensingString
+0x0000E3EE	0x00000001	[  2] literal string: 
+0x0000E3F0	0x0000003C	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewRemovePOI
+0x0000E42C	0x0000003A	[  2] literal string: calling s3eMapView func on main thread: _s3eMapViewAddPOI
+0x0000E468	0x00000038	[  2] literal string: calling s3eMapView func on main thread: _s3eMapViewGoTo
+0x0000E4A0	0x00000046	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewSetShowUserLocation
+0x0000E4E8	0x0000003A	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewSetType
+0x0000E524	0x0000003D	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewSetVisible
+0x0000E564	0x00000040	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewSetScreenRect
+0x0000E5A4	0x0000003A	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewDestroy
+0x0000E5E0	0x00000039	[  2] literal string: calling s3eMapView func on main thread: s3eMapViewCreate
+0x0000E619	0x0000000B	[  3] literal string: coordinate
+0x0000E624	0x0000001C	[  3] literal string: {?="latitude"d"longitude"d}
+0x0000E640	0x0000000C	[  3] literal string: @"NSString"
+0x0000E64C	0x00000009	[  3] literal string: subtitle
+0x0000E655	0x00000002	[  3] literal string: C
+0x0000E657	0x00000003	[  3] literal string: ^v
+0x0000E65A	0x0000000F	[  3] literal string: setCoordinate:
+0x0000E669	0x0000000F	[  3] literal string: v24@0:4{?=dd}8
+0x0000E678	0x0000000C	[  3] literal string: {?=dd}8@0:4
+0x0000E684	0x0000000A	[  3] literal string: setTitle:
+0x0000E68E	0x0000000A	[  3] literal string: v12@0:4@8
+0x0000E698	0x0000000A	[  3] literal string: v12@0:4C8
+0x0000E6A2	0x00000007	[  3] literal string: C8@0:4
+0x0000E6A9	0x0000000F	[  3] literal string: setCustomData:
+0x0000E6B8	0x0000000B	[  3] literal string: v12@0:4^v8
+0x0000E6C3	0x00000008	[  3] literal string: ^v8@0:4
+0x0000E6CB	0x00000014	[  3] literal string: initWithCoordinate:
+0x0000E6DF	0x0000000F	[  3] literal string: @24@0:4{?=dd}8
+0x0000E6EE	0x00000012	[  3] literal string: T^v,N,VcustomData
+0x0000E700	0x00000010	[  3] literal string: TC,N,Vclickable
+0x0000E710	0x0000001B	[  3] literal string: T@"NSString",C,N,Vsubtitle
+0x0000E72B	0x00000018	[  3] literal string: T@"NSString",C,N,Vtitle
+0x0000E743	0x0000002B	[  3] literal string: T{?="latitude"d"longitude"d},N,Vcoordinate
+0x0000E76E	0x00000009	[  3] literal string: NSObject
+0x0000E777	0x00000012	[  3] literal string: stringWithFormat:
+0x0000E789	0x0000000C	[  3] literal string: autorelease
+0x0000E795	0x0000000D	[  3] literal string: MKAnnotation
+0x0000E7A2	0x00000021	[  3] literal string: T{?="latitude"d"longitude"d},R,N
+0x0000E7C3	0x00000008	[  3] literal string: release
+0x0000E7CB	0x00000008	[  3] literal string: Vv8@0:4
+0x0000E7D3	0x00000007	[  3] literal string: retain
+0x0000E7DA	0x0000000A	[  3] literal string: c12@0:4#8
+0x0000E7E4	0x00000008	[  3] literal string: isProxy
+0x0000E7EC	0x00000007	[  3] literal string: c8@0:4
+0x0000E7F3	0x00000010	[  3] literal string: @20@0:4:8@12@16
+0x0000E803	0x0000001C	[  3] literal string: performSelector:withObject:
+0x0000E81F	0x0000000D	[  3] literal string: @16@0:4:8@12
+0x0000E82C	0x0000000A	[  3] literal string: @12@0:4:8
+0x0000E836	0x00000005	[  3] literal string: zone
+0x0000E83B	0x00000005	[  3] literal string: self
+0x0000E840	0x00000006	[  3] literal string: class
+0x0000E846	0x0000000B	[  3] literal string: superclass
+0x0000E851	0x00000009	[  3] literal string: isEqual:
+0x0000E85A	0x00000011	[  3] literal string: debugDescription
+0x0000E86C	0x00000014	[  4] literal string: setRegion:animated:
+0x0000E880	0x0000000B	[  4] literal string: customData
+0x0000E88B	0x00000012	[  4] literal string: representedObject
+0x0000E89E	0x00000006	[  4] literal string: title
+0x0000E8A4	0x0000000A	[  4] literal string: clickable
+0x0000E8AE	0x0000000B	[  4] literal string: annotation
+0x0000E8B9	0x00000016	[  4] literal string: setRepresentedObject:
+0x0000E8CF	0x0000000B	[  4] literal string: setTarget:
+0x0000E8DA	0x0000001D	[  4] literal string: annotationSelectMenuClicked:
+0x0000E8F7	0x00000024	[  4] literal string: initWithTitle:action:keyEquivalent:
+0x0000E91B	0x00000006	[  4] literal string: count
+0x0000E921	0x00000015	[  4] literal string: removeObjectAtIndex:
+0x0000E936	0x0000000F	[  4] literal string: objectAtIndex:
+0x0000E947	0x0000000B	[  4] literal string: addObject:
+0x0000E952	0x0000000F	[  4] literal string: addAnnotation:
+0x0000E961	0x0000000F	[  4] literal string: setAnnotation:
+0x0000E970	0x00000013	[  4] literal string: setCanShowCallout:
+0x0000E983	0x00000011	[  4] literal string: setAnimatesDrop:
+0x0000E994	0x0000000D	[  4] literal string: setPinColor:
+0x0000E9A1	0x00000024	[  4] literal string: initWithAnnotation:reuseIdentifier:
+0x0000E9C5	0x0000002D	[  4] literal string: dequeueReusableAnnotationViewWithIdentifier:
+0x0000E9F2	0x0000000F	[  4] literal string: isKindOfClass:
+0x0000EA03	0x0000003A	[  4] literal string: handleFailureInMethod:object:file:lineNumber:description:
+0x0000EA3D	0x00000016	[  4] literal string: stringWithUTF8String:
+0x0000EA53	0x0000000F	[  4] literal string: currentHandler
+0x0000EA62	0x00000009	[  4] literal string: delegate
+0x0000EA6B	0x00000008	[  4] literal string: dealloc
+0x0000EA73	0x00000016	[  4] literal string: setShowsUserLocation:
+0x0000EA89	0x0000000D	[  4] literal string: setDelegate:
+0x0000EA96	0x0000000B	[  4] literal string: setHidden:
+0x0000EAA1	0x0000000F	[  4] literal string: initWithFrame:
+0x0000EAB0	0x00000006	[  4] literal string: alloc
+0x0000EAB6	0x00000005	[  4] literal string: init
+0x0000EABD	0x0000002B	[  4] literal string: mapView:contextMenuItemsForAnnotationView:
+0x0000EAE8	0x0000000D	[  4] literal string: @16@0:4@8@12
+0x0000EAF5	0x00000029	[  4] literal string: mapView:userDidClickAndHoldAtCoordinate:
+0x0000EB1E	0x00000012	[  4] literal string: v28@0:4@8{?=dd}12
+0x0000EB30	0x00000038	[  4] literal string: mapView:annotationView:didChangeDragState:fromOldState:
+0x0000EB68	0x00000013	[  4] literal string: v24@0:4@8@12I16I20
+0x0000EB7B	0x0000001C	[  4] literal string: mapViewDidStopLocatingUser:
+0x0000EB99	0x0000001E	[  4] literal string: mapViewWillStartLocatingUser:
+0x0000EBB7	0x00000026	[  4] literal string: mapView:didFailToLocateUserWithError:
+0x0000EBDD	0x0000000D	[  4] literal string: v16@0:4@8@12
+0x0000EBEA	0x0000001F	[  4] literal string: mapView:didUpdateUserLocation:
+0x0000EC09	0x00000023	[  4] literal string: mapView:didDeselectAnnotationView:
+0x0000EC2C	0x00000021	[  4] literal string: mapView:didSelectAnnotationView:
+0x0000EC4D	0x0000001C	[  4] literal string: mapView:didAddOverlayViews:
+0x0000EC69	0x00000018	[  4] literal string: mapView:viewForOverlay:
+0x0000EC81	0x0000001F	[  4] literal string: mapView:didAddAnnotationViews:
+0x0000ECA0	0x0000001B	[  4] literal string: mapView:viewForAnnotation:
+0x0000ECBB	0x00000024	[  4] literal string: mapViewDidFailLoadingMap:withError:
+0x0000ECDF	0x0000001C	[  4] literal string: mapViewDidFinishLoadingMap:
+0x0000ECFB	0x0000001C	[  4] literal string: mapViewWillStartLoadingMap:
+0x0000ED17	0x00000021	[  4] literal string: mapView:regionDidChangeAnimated:
+0x0000ED38	0x0000000D	[  4] literal string: v16@0:4@8c12
+0x0000ED45	0x00000022	[  4] literal string: mapView:regionWillChangeAnimated:
+0x0000ED67	0x00000012	[  4] literal string: MKMapViewDelegate
+0x0000ED7A	0x00000007	[  4] literal string: @8@0:4
+0x0000ED82	0x0000000C	[  4] literal string: description
+0x0000ED8E	0x0000000C	[  4] literal string: retainCount
+0x0000ED9A	0x00000007	[  4] literal string: I8@0:4
+0x0000EDA4	0x00000014	[  4] literal string: respondsToSelector:
+0x0000EDB8	0x0000000A	[  4] literal string: c12@0:4:8
+0x0000EDC2	0x00000014	[  4] literal string: conformsToProtocol:
+0x0000EDD6	0x0000000A	[  4] literal string: c12@0:4@8
+0x0000EDE0	0x00000011	[  4] literal string: isMemberOfClass:
+0x0000EDF2	0x00000027	[  4] literal string: performSelector:withObject:withObject:
+0x0000EE1A	0x00000011	[  4] literal string: performSelector:
+0x0000EE2E	0x00000011	[  4] literal string: ^{_NSZone=}8@0:4
+0x0000EE40	0x00000007	[  4] literal string: #8@0:4
+0x0000EE4A	0x00000005	[  4] literal string: hash
+0x0000EE50	0x00000009	[  4] literal string: NSString
+0x0000EE59	0x0000000A	[  4] literal string: MKMapView
+0x0000EE63	0x0000000F	[  4] literal string: NSMutableArray
+0x0000EE72	0x00000013	[  4] literal string: NSAssertionHandler
+0x0000EE85	0x0000000F	[  4] literal string: MKUserLocation
+0x0000EE94	0x00000015	[  4] literal string: S3eMapViewAnnotation
+0x0000EEA9	0x00000014	[  4] literal string: MKPinAnnotationView
+0x0000EEBD	0x0000000B	[  4] literal string: NSMenuItem
+0x0000EEC8	0x00000015	[  4] literal string: S3eMapViewController
+0x0000EEDD	0x0000000A	[  4] literal string: myMapView
+0x0000EEE7	0x0000000D	[  4] literal string: @"MKMapView"
+0x0000EEF4	0x0000000B	[  4] literal string: mapJsReady
+0x0000EEFF	0x00000002	[  4] literal string: B
+0x0000EF01	0x00000010	[  4] literal string: annotationQueue
+0x0000EF11	0x00000012	[  4] literal string: @"NSMutableArray"
+0x0000EF23	0x0000000F	[  4] literal string: deferredRegion
+0x0000EF32	0x00000053	[  4] literal string: {?="center"{?="latitude"d"longitude"d}"span"{?="latitudeDelta"d"longitudeDelta"d}}
+0x0000EF85	0x00000008	[  4] literal string: mapView
+0x0000EF8D	0x0000000D	[  4] literal string: isMapJsReady
+0x0000EF9A	0x00000007	[  4] literal string: B8@0:4
+0x0000EFA1	0x0000001C	[  4] literal string: v44@0:4{?={?=dd}{?=dd}}8c40
+0x0000EFBD	0x00000007	[  4] literal string: v8@0:4
+0x0000EFC4	0x00000010	[  4] literal string: Invalid mapView
+0x0000EFD4	0x00000071	[  4] literal string: /Users/braden/Documents/Projects/s3eMapView-indep/build_s3emapview_osx_osx_xcode_x86/../source/osx/controller.mm
+0x0000F045	0x00000004	[  4] literal string: Pin
+0x0000F04A	0x00000007	[  4] literal string: Select
+0x0000F054	0x00000047	[  4] literal string: Map has loaded. Any queued POI or map commands will get processed now.
+0x0000F09C	0x00000012	[  5] literal string: removeAnnotation:
+0x0000F0B0	0x0000000E	[  5] literal string: setClickable:
+0x0000F0BE	0x0000000D	[  5] literal string: setSubtitle:
+0x0000F0CB	0x0000000C	[  5] literal string: setMapType:
+0x0000F0DA	0x0000000A	[  5] literal string: setFrame:
+0x0000F0E4	0x00000007	[  5] literal string: bounds
+0x0000F0EB	0x00000014	[  5] literal string: removeFromSuperview
+0x0000F0FF	0x0000000C	[  5] literal string: contentView
+0x0000F10B	0x00000022	[  5] literal string: addSubview:positioned:relativeTo:
+0x0000F130	0x0000000B	[  5] literal string: mainWindow
+0x0000F13C	0x0000003F	[  5] literal string: Note: s3eMapViewSetShowUserLocation(false) is ignored on OS X.
+0x0000F17C	0x0000002D	[  5] literal string: View size is %dx%d. Setting y to %d-%d-%d=%d
+0x0000F1AC	0x0000000B	[  6] literal string: eglBindAPI
+0x0000F1B7	0x00000010	[  6] literal string: eglBindTexImage
+0x0000F1C7	0x00000010	[  6] literal string: eglChooseConfig
+0x0000F1D7	0x0000000F	[  6] literal string: eglCopyBuffers
+0x0000F1E6	0x00000011	[  6] literal string: eglCreateContext
+0x0000F1F8	0x00000021	[  6] literal string: eglCreatePbufferFromClientBuffer
+0x0000F219	0x00000018	[  6] literal string: eglCreatePbufferSurface
+0x0000F231	0x00000017	[  6] literal string: eglCreatePixmapSurface
+0x0000F248	0x00000017	[  6] literal string: eglCreateWindowSurface
+0x0000F25F	0x00000012	[  6] literal string: eglDestroyContext
+0x0000F271	0x00000012	[  6] literal string: eglDestroySurface
+0x0000F283	0x00000013	[  6] literal string: eglGetConfigAttrib
+0x0000F296	0x0000000E	[  6] literal string: eglGetConfigs
+0x0000F2A4	0x00000015	[  6] literal string: eglGetCurrentContext
+0x0000F2B9	0x00000015	[  6] literal string: eglGetCurrentDisplay
+0x0000F2CE	0x00000015	[  6] literal string: eglGetCurrentSurface
+0x0000F2E3	0x0000000E	[  6] literal string: eglGetDisplay
+0x0000F2F1	0x0000000C	[  6] literal string: eglGetError
+0x0000F2FD	0x00000012	[  6] literal string: eglGetProcAddress
+0x0000F30F	0x0000000E	[  6] literal string: eglInitialize
+0x0000F31D	0x0000000F	[  6] literal string: eglMakeCurrent
+0x0000F32C	0x0000000C	[  6] literal string: eglQueryAPI
+0x0000F338	0x00000010	[  6] literal string: eglQueryContext
+0x0000F348	0x0000000F	[  6] literal string: eglQueryString
+0x0000F357	0x00000010	[  6] literal string: eglQuerySurface
+0x0000F367	0x00000013	[  6] literal string: eglReleaseTexImage
+0x0000F37A	0x00000011	[  6] literal string: eglReleaseThread
+0x0000F38B	0x00000011	[  6] literal string: eglSurfaceAttrib
+0x0000F39C	0x0000000F	[  6] literal string: eglSwapBuffers
+0x0000F3AB	0x00000010	[  6] literal string: eglSwapInterval
+0x0000F3BB	0x0000000D	[  6] literal string: eglTerminate
+0x0000F3C8	0x0000000E	[  6] literal string: eglWaitClient
+0x0000F3D6	0x0000000A	[  6] literal string: eglWaitGL
+0x0000F3E0	0x0000000E	[  6] literal string: eglWaitNative
+0x0000F3EE	0x00000010	[  6] literal string: glActiveTexture
+0x0000F3FE	0x0000000C	[  6] literal string: glAlphaFunc
+0x0000F40A	0x0000000D	[  6] literal string: glAlphaFuncx
+0x0000F417	0x0000000F	[  6] literal string: glAttachShader
+0x0000F426	0x00000015	[  6] literal string: glBindAttribLocation
+0x0000F43B	0x0000000D	[  6] literal string: glBindBuffer
+0x0000F448	0x00000012	[  6] literal string: glBindFramebuffer
+0x0000F45A	0x00000013	[  6] literal string: glBindRenderbuffer
+0x0000F46D	0x0000000E	[  6] literal string: glBindTexture
+0x0000F47B	0x0000000D	[  6] literal string: glBlendColor
+0x0000F488	0x00000010	[  6] literal string: glBlendEquation
+0x0000F498	0x00000018	[  6] literal string: glBlendEquationSeparate
+0x0000F4B0	0x0000000C	[  6] literal string: glBlendFunc
+0x0000F4BC	0x00000014	[  6] literal string: glBlendFuncSeparate
+0x0000F4D0	0x0000000D	[  6] literal string: glBufferData
+0x0000F4DD	0x00000010	[  6] literal string: glBufferSubData
+0x0000F4ED	0x00000019	[  6] literal string: glCheckFramebufferStatus
+0x0000F506	0x00000008	[  6] literal string: glClear
+0x0000F50E	0x0000000D	[  6] literal string: glClearColor
+0x0000F51B	0x0000000E	[  6] literal string: glClearColorx
+0x0000F529	0x0000000E	[  6] literal string: glClearDepthf
+0x0000F537	0x0000000E	[  6] literal string: glClearDepthx
+0x0000F545	0x0000000F	[  6] literal string: glClearStencil
+0x0000F554	0x00000016	[  6] literal string: glClientActiveTexture
+0x0000F56A	0x0000000D	[  6] literal string: glClipPlanef
+0x0000F577	0x0000000D	[  6] literal string: glClipPlanex
+0x0000F584	0x0000000A	[  6] literal string: glColor4f
+0x0000F58E	0x0000000B	[  6] literal string: glColor4ub
+0x0000F599	0x0000000A	[  6] literal string: glColor4x
+0x0000F5A3	0x0000000C	[  6] literal string: glColorMask
+0x0000F5AF	0x0000000F	[  6] literal string: glColorPointer
+0x0000F5BE	0x00000010	[  6] literal string: glCompileShader
+0x0000F5CE	0x00000017	[  6] literal string: glCompressedTexImage2D
+0x0000F5E5	0x0000001A	[  6] literal string: glCompressedTexSubImage2D
+0x0000F5FF	0x00000011	[  6] literal string: glCopyTexImage2D
+0x0000F610	0x00000014	[  6] literal string: glCopyTexSubImage2D
+0x0000F624	0x00000010	[  6] literal string: glCreateProgram
+0x0000F634	0x0000000F	[  6] literal string: glCreateShader
+0x0000F643	0x0000000B	[  6] literal string: glCullFace
+0x0000F64E	0x0000001A	[  6] literal string: glCurrentPaletteMatrixOES
+0x0000F668	0x00000010	[  6] literal string: glDeleteBuffers
+0x0000F678	0x00000015	[  6] literal string: glDeleteFramebuffers
+0x0000F68D	0x00000010	[  6] literal string: glDeleteProgram
+0x0000F69D	0x00000016	[  6] literal string: glDeleteRenderbuffers
+0x0000F6B3	0x0000000F	[  6] literal string: glDeleteShader
+0x0000F6C2	0x00000011	[  6] literal string: glDeleteTextures
+0x0000F6D3	0x0000000C	[  6] literal string: glDepthFunc
+0x0000F6DF	0x0000000C	[  6] literal string: glDepthMask
+0x0000F6EB	0x0000000E	[  6] literal string: glDepthRangef
+0x0000F6F9	0x0000000E	[  6] literal string: glDepthRangex
+0x0000F707	0x0000000F	[  6] literal string: glDetachShader
+0x0000F716	0x0000000A	[  6] literal string: glDisable
+0x0000F720	0x00000015	[  6] literal string: glDisableClientState
+0x0000F735	0x0000001B	[  6] literal string: glDisableVertexAttribArray
+0x0000F750	0x0000000D	[  6] literal string: glDrawArrays
+0x0000F75D	0x0000000F	[  6] literal string: glDrawElements
+0x0000F76C	0x00000009	[  6] literal string: glEnable
+0x0000F775	0x00000014	[  6] literal string: glEnableClientState
+0x0000F789	0x0000001A	[  6] literal string: glEnableVertexAttribArray
+0x0000F7A3	0x00000009	[  6] literal string: glFinish
+0x0000F7AC	0x00000008	[  6] literal string: glFlush
+0x0000F7B4	0x00000007	[  6] literal string: glFogf
+0x0000F7BB	0x00000008	[  6] literal string: glFogfv
+0x0000F7C3	0x00000007	[  6] literal string: glFogx
+0x0000F7CA	0x00000008	[  6] literal string: glFogxv
+0x0000F7D2	0x0000001A	[  6] literal string: glFramebufferRenderbuffer
+0x0000F7EC	0x00000017	[  6] literal string: glFramebufferTexture2D
+0x0000F803	0x0000000C	[  6] literal string: glFrontFace
+0x0000F80F	0x0000000B	[  6] literal string: glFrustumf
+0x0000F81A	0x0000000B	[  6] literal string: glFrustumx
+0x0000F825	0x0000000D	[  6] literal string: glGenBuffers
+0x0000F832	0x00000012	[  6] literal string: glGenFramebuffers
+0x0000F844	0x00000013	[  6] literal string: glGenRenderbuffers
+0x0000F857	0x0000000E	[  6] literal string: glGenTextures
+0x0000F865	0x00000011	[  6] literal string: glGenerateMipmap
+0x0000F876	0x00000012	[  6] literal string: glGetActiveAttrib
+0x0000F888	0x00000013	[  6] literal string: glGetActiveUniform
+0x0000F89B	0x00000015	[  6] literal string: glGetAttachedShaders
+0x0000F8B0	0x00000014	[  6] literal string: glGetAttribLocation
+0x0000F8C4	0x0000000E	[  6] literal string: glGetBooleanv
+0x0000F8D2	0x00000017	[  6] literal string: glGetBufferParameteriv
+0x0000F8E9	0x00000010	[  6] literal string: glGetClipPlanef
+0x0000F8F9	0x00000010	[  6] literal string: glGetClipPlanex
+0x0000F909	0x0000000B	[  6] literal string: glGetError
+0x0000F914	0x0000000C	[  6] literal string: glGetFixedv
+0x0000F920	0x0000000C	[  6] literal string: glGetFloatv
+0x0000F92C	0x00000026	[  6] literal string: glGetFramebufferAttachmentParameteriv
+0x0000F952	0x0000000E	[  6] literal string: glGetIntegerv
+0x0000F960	0x0000000D	[  6] literal string: glGetLightfv
+0x0000F96D	0x0000000D	[  6] literal string: glGetLightxv
+0x0000F97A	0x00000010	[  6] literal string: glGetMaterialfv
+0x0000F98A	0x00000010	[  6] literal string: glGetMaterialxv
+0x0000F99A	0x0000000E	[  6] literal string: glGetPointerv
+0x0000F9A8	0x00000014	[  6] literal string: glGetProgramInfoLog
+0x0000F9BC	0x0000000F	[  6] literal string: glGetProgramiv
+0x0000F9CB	0x0000001D	[  6] literal string: glGetRenderbufferParameteriv
+0x0000F9E8	0x00000013	[  6] literal string: glGetShaderInfoLog
+0x0000F9FB	0x0000001B	[  6] literal string: glGetShaderPrecisionFormat
+0x0000FA16	0x00000012	[  6] literal string: glGetShaderSource
+0x0000FA28	0x0000000E	[  6] literal string: glGetShaderiv
+0x0000FA36	0x0000000C	[  6] literal string: glGetString
+0x0000FA42	0x0000000E	[  6] literal string: glGetTexEnvfv
+0x0000FA50	0x0000000E	[  6] literal string: glGetTexEnviv
+0x0000FA5E	0x0000000E	[  6] literal string: glGetTexEnvxv
+0x0000FA6C	0x00000014	[  6] literal string: glGetTexParameterfv
+0x0000FA80	0x00000014	[  6] literal string: glGetTexParameteriv
+0x0000FA94	0x00000014	[  6] literal string: glGetTexParameterxv
+0x0000FAA8	0x00000015	[  6] literal string: glGetUniformLocation
+0x0000FABD	0x0000000F	[  6] literal string: glGetUniformfv
+0x0000FACC	0x0000000F	[  6] literal string: glGetUniformiv
+0x0000FADB	0x0000001A	[  6] literal string: glGetVertexAttribPointerv
+0x0000FAF5	0x00000014	[  6] literal string: glGetVertexAttribfv
+0x0000FB09	0x00000014	[  6] literal string: glGetVertexAttribiv
+0x0000FB1D	0x00000007	[  6] literal string: glHint
+0x0000FB24	0x0000000B	[  6] literal string: glIsBuffer
+0x0000FB2F	0x0000000C	[  6] literal string: glIsEnabled
+0x0000FB3B	0x00000010	[  6] literal string: glIsFramebuffer
+0x0000FB4B	0x0000000C	[  6] literal string: glIsProgram
+0x0000FB57	0x00000011	[  6] literal string: glIsRenderbuffer
+0x0000FB68	0x0000000B	[  6] literal string: glIsShader
+0x0000FB73	0x0000000C	[  6] literal string: glIsTexture
+0x0000FB7F	0x0000000E	[  6] literal string: glLightModelf
+0x0000FB8D	0x0000000F	[  6] literal string: glLightModelfv
+0x0000FB9C	0x0000000E	[  6] literal string: glLightModelx
+0x0000FBAA	0x0000000F	[  6] literal string: glLightModelxv
+0x0000FBB9	0x00000009	[  6] literal string: glLightf
+0x0000FBC2	0x0000000A	[  6] literal string: glLightfv
+0x0000FBCC	0x00000009	[  6] literal string: glLightx
+0x0000FBD5	0x0000000A	[  6] literal string: glLightxv
+0x0000FBDF	0x0000000C	[  6] literal string: glLineWidth
+0x0000FBEB	0x0000000D	[  6] literal string: glLineWidthx
+0x0000FBF8	0x0000000E	[  6] literal string: glLinkProgram
+0x0000FC06	0x0000000F	[  6] literal string: glLoadIdentity
+0x0000FC15	0x0000000E	[  6] literal string: glLoadMatrixf
+0x0000FC23	0x0000000E	[  6] literal string: glLoadMatrixx
+0x0000FC31	0x0000000A	[  6] literal string: glLogicOp
+0x0000FC3B	0x0000000C	[  6] literal string: glMaterialf
+0x0000FC47	0x0000000D	[  6] literal string: glMaterialfv
+0x0000FC54	0x0000000C	[  6] literal string: glMaterialx
+0x0000FC60	0x0000000D	[  6] literal string: glMaterialxv
+0x0000FC6D	0x00000018	[  6] literal string: glMatrixIndexPointerOES
+0x0000FC85	0x0000000D	[  6] literal string: glMatrixMode
+0x0000FC92	0x0000000E	[  6] literal string: glMultMatrixf
+0x0000FCA0	0x0000000E	[  6] literal string: glMultMatrixx
+0x0000FCAE	0x00000012	[  6] literal string: glMultiTexCoord4f
+0x0000FCC0	0x00000012	[  6] literal string: glMultiTexCoord4x
+0x0000FCD2	0x0000000B	[  6] literal string: glNormal3f
+0x0000FCDD	0x0000000B	[  6] literal string: glNormal3x
+0x0000FCE8	0x00000010	[  6] literal string: glNormalPointer
+0x0000FCF8	0x00000009	[  6] literal string: glOrthof
+0x0000FD01	0x00000009	[  6] literal string: glOrthox
+0x0000FD0A	0x0000000E	[  6] literal string: glPixelStorei
+0x0000FD18	0x00000012	[  6] literal string: glPointParameterf
+0x0000FD2A	0x00000013	[  6] literal string: glPointParameterfv
+0x0000FD3D	0x00000012	[  6] literal string: glPointParameterx
+0x0000FD4F	0x00000013	[  6] literal string: glPointParameterxv
+0x0000FD62	0x0000000C	[  6] literal string: glPointSize
+0x0000FD6E	0x00000016	[  6] literal string: glPointSizePointerOES
+0x0000FD84	0x0000000D	[  6] literal string: glPointSizex
+0x0000FD91	0x00000010	[  6] literal string: glPolygonOffset
+0x0000FDA1	0x00000011	[  6] literal string: glPolygonOffsetx
+0x0000FDB2	0x0000000C	[  6] literal string: glPopMatrix
+0x0000FDBE	0x0000000D	[  6] literal string: glPushMatrix
+0x0000FDCB	0x0000000D	[  6] literal string: glReadPixels
+0x0000FDD8	0x00000018	[  6] literal string: glReleaseShaderCompiler
+0x0000FDF0	0x00000016	[  6] literal string: glRenderbufferStorage
+0x0000FE06	0x0000000A	[  6] literal string: glRotatef
+0x0000FE10	0x0000000A	[  6] literal string: glRotatex
+0x0000FE1A	0x00000011	[  6] literal string: glSampleCoverage
+0x0000FE2B	0x00000012	[  6] literal string: glSampleCoveragex
+0x0000FE3D	0x00000009	[  6] literal string: glScalef
+0x0000FE46	0x00000009	[  6] literal string: glScalex
+0x0000FE4F	0x0000000A	[  6] literal string: glScissor
+0x0000FE59	0x0000000D	[  6] literal string: glShadeModel
+0x0000FE66	0x0000000F	[  6] literal string: glShaderBinary
+0x0000FE75	0x0000000F	[  6] literal string: glShaderSource
+0x0000FE84	0x0000000E	[  6] literal string: glStencilFunc
+0x0000FE92	0x00000016	[  6] literal string: glStencilFuncSeparate
+0x0000FEA8	0x0000000E	[  6] literal string: glStencilMask
+0x0000FEB6	0x00000016	[  6] literal string: glStencilMaskSeparate
+0x0000FECC	0x0000000C	[  6] literal string: glStencilOp
+0x0000FED8	0x00000014	[  6] literal string: glStencilOpSeparate
+0x0000FEEC	0x00000012	[  6] literal string: glTexCoordPointer
+0x0000FEFE	0x0000000A	[  6] literal string: glTexEnvf
+0x0000FF08	0x0000000B	[  6] literal string: glTexEnvfv
+0x0000FF13	0x0000000A	[  6] literal string: glTexEnvi
+0x0000FF1D	0x0000000B	[  6] literal string: glTexEnviv
+0x0000FF28	0x0000000A	[  6] literal string: glTexEnvx
+0x0000FF32	0x0000000B	[  6] literal string: glTexEnvxv
+0x0000FF3D	0x0000000D	[  6] literal string: glTexImage2D
+0x0000FF4A	0x00000010	[  6] literal string: glTexParameterf
+0x0000FF5A	0x00000011	[  6] literal string: glTexParameterfv
+0x0000FF6B	0x00000010	[  6] literal string: glTexParameteri
+0x0000FF7B	0x00000011	[  6] literal string: glTexParameteriv
+0x0000FF8C	0x00000010	[  6] literal string: glTexParameterx
+0x0000FF9C	0x00000011	[  6] literal string: glTexParameterxv
+0x0000FFAD	0x00000010	[  6] literal string: glTexSubImage2D
+0x0000FFBD	0x0000000D	[  6] literal string: glTranslatef
+0x0000FFCA	0x0000000D	[  6] literal string: glTranslatex
+0x0000FFD7	0x0000000C	[  6] literal string: glUniform1f
+0x0000FFE3	0x0000000D	[  6] literal string: glUniform1fv
+0x0000FFF0	0x0000000C	[  6] literal string: glUniform1i
+0x0000FFFC	0x0000000D	[  6] literal string: glUniform1iv
+0x00010009	0x0000000C	[  6] literal string: glUniform2f
+0x00010015	0x0000000D	[  6] literal string: glUniform2fv
+0x00010022	0x0000000C	[  6] literal string: glUniform2i
+0x0001002E	0x0000000D	[  6] literal string: glUniform2iv
+0x0001003B	0x0000000C	[  6] literal string: glUniform3f
+0x00010047	0x0000000D	[  6] literal string: glUniform3fv
+0x00010054	0x0000000C	[  6] literal string: glUniform3i
+0x00010060	0x0000000D	[  6] literal string: glUniform3iv
+0x0001006D	0x0000000C	[  6] literal string: glUniform4f
+0x00010079	0x0000000D	[  6] literal string: glUniform4fv
+0x00010086	0x0000000C	[  6] literal string: glUniform4i
+0x00010092	0x0000000D	[  6] literal string: glUniform4iv
+0x0001009F	0x00000013	[  6] literal string: glUniformMatrix2fv
+0x000100B2	0x00000013	[  6] literal string: glUniformMatrix3fv
+0x000100C5	0x00000013	[  6] literal string: glUniformMatrix4fv
+0x000100D8	0x0000000D	[  6] literal string: glUseProgram
+0x000100E5	0x00000012	[  6] literal string: glValidateProgram
+0x000100F7	0x00000011	[  6] literal string: glVertexAttrib1f
+0x00010108	0x00000012	[  6] literal string: glVertexAttrib1fv
+0x0001011A	0x00000011	[  6] literal string: glVertexAttrib2f
+0x0001012B	0x00000012	[  6] literal string: glVertexAttrib2fv
+0x0001013D	0x00000011	[  6] literal string: glVertexAttrib3f
+0x0001014E	0x00000012	[  6] literal string: glVertexAttrib3fv
+0x00010160	0x00000011	[  6] literal string: glVertexAttrib4f
+0x00010171	0x00000012	[  6] literal string: glVertexAttrib4fv
+0x00010183	0x00000016	[  6] literal string: glVertexAttribPointer
+0x00010199	0x00000010	[  6] literal string: glVertexPointer
+0x000101A9	0x0000000B	[  6] literal string: glViewport
+0x000101B4	0x00000013	[  6] literal string: glWeightPointerOES
+0x000101C7	0x00000019	[  6] literal string: s3eAccelerometerGetError
+0x000101E0	0x0000001F	[  6] literal string: s3eAccelerometerGetErrorString
+0x000101FF	0x00000017	[  6] literal string: s3eAccelerometerGetInt
+0x00010216	0x00000015	[  6] literal string: s3eAccelerometerGetX
+0x0001022B	0x00000015	[  6] literal string: s3eAccelerometerGetY
+0x00010240	0x00000015	[  6] literal string: s3eAccelerometerGetZ
+0x00010255	0x00000016	[  6] literal string: s3eAccelerometerStart
+0x0001026B	0x00000015	[  6] literal string: s3eAccelerometerStop
+0x00010280	0x00000011	[  6] literal string: s3eAudioGetError
+0x00010291	0x00000017	[  6] literal string: s3eAudioGetErrorString
+0x000102A8	0x0000000F	[  6] literal string: s3eAudioGetInt
+0x000102B7	0x00000019	[  6] literal string: s3eAudioIsCodecSupported
+0x000102D0	0x00000012	[  6] literal string: s3eAudioIsPlaying
+0x000102E2	0x0000000E	[  6] literal string: s3eAudioPause
+0x000102F0	0x0000000D	[  6] literal string: s3eAudioPlay
+0x000102FD	0x00000017	[  6] literal string: s3eAudioPlayFromBuffer
+0x00010314	0x00000011	[  6] literal string: s3eAudioRegister
+0x00010325	0x0000000F	[  6] literal string: s3eAudioResume
+0x00010334	0x0000000F	[  6] literal string: s3eAudioSetInt
+0x00010343	0x0000000D	[  6] literal string: s3eAudioStop
+0x00010350	0x00000013	[  6] literal string: s3eAudioUnRegister
+0x00010363	0x00000015	[  6] literal string: s3eCompressionDecomp
+0x00010378	0x0000001A	[  6] literal string: s3eCompressionDecompFinal
+0x00010392	0x00000019	[  6] literal string: s3eCompressionDecompInit
+0x000103AB	0x00000019	[  6] literal string: s3eCompressionDecompRead
+0x000103C4	0x00000017	[  6] literal string: s3eCompressionGetError
+0x000103DB	0x0000001D	[  6] literal string: s3eCompressionGetErrorString
+0x000103F8	0x00000012	[  6] literal string: s3eConfigGetError
+0x0001040A	0x00000018	[  6] literal string: s3eConfigGetErrorString
+0x00010422	0x00000010	[  6] literal string: s3eConfigGetInt
+0x00010432	0x00000014	[  6] literal string: s3eConfigGetIntHash
+0x00010446	0x00000013	[  6] literal string: s3eConfigGetString
+0x00010459	0x00000017	[  6] literal string: s3eConfigGetStringHash
+0x00010470	0x00000012	[  6] literal string: s3eCryptoGetError
+0x00010482	0x00000018	[  6] literal string: s3eCryptoGetErrorString
+0x0001049A	0x0000000E	[  6] literal string: s3eCryptoRand
+0x000104A8	0x0000000E	[  6] literal string: s3eCryptoSha1
+0x000104B6	0x00000013	[  6] literal string: s3eCryptoSha1Final
+0x000104C9	0x00000012	[  6] literal string: s3eCryptoSha1Init
+0x000104DB	0x00000014	[  6] literal string: s3eCryptoSha1Update
+0x000104EF	0x00000013	[  6] literal string: s3eCryptoVerifyRsa
+0x00010502	0x00000013	[  6] literal string: s3eDebugAssertShow
+0x00010515	0x00000012	[  6] literal string: s3eDebugErrorShow
+0x00010527	0x00000011	[  6] literal string: s3eDebugGetError
+0x00010538	0x00000017	[  6] literal string: s3eDebugGetErrorString
+0x0001054F	0x0000000F	[  6] literal string: s3eDebugGetInt
+0x0001055E	0x0000001A	[  6] literal string: s3eDebugIsDebuggerPresent
+0x00010578	0x00000015	[  6] literal string: s3eDebugOutputString
+0x0001058D	0x0000000E	[  6] literal string: s3eDebugPrint
+0x0001059B	0x00000011	[  6] literal string: s3eDebugRegister
+0x000105AC	0x0000000F	[  6] literal string: s3eDebugSetInt
+0x000105BB	0x0000001B	[  6] literal string: s3eDebugTraceChannelSwitch
+0x000105D6	0x00000017	[  6] literal string: s3eDebugTraceClearFile
+0x000105ED	0x00000013	[  6] literal string: s3eDebugTraceFlush
+0x00010600	0x00000012	[  6] literal string: s3eDebugTraceLine
+0x00010612	0x00000013	[  6] literal string: s3eDebugUnRegister
+0x00010625	0x00000015	[  6] literal string: s3eDeviceBacklightOn
+0x0001063A	0x0000001B	[  6] literal string: s3eDeviceCheckPauseRequest
+0x00010655	0x0000001A	[  6] literal string: s3eDeviceCheckQuitRequest
+0x0001066F	0x00000016	[  6] literal string: s3eDeviceExecPushNext
+0x00010685	0x0000000E	[  6] literal string: s3eDeviceExit
+0x00010693	0x00000012	[  6] literal string: s3eDeviceGetError
+0x000106A5	0x00000018	[  6] literal string: s3eDeviceGetErrorString
+0x000106BD	0x00000010	[  6] literal string: s3eDeviceGetInt
+0x000106CD	0x00000013	[  6] literal string: s3eDeviceGetString
+0x000106E0	0x00000018	[  6] literal string: s3eDeviceLoaderCallDone
+0x000106F8	0x00000019	[  6] literal string: s3eDeviceLoaderCallStart
+0x00010711	0x0000001B	[  6] literal string: s3eDeviceNetworkCheckStart
+0x0001072C	0x0000001A	[  6] literal string: s3eDeviceNetworkCheckStop
+0x00010746	0x00000012	[  6] literal string: s3eDeviceRegister
+0x00010758	0x00000015	[  6] literal string: s3eDeviceRequestQuit
+0x0001076D	0x00000010	[  6] literal string: s3eDeviceSetInt
+0x0001077D	0x00000014	[  6] literal string: s3eDeviceUnRegister
+0x00010791	0x00000011	[  6] literal string: s3eDeviceUnYield
+0x000107A2	0x0000000F	[  6] literal string: s3eDeviceYield
+0x000107B1	0x00000019	[  6] literal string: s3eDeviceYieldUntilEvent
+0x000107CA	0x0000000A	[  6] literal string: s3eExtGet
+0x000107D4	0x0000000F	[  6] literal string: s3eExtGetError
+0x000107E3	0x00000015	[  6] literal string: s3eExtGetErrorString
+0x000107F8	0x0000000E	[  6] literal string: s3eExtGetHash
+0x00010806	0x00000016	[  6] literal string: s3eFileAddUserFileSys
+0x0001081C	0x00000013	[  6] literal string: s3eFileCheckExists
+0x0001082F	0x0000000D	[  6] literal string: s3eFileClose
+0x0001083C	0x0000000E	[  6] literal string: s3eFileDelete
+0x0001084A	0x00000017	[  6] literal string: s3eFileDeleteDirectory
+0x00010861	0x0000000B	[  6] literal string: s3eFileEOF
+0x0001086C	0x0000000D	[  6] literal string: s3eFileFlush
+0x00010879	0x0000000F	[  6] literal string: s3eFileGetChar
+0x00010888	0x00000010	[  6] literal string: s3eFileGetError
+0x00010898	0x00000016	[  6] literal string: s3eFileGetErrorString
+0x000108AE	0x00000012	[  6] literal string: s3eFileGetFileInt
+0x000108C0	0x00000015	[  6] literal string: s3eFileGetFileString
+0x000108D5	0x0000000F	[  6] literal string: s3eFileGetFree
+0x000108E4	0x0000000E	[  6] literal string: s3eFileGetInt
+0x000108F2	0x00000018	[  6] literal string: s3eFileGetLastWriteTime
+0x0001090A	0x0000000F	[  6] literal string: s3eFileGetSize
+0x00010919	0x00000011	[  6] literal string: s3eFileListClose
+0x0001092A	0x00000015	[  6] literal string: s3eFileListDirectory
+0x0001093F	0x00000010	[  6] literal string: s3eFileListNext
+0x0001094F	0x00000015	[  6] literal string: s3eFileMakeDirectory
+0x00010964	0x0000000C	[  6] literal string: s3eFileOpen
+0x00010970	0x00000016	[  6] literal string: s3eFileOpenFromMemory
+0x00010986	0x0000000F	[  6] literal string: s3eFilePutChar
+0x00010995	0x0000000C	[  6] literal string: s3eFileRead
+0x000109A1	0x00000012	[  6] literal string: s3eFileReadString
+0x000109B3	0x00000019	[  6] literal string: s3eFileRemoveUserFileSys
+0x000109CC	0x0000000E	[  6] literal string: s3eFileRename
+0x000109DA	0x0000000C	[  6] literal string: s3eFileSeek
+0x000109E6	0x0000000E	[  6] literal string: s3eFileSetInt
+0x000109F4	0x0000000C	[  6] literal string: s3eFileTell
+0x00010A00	0x00000010	[  6] literal string: s3eFileTruncate
+0x00010A10	0x0000000D	[  6] literal string: s3eFileWrite
+0x00010A1D	0x00000008	[  6] literal string: s3eFree
+0x00010A25	0x0000000C	[  6] literal string: s3eFreeBase
+0x00010A31	0x0000000E	[  6] literal string: s3eGLGetError
+0x00010A3F	0x00000014	[  6] literal string: s3eGLGetErrorString
+0x00010A53	0x0000000C	[  6] literal string: s3eGLGetInt
+0x00010A5F	0x00000015	[  6] literal string: s3eGLGetNativeWindow
+0x00010A74	0x0000000E	[  6] literal string: s3eGLRegister
+0x00010A82	0x00000010	[  6] literal string: s3eGLUnRegister
+0x00010A92	0x00000011	[  6] literal string: s3eGLUnavailable
+0x00010AA3	0x0000000C	[  6] literal string: s3eInetAton
+0x00010AAF	0x0000000D	[  6] literal string: s3eInetHtonl
+0x00010ABC	0x0000000D	[  6] literal string: s3eInetHtons
+0x00010AC9	0x0000000E	[  6] literal string: s3eInetLookup
+0x00010AD7	0x00000014	[  6] literal string: s3eInetLookupCancel
+0x00010AEB	0x0000000C	[  6] literal string: s3eInetNtoa
+0x00010AF7	0x0000000D	[  6] literal string: s3eInetNtohl
+0x00010B04	0x0000000D	[  6] literal string: s3eInetNtohs
+0x00010B11	0x00000010	[  6] literal string: s3eInetToString
+0x00010B21	0x00000012	[  6] literal string: s3eKeyboardAnyKey
+0x00010B33	0x00000016	[  6] literal string: s3eKeyboardClearState
+0x00010B49	0x00000013	[  6] literal string: s3eKeyboardGetChar
+0x00010B5C	0x0000001A	[  6] literal string: s3eKeyboardGetDisplayName
+0x00010B76	0x00000014	[  6] literal string: s3eKeyboardGetError
+0x00010B8A	0x0000001A	[  6] literal string: s3eKeyboardGetErrorString
+0x00010BA4	0x00000012	[  6] literal string: s3eKeyboardGetInt
+0x00010BB6	0x00000014	[  6] literal string: s3eKeyboardGetState
+0x00010BCA	0x00000014	[  6] literal string: s3eKeyboardRegister
+0x00010BDE	0x00000012	[  6] literal string: s3eKeyboardSetInt
+0x00010BF0	0x00000016	[  6] literal string: s3eKeyboardUnRegister
+0x00010C06	0x00000012	[  6] literal string: s3eKeyboardUpdate
+0x00010C18	0x0000000E	[  6] literal string: s3eLicenseBuy
+0x00010C26	0x00000013	[  6] literal string: s3eLicenseGetError
+0x00010C39	0x00000019	[  6] literal string: s3eLicenseGetErrorString
+0x00010C52	0x00000011	[  6] literal string: s3eLicenseGetInt
+0x00010C63	0x0000000A	[  6] literal string: s3eMalloc
+0x00010C6D	0x0000000E	[  6] literal string: s3eMallocBase
+0x00010C7B	0x00000012	[  6] literal string: s3eMemoryGetError
+0x00010C8D	0x00000018	[  6] literal string: s3eMemoryGetErrorString
+0x00010CA5	0x00000010	[  6] literal string: s3eMemoryGetInt
+0x00010CB5	0x00000017	[  6] literal string: s3eMemoryGetUserMemMgr
+0x00010CCC	0x00000015	[  6] literal string: s3eMemoryHeapAddress
+0x00010CE1	0x00000014	[  6] literal string: s3eMemoryHeapCreate
+0x00010CF5	0x00000015	[  6] literal string: s3eMemoryHeapDestroy
+0x00010D0A	0x00000010	[  6] literal string: s3eMemorySetInt
+0x00010D1A	0x00000017	[  6] literal string: s3eMemorySetUserMemMgr
+0x00010D31	0x00000013	[  6] literal string: s3ePointerGetError
+0x00010D44	0x00000019	[  6] literal string: s3ePointerGetErrorString
+0x00010D5D	0x00000011	[  6] literal string: s3ePointerGetInt
+0x00010D6E	0x00000013	[  6] literal string: s3ePointerGetState
+0x00010D81	0x00000018	[  6] literal string: s3ePointerGetTouchState
+0x00010D99	0x00000014	[  6] literal string: s3ePointerGetTouchX
+0x00010DAD	0x00000014	[  6] literal string: s3ePointerGetTouchY
+0x00010DC1	0x0000000F	[  6] literal string: s3ePointerGetX
+0x00010DD0	0x0000000F	[  6] literal string: s3ePointerGetY
+0x00010DDF	0x00000013	[  6] literal string: s3ePointerRegister
+0x00010DF2	0x00000011	[  6] literal string: s3ePointerSetInt
+0x00010E03	0x00000015	[  6] literal string: s3ePointerUnRegister
+0x00010E18	0x00000011	[  6] literal string: s3ePointerUpdate
+0x00010E29	0x0000000B	[  6] literal string: s3eRealloc
+0x00010E34	0x0000000F	[  6] literal string: s3eReallocBase
+0x00010E43	0x00000014	[  6] literal string: s3eSecureStorageGet
+0x00010E57	0x00000019	[  6] literal string: s3eSecureStorageGetError
+0x00010E70	0x0000001F	[  6] literal string: s3eSecureStorageGetErrorString
+0x00010E8F	0x00000014	[  6] literal string: s3eSecureStoragePut
+0x00010EA3	0x00000010	[  6] literal string: s3eSocketAccept
+0x00010EB3	0x0000000E	[  6] literal string: s3eSocketBind
+0x00010EC1	0x0000000F	[  6] literal string: s3eSocketClose
+0x00010ED0	0x00000011	[  6] literal string: s3eSocketConnect
+0x00010EE1	0x00000010	[  6] literal string: s3eSocketCreate
+0x00010EF1	0x00000012	[  6] literal string: s3eSocketGetError
+0x00010F03	0x00000018	[  6] literal string: s3eSocketGetErrorString
+0x00010F1B	0x00000010	[  6] literal string: s3eSocketGetInt
+0x00010F2B	0x00000016	[  6] literal string: s3eSocketGetLocalName
+0x00010F41	0x00000015	[  6] literal string: s3eSocketGetPeerName
+0x00010F56	0x00000013	[  6] literal string: s3eSocketGetString
+0x00010F69	0x00000010	[  6] literal string: s3eSocketListen
+0x00010F79	0x00000012	[  6] literal string: s3eSocketReadable
+0x00010F8B	0x0000000E	[  6] literal string: s3eSocketRecv
+0x00010F99	0x00000012	[  6] literal string: s3eSocketRecvFrom
+0x00010FAB	0x0000000E	[  6] literal string: s3eSocketSend
+0x00010FB9	0x00000010	[  6] literal string: s3eSocketSendTo
+0x00010FC9	0x00000012	[  6] literal string: s3eSocketWritable
+0x00010FDB	0x00000016	[  6] literal string: s3eSoundChannelGetInt
+0x00010FF1	0x00000015	[  6] literal string: s3eSoundChannelPause
+0x00011006	0x00000014	[  6] literal string: s3eSoundChannelPlay
+0x0001101A	0x00000018	[  6] literal string: s3eSoundChannelRegister
+0x00011032	0x00000016	[  6] literal string: s3eSoundChannelResume
+0x00011048	0x00000016	[  6] literal string: s3eSoundChannelSetInt
+0x0001105E	0x00000014	[  6] literal string: s3eSoundChannelStop
+0x00011072	0x0000001A	[  6] literal string: s3eSoundChannelUnRegister
+0x0001108C	0x00000011	[  6] literal string: s3eSoundGetError
+0x0001109D	0x00000017	[  6] literal string: s3eSoundGetErrorString
+0x000110B4	0x00000017	[  6] literal string: s3eSoundGetFreeChannel
+0x000110CB	0x0000000F	[  6] literal string: s3eSoundGetInt
+0x000110DA	0x00000019	[  6] literal string: s3eSoundPauseAllChannels
+0x000110F3	0x0000001A	[  6] literal string: s3eSoundResumeAllChannels
+0x0001110D	0x0000000F	[  6] literal string: s3eSoundSetInt
+0x0001111C	0x00000018	[  6] literal string: s3eSoundStopAllChannels
+0x00011134	0x00000015	[  6] literal string: s3eSurfaceConvertRGB
+0x00011149	0x00000013	[  6] literal string: s3eSurfaceGetError
+0x0001115C	0x00000019	[  6] literal string: s3eSurfaceGetErrorString
+0x00011175	0x00000011	[  6] literal string: s3eSurfaceGetInt
+0x00011186	0x00000015	[  6] literal string: s3eSurfaceInvalidate
+0x0001119B	0x0000000E	[  6] literal string: s3eSurfacePtr
+0x000111A9	0x00000013	[  6] literal string: s3eSurfaceRegister
+0x000111BC	0x00000017	[  6] literal string: s3eSurfaceSetDisplayID
+0x000111D3	0x00000011	[  6] literal string: s3eSurfaceSetInt
+0x000111E4	0x00000010	[  6] literal string: s3eSurfaceSetup
+0x000111F4	0x0000000F	[  6] literal string: s3eSurfaceShow
+0x00011203	0x00000015	[  6] literal string: s3eSurfaceUnRegister
+0x00011218	0x00000014	[  6] literal string: s3eTimerCancelTimer
+0x0001122C	0x00000011	[  6] literal string: s3eTimerGetError
+0x0001123D	0x00000017	[  6] literal string: s3eTimerGetErrorString
+0x00011254	0x0000000F	[  6] literal string: s3eTimerGetInt
+0x00011263	0x0000001B	[  6] literal string: s3eTimerGetLocaltimeOffset
+0x0001127E	0x0000000E	[  6] literal string: s3eTimerGetMs
+0x0001128C	0x0000000F	[  6] literal string: s3eTimerGetUST
+0x0001129B	0x0000000F	[  6] literal string: s3eTimerGetUTC
+0x000112AA	0x00000011	[  6] literal string: s3eTimerSetTimer
+0x000112BB	0x00000011	[  6] literal string: s3eVibraGetError
+0x000112CC	0x00000017	[  6] literal string: s3eVibraGetErrorString
+0x000112E3	0x0000000F	[  6] literal string: s3eVibraGetInt
+0x000112F2	0x0000000F	[  6] literal string: s3eVibraSetInt
+0x00011301	0x0000000D	[  6] literal string: s3eVibraStop
+0x0001130E	0x00000010	[  6] literal string: s3eVibraVibrate
+0x0001131E	0x00000011	[  6] literal string: s3eVideoGetError
+0x0001132F	0x00000017	[  6] literal string: s3eVideoGetErrorString
+0x00011346	0x0000000F	[  6] literal string: s3eVideoGetInt
+0x00011355	0x00000019	[  6] literal string: s3eVideoIsCodecSupported
+0x0001136E	0x00000012	[  6] literal string: s3eVideoIsPlaying
+0x00011380	0x0000000E	[  6] literal string: s3eVideoPause
+0x0001138E	0x0000000D	[  6] literal string: s3eVideoPlay
+0x0001139B	0x00000017	[  6] literal string: s3eVideoPlayFromBuffer
+0x000113B2	0x00000011	[  6] literal string: s3eVideoRegister
+0x000113C3	0x0000000F	[  6] literal string: s3eVideoResume
+0x000113D2	0x0000000F	[  6] literal string: s3eVideoSetInt
+0x000113E1	0x0000000D	[  6] literal string: s3eVideoStop
+0x000113EE	0x00000013	[  6] literal string: s3eVideoUnRegister
+0x00011401	0x00000017	[  6] literal string: s3eEdkCallbacksEnqueue
+0x00011418	0x0000001C	[  6] literal string: s3eEdkCallbacksIsRegistered
+0x00011434	0x00000018	[  6] literal string: s3eEdkCallbacksRegister
+0x0001144C	0x00000020	[  6] literal string: s3eEdkCallbacksRegisterInternal
+0x0001146C	0x00000020	[  6] literal string: s3eEdkCallbacksRegisterSpecific
+0x0001148C	0x0000001A	[  6] literal string: s3eEdkCallbacksUnRegister
+0x000114A8	0x00000020	[  6] literal string: s3eEdkCallbacksUnRegisterDevice
+0x000114C8	0x0000000F	[  6] literal string: s3eEdkErrorGet
+0x000114D7	0x00000015	[  6] literal string: s3eEdkErrorGetString
+0x000114EC	0x0000000F	[  6] literal string: s3eEdkErrorSet
+0x000114FB	0x00000016	[  6] literal string: s3eEdkErrorSetStringV
+0x00011511	0x0000000D	[  6] literal string: s3eEdkFreeOS
+0x0001151E	0x00000019	[  6] literal string: s3eEdkGetAppVersionMajor
+0x00011537	0x00000019	[  6] literal string: s3eEdkGetAppVersionMinor
+0x00011550	0x00000011	[  6] literal string: s3eEdkGlobalsGet
+0x00011561	0x00000014	[  6] literal string: s3eEdkIsInitialised
+0x00011575	0x00000013	[  6] literal string: s3eEdkLibraryClose
+0x00011588	0x00000013	[  6] literal string: s3eEdkLibraryError
+0x0001159B	0x00000017	[  6] literal string: s3eEdkLibraryGetSymbol
+0x000115B2	0x00000012	[  6] literal string: s3eEdkLibraryOpen
+0x000115C4	0x0000000F	[  6] literal string: s3eEdkMallocOS
+0x000115D3	0x00000010	[  6] literal string: s3eEdkReallocOS
+0x000115E3	0x0000000F	[  6] literal string: s3eEdkRegister
+0x000115F2	0x0000001A	[  6] literal string: s3eEdkThreadRunOnOSAsyncV
+0x0001160C	0x00000015	[  6] literal string: s3eEdkThreadRunOnOSV
+0x00011621	0x00000017	[  6] literal string: s3eEdkThreadSetResumed
+0x00011638	0x00000019	[  6] literal string: s3eEdkThreadSetSuspended
+0x00011651	0x00000012	[  6] literal string: s3eEdkThreadSleep
+0x00011664	0x00000060	[  6] literal string: Warning: Couldn't bind the following functions (not exported by the loader). Crash is likely.:
+
+0x000116C4	0x00000006	[  9] literal string: Error
+0x000116CA	0x00000012	[  9] literal string: %d/%m/%y %H:%M:%S
+0x000116DC	0x00000007	[  9] literal string: .%03d 
+0x000116E3	0x00000005	[  9] literal string: %s: 
+0x000116E8	0x00000006	[  9] literal string: trace
+0x000116EE	0x00000004	[  9] literal string: all
+0x000116F2	0x00000007	[  9] literal string: Assert
+0x000116F9	0x0000000A	[  9] literal string: Message: 
+0x00011703	0x00000002	[  9] literal string: 
+
+0x00011705	0x0000000C	[  9] literal string: 
+Solution: 
+0x00011712	0x0000001C	[  9] literal string: IwAssert failure (%s, %u).
+
+0x00011730	0x00000040	[  9] literal string: IwAssert failure:
+Channel: %s
+File: %s
+Line: %d
+Expression: %s
+
+0x00011770	0x00000021	[  9] literal string: Stop requested, debugger present
+0x00011794	0x00000024	[  9] literal string: Stop requested, no debugger present
+0x000117B8	0x0000000E	[  9] literal string: Continuing...
+0x000117C6	0x0000000C	[  9] literal string: Ignoring...
+0x000117D2	0x000000F8	[  0] compact unwind info
+0x000118D0	0x00000018	[  1] CIE
+0x000118E8	0x00000024	[  1] FDE for: __Z14s3eMapViewInitv
+0x0001190C	0x00000024	[  1] FDE for: _s3eMapViewGetPlatformLicensingString
+0x00011930	0x00000024	[  1] FDE for: _s3eMapViewRemovePOI
+0x00011954	0x0000002C	[  1] FDE for: __s3eMapViewAddPOI
+0x00011980	0x00000028	[  1] FDE for: __s3eMapViewGoTo
+0x000119A8	0x00000024	[  1] FDE for: _s3eMapViewSetShowUserLocation
+0x000119CC	0x00000024	[  1] FDE for: _s3eMapViewSetType
+0x000119F0	0x00000024	[  1] FDE for: _s3eMapViewSetVisible
+0x00011A14	0x0000002C	[  1] FDE for: _s3eMapViewSetScreenRect
+0x00011A40	0x00000024	[  1] FDE for: _s3eMapViewDestroy
+0x00011A64	0x00000024	[  1] FDE for: _s3eMapViewCreate
+0x00011A88	0x00000024	[  1] FDE for: __Z19s3eMapViewTerminatev
+0x00011AAC	0x00000018	[  2] CIE
+0x00011AC4	0x00000024	[  2] FDE for: _s3eMapViewRegister
+0x00011AE8	0x0000002C	[  2] FDE for: __Z21s3eMapViewRegisterExtv
+0x00011B14	0x00000024	[  2] FDE for: _s3eMapViewUnRegister
+0x00011B38	0x00000024	[  2] FDE for: __ZL21s3eMapViewCreate_wrapv
+0x00011B5C	0x00000024	[  2] FDE for: __ZL22s3eMapViewDestroy_wrapP10s3eMapView
+0x00011B80	0x0000002C	[  2] FDE for: __ZL28s3eMapViewSetScreenRect_wrapP10s3eMapViewiiii
+0x00011BAC	0x00000024	[  2] FDE for: __ZL25s3eMapViewSetVisible_wrapP10s3eMapViewb
+0x00011BD0	0x00000024	[  2] FDE for: __ZL22s3eMapViewSetType_wrapP10s3eMapView14s3eMapViewType
+0x00011BF4	0x00000024	[  2] FDE for: __ZL34s3eMapViewSetShowUserLocation_wrapP10s3eMapViewb
+0x00011C18	0x0000002C	[  2] FDE for: __ZL20_s3eMapViewGoTo_wrapP10s3eMapViewPK15s3eMapViewCoordPK14s3eMapViewSpanb
+0x00011C44	0x0000002C	[  2] FDE for: __ZL22_s3eMapViewAddPOI_wrapP10s3eMapViewPK15s3eMapViewCoordPKcS5_bPv
+0x00011C70	0x00000024	[  2] FDE for: __ZL24s3eMapViewRemovePOI_wrapP10s3eMapViewP13s3eMapViewPOI
+0x00011C94	0x00000024	[  2] FDE for: __ZL41s3eMapViewGetPlatformLicensingString_wrapv
+0x00011CB8	0x00000024	[  2] FDE for: _RegisterExt
+0x00011CDC	0x00000018	[  3] CIE
+0x00011CF4	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation initWithCoordinate:]
+0x00011D18	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation customData]
+0x00011D3C	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation setCustomData:]
+0x00011D60	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation clickable]
+0x00011D84	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation setClickable:]
+0x00011DA8	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation subtitle]
+0x00011DCC	0x00000028	[  3] FDE for: -[S3eMapViewAnnotation setSubtitle:]
+0x00011DF4	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation title]
+0x00011E18	0x00000028	[  3] FDE for: -[S3eMapViewAnnotation setTitle:]
+0x00011E40	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation coordinate]
+0x00011E64	0x00000024	[  3] FDE for: -[S3eMapViewAnnotation setCoordinate:]
+0x00011E88	0x00000018	[  4] CIE
+0x00011EA0	0x00000024	[  4] FDE for: __ZL20MKCoordinateSpanMakedd
+0x00011EC4	0x00000024	[  4] FDE for: __ZL22MKCoordinateRegionMake22CLLocationCoordinate2D16MKCoordinateSpan
+0x00011EE8	0x00000024	[  4] FDE for: -[S3eMapViewController isMapJsReady]
+0x00011F0C	0x00000024	[  4] FDE for: -[S3eMapViewController mapView]
+0x00011F30	0x00000024	[  4] FDE for: -[S3eMapViewController dealloc]
+0x00011F54	0x0000002C	[  4] FDE for: -[S3eMapViewController mapViewDidFinishLoadingMap:]
+0x00011F80	0x0000002C	[  4] FDE for: -[S3eMapViewController setRegion:animated:]
+0x00011FAC	0x00000028	[  4] FDE for: -[S3eMapViewController annotationSelectMenuClicked:]
+0x00011FD4	0x0000002C	[  4] FDE for: -[S3eMapViewController mapView:contextMenuItemsForAnnotationView:]
+0x00012000	0x00000028	[  4] FDE for: -[S3eMapViewController removeAnnotation:]
+0x00012028	0x00000028	[  4] FDE for: -[S3eMapViewController addAnnotation:]
+0x00012050	0x0000002C	[  4] FDE for: -[S3eMapViewController mapView:viewForAnnotation:]
+0x0001207C	0x00000028	[  4] FDE for: -[S3eMapViewController init]
+0x000120A4	0x00000018	[  5] CIE
+0x000120BC	0x00000024	[  5] FDE for: __Z23s3eMapViewInit_platformv
+0x000120E0	0x00000024	[  5] FDE for: __ZL20MKCoordinateSpanMakedd
+0x00012104	0x00000024	[  5] FDE for: __ZL22MKCoordinateRegionMake22CLLocationCoordinate2D16MKCoordinateSpan
+0x00012128	0x00000024	[  5] FDE for: __Z28s3eMapViewTerminate_platformv
+0x0001214C	0x00000024	[  5] FDE for: __Z45s3eMapViewGetPlatformLicensingString_platformv
+0x00012170	0x00000024	[  5] FDE for: __Z28s3eMapViewRemovePOI_platformP10s3eMapViewP13s3eMapViewPOI
+0x00012194	0x00000024	[  5] FDE for: __ZNK10s3eMapView7mapViewEv
+0x000121B8	0x00000028	[  5] FDE for: __Z26s3eMapViewSetType_platformP10s3eMapView14s3eMapViewType
+0x000121E0	0x00000024	[  5] FDE for: __Z29s3eMapViewSetVisible_platformP10s3eMapViewb
+0x00012204	0x00000024	[  5] FDE for: __Z26s3eMapViewDestroy_platformP10s3eMapView
+0x00012228	0x0000002C	[  5] FDE for: __Z25s3eMapViewAddPOI_platformP10s3eMapViewPK15s3eMapViewCoordPKcS5_bPv
+0x00012254	0x0000002C	[  5] FDE for: __Z23s3eMapViewGoTo_platformP10s3eMapViewPK15s3eMapViewCoordPK14s3eMapViewSpanb
+0x00012280	0x00000024	[  5] FDE for: __Z38s3eMapViewSetShowUserLocation_platformP10s3eMapViewb
+0x000122A4	0x0000002C	[  5] FDE for: __Z32s3eMapViewSetScreenRect_platformP10s3eMapViewiiii
+0x000122D0	0x00000024	[  5] FDE for: __Z25s3eMapViewCreate_platformv
+0x000122F4	0x00000018	[  6] CIE
+0x0001230C	0x0000002C	[  6] FDE for: __IwBindAPI
+0x00012338	0x00000024	[  6] FDE for: __IwAppEntry
+0x0001235C	0x00000018	[  7] CIE
+0x00012374	0x00000024	[  7] FDE for: _eglBindAPI
+0x00012398	0x00000024	[  7] FDE for: ___eglBindAPI
+0x000123BC	0x00000024	[  7] FDE for: _eglBindTexImage
+0x000123E0	0x00000024	[  7] FDE for: ___eglBindTexImage
+0x00012404	0x00000024	[  7] FDE for: _eglChooseConfig
+0x00012428	0x00000024	[  7] FDE for: ___eglChooseConfig
+0x0001244C	0x00000024	[  7] FDE for: _eglCopyBuffers
+0x00012470	0x00000024	[  7] FDE for: ___eglCopyBuffers
+0x00012494	0x00000024	[  7] FDE for: _eglCreateContext
+0x000124B8	0x00000024	[  7] FDE for: ___eglCreateContext
+0x000124DC	0x00000024	[  7] FDE for: _eglCreatePbufferFromClientBuffer
+0x00012500	0x00000024	[  7] FDE for: ___eglCreatePbufferFromClientBuffer
+0x00012524	0x00000024	[  7] FDE for: _eglCreatePbufferSurface
+0x00012548	0x00000024	[  7] FDE for: ___eglCreatePbufferSurface
+0x0001256C	0x00000024	[  7] FDE for: _eglCreatePixmapSurface
+0x00012590	0x00000024	[  7] FDE for: ___eglCreatePixmapSurface
+0x000125B4	0x00000024	[  7] FDE for: _eglCreateWindowSurface
+0x000125D8	0x00000024	[  7] FDE for: ___eglCreateWindowSurface
+0x000125FC	0x00000024	[  7] FDE for: _eglDestroyContext
+0x00012620	0x00000024	[  7] FDE for: ___eglDestroyContext
+0x00012644	0x00000024	[  7] FDE for: _eglDestroySurface
+0x00012668	0x00000024	[  7] FDE for: ___eglDestroySurface
+0x0001268C	0x00000024	[  7] FDE for: _eglGetConfigAttrib
+0x000126B0	0x00000024	[  7] FDE for: ___eglGetConfigAttrib
+0x000126D4	0x00000024	[  7] FDE for: _eglGetConfigs
+0x000126F8	0x00000024	[  7] FDE for: ___eglGetConfigs
+0x0001271C	0x00000024	[  7] FDE for: _eglGetCurrentContext
+0x00012740	0x00000024	[  7] FDE for: ___eglGetCurrentContext
+0x00012764	0x00000024	[  7] FDE for: _eglGetCurrentDisplay
+0x00012788	0x00000024	[  7] FDE for: ___eglGetCurrentDisplay
+0x000127AC	0x00000024	[  7] FDE for: _eglGetCurrentSurface
+0x000127D0	0x00000024	[  7] FDE for: ___eglGetCurrentSurface
+0x000127F4	0x00000024	[  7] FDE for: _eglGetDisplay
+0x00012818	0x00000024	[  7] FDE for: ___eglGetDisplay
+0x0001283C	0x00000024	[  7] FDE for: _eglGetError
+0x00012860	0x00000024	[  7] FDE for: ___eglGetError
+0x00012884	0x00000024	[  7] FDE for: _eglGetProcAddress
+0x000128A8	0x00000024	[  7] FDE for: ___eglGetProcAddress
+0x000128CC	0x00000024	[  7] FDE for: _eglInitialize
+0x000128F0	0x00000024	[  7] FDE for: ___eglInitialize
+0x00012914	0x00000024	[  7] FDE for: _eglMakeCurrent
+0x00012938	0x00000024	[  7] FDE for: ___eglMakeCurrent
+0x0001295C	0x00000024	[  7] FDE for: _eglQueryAPI
+0x00012980	0x00000024	[  7] FDE for: ___eglQueryAPI
+0x000129A4	0x00000024	[  7] FDE for: _eglQueryContext
+0x000129C8	0x00000024	[  7] FDE for: ___eglQueryContext
+0x000129EC	0x00000024	[  7] FDE for: _eglQueryString
+0x00012A10	0x00000024	[  7] FDE for: ___eglQueryString
+0x00012A34	0x00000024	[  7] FDE for: _eglQuerySurface
+0x00012A58	0x00000024	[  7] FDE for: ___eglQuerySurface
+0x00012A7C	0x00000024	[  7] FDE for: _eglReleaseTexImage
+0x00012AA0	0x00000024	[  7] FDE for: ___eglReleaseTexImage
+0x00012AC4	0x00000024	[  7] FDE for: _eglReleaseThread
+0x00012AE8	0x00000024	[  7] FDE for: ___eglReleaseThread
+0x00012B0C	0x00000024	[  7] FDE for: _eglSurfaceAttrib
+0x00012B30	0x00000024	[  7] FDE for: ___eglSurfaceAttrib
+0x00012B54	0x00000024	[  7] FDE for: _eglSwapBuffers
+0x00012B78	0x00000024	[  7] FDE for: ___eglSwapBuffers
+0x00012B9C	0x00000024	[  7] FDE for: _eglSwapInterval
+0x00012BC0	0x00000024	[  7] FDE for: ___eglSwapInterval
+0x00012BE4	0x00000024	[  7] FDE for: _eglTerminate
+0x00012C08	0x00000024	[  7] FDE for: ___eglTerminate
+0x00012C2C	0x00000024	[  7] FDE for: _eglWaitClient
+0x00012C50	0x00000024	[  7] FDE for: ___eglWaitClient
+0x00012C74	0x00000024	[  7] FDE for: _eglWaitGL
+0x00012C98	0x00000024	[  7] FDE for: ___eglWaitGL
+0x00012CBC	0x00000024	[  7] FDE for: _eglWaitNative
+0x00012CE0	0x00000024	[  7] FDE for: ___eglWaitNative
+0x00012D04	0x00000024	[  7] FDE for: _glActiveTexture
+0x00012D28	0x00000024	[  7] FDE for: ___glActiveTexture
+0x00012D4C	0x00000024	[  7] FDE for: _glAlphaFunc
+0x00012D70	0x00000024	[  7] FDE for: ___glAlphaFunc
+0x00012D94	0x00000024	[  7] FDE for: _glAlphaFuncx
+0x00012DB8	0x00000024	[  7] FDE for: ___glAlphaFuncx
+0x00012DDC	0x00000024	[  7] FDE for: _glAttachShader
+0x00012E00	0x00000024	[  7] FDE for: ___glAttachShader
+0x00012E24	0x00000024	[  7] FDE for: _glBindAttribLocation
+0x00012E48	0x00000024	[  7] FDE for: ___glBindAttribLocation
+0x00012E6C	0x00000024	[  7] FDE for: _glBindBuffer
+0x00012E90	0x00000024	[  7] FDE for: ___glBindBuffer
+0x00012EB4	0x00000024	[  7] FDE for: _glBindFramebuffer
+0x00012ED8	0x00000024	[  7] FDE for: ___glBindFramebuffer
+0x00012EFC	0x00000024	[  7] FDE for: _glBindRenderbuffer
+0x00012F20	0x00000024	[  7] FDE for: ___glBindRenderbuffer
+0x00012F44	0x00000024	[  7] FDE for: _glBindTexture
+0x00012F68	0x00000024	[  7] FDE for: ___glBindTexture
+0x00012F8C	0x00000024	[  7] FDE for: _glBlendColor
+0x00012FB0	0x00000024	[  7] FDE for: ___glBlendColor
+0x00012FD4	0x00000024	[  7] FDE for: _glBlendEquation
+0x00012FF8	0x00000024	[  7] FDE for: ___glBlendEquation
+0x0001301C	0x00000024	[  7] FDE for: _glBlendEquationSeparate
+0x00013040	0x00000024	[  7] FDE for: ___glBlendEquationSeparate
+0x00013064	0x00000024	[  7] FDE for: _glBlendFunc
+0x00013088	0x00000024	[  7] FDE for: ___glBlendFunc
+0x000130AC	0x00000024	[  7] FDE for: _glBlendFuncSeparate
+0x000130D0	0x00000024	[  7] FDE for: ___glBlendFuncSeparate
+0x000130F4	0x00000024	[  7] FDE for: _glBufferData
+0x00013118	0x00000024	[  7] FDE for: ___glBufferData
+0x0001313C	0x00000024	[  7] FDE for: _glBufferSubData
+0x00013160	0x00000024	[  7] FDE for: ___glBufferSubData
+0x00013184	0x00000024	[  7] FDE for: _glCheckFramebufferStatus
+0x000131A8	0x00000024	[  7] FDE for: ___glCheckFramebufferStatus
+0x000131CC	0x00000024	[  7] FDE for: _glClear
+0x000131F0	0x00000024	[  7] FDE for: ___glClear
+0x00013214	0x00000024	[  7] FDE for: _glClearColor
+0x00013238	0x00000024	[  7] FDE for: ___glClearColor
+0x0001325C	0x00000024	[  7] FDE for: _glClearColorx
+0x00013280	0x00000024	[  7] FDE for: ___glClearColorx
+0x000132A4	0x00000024	[  7] FDE for: _glClearDepthf
+0x000132C8	0x00000024	[  7] FDE for: ___glClearDepthf
+0x000132EC	0x00000024	[  7] FDE for: _glClearDepthx
+0x00013310	0x00000024	[  7] FDE for: ___glClearDepthx
+0x00013334	0x00000024	[  7] FDE for: _glClearStencil
+0x00013358	0x00000024	[  7] FDE for: ___glClearStencil
+0x0001337C	0x00000024	[  7] FDE for: _glClientActiveTexture
+0x000133A0	0x00000024	[  7] FDE for: ___glClientActiveTexture
+0x000133C4	0x00000024	[  7] FDE for: _glClipPlanef
+0x000133E8	0x00000024	[  7] FDE for: ___glClipPlanef
+0x0001340C	0x00000024	[  7] FDE for: _glClipPlanex
+0x00013430	0x00000024	[  7] FDE for: ___glClipPlanex
+0x00013454	0x00000024	[  7] FDE for: _glColor4f
+0x00013478	0x00000024	[  7] FDE for: ___glColor4f
+0x0001349C	0x00000024	[  7] FDE for: _glColor4ub
+0x000134C0	0x00000024	[  7] FDE for: ___glColor4ub
+0x000134E4	0x00000024	[  7] FDE for: _glColor4x
+0x00013508	0x00000024	[  7] FDE for: ___glColor4x
+0x0001352C	0x00000024	[  7] FDE for: _glColorMask
+0x00013550	0x00000024	[  7] FDE for: ___glColorMask
+0x00013574	0x00000024	[  7] FDE for: _glColorPointer
+0x00013598	0x00000024	[  7] FDE for: ___glColorPointer
+0x000135BC	0x00000024	[  7] FDE for: _glCompileShader
+0x000135E0	0x00000024	[  7] FDE for: ___glCompileShader
+0x00013604	0x00000024	[  7] FDE for: _glCompressedTexImage2D
+0x00013628	0x00000024	[  7] FDE for: ___glCompressedTexImage2D
+0x0001364C	0x00000024	[  7] FDE for: _glCompressedTexSubImage2D
+0x00013670	0x00000024	[  7] FDE for: ___glCompressedTexSubImage2D
+0x00013694	0x00000024	[  7] FDE for: _glCopyTexImage2D
+0x000136B8	0x00000024	[  7] FDE for: ___glCopyTexImage2D
+0x000136DC	0x00000024	[  7] FDE for: _glCopyTexSubImage2D
+0x00013700	0x00000024	[  7] FDE for: ___glCopyTexSubImage2D
+0x00013724	0x00000024	[  7] FDE for: _glCreateProgram
+0x00013748	0x00000024	[  7] FDE for: ___glCreateProgram
+0x0001376C	0x00000024	[  7] FDE for: _glCreateShader
+0x00013790	0x00000024	[  7] FDE for: ___glCreateShader
+0x000137B4	0x00000024	[  7] FDE for: _glCullFace
+0x000137D8	0x00000024	[  7] FDE for: ___glCullFace
+0x000137FC	0x00000024	[  7] FDE for: _glCurrentPaletteMatrixOES
+0x00013820	0x00000024	[  7] FDE for: ___glCurrentPaletteMatrixOES
+0x00013844	0x00000024	[  7] FDE for: _glDeleteBuffers
+0x00013868	0x00000024	[  7] FDE for: ___glDeleteBuffers
+0x0001388C	0x00000024	[  7] FDE for: _glDeleteFramebuffers
+0x000138B0	0x00000024	[  7] FDE for: ___glDeleteFramebuffers
+0x000138D4	0x00000024	[  7] FDE for: _glDeleteProgram
+0x000138F8	0x00000024	[  7] FDE for: ___glDeleteProgram
+0x0001391C	0x00000024	[  7] FDE for: _glDeleteRenderbuffers
+0x00013940	0x00000024	[  7] FDE for: ___glDeleteRenderbuffers
+0x00013964	0x00000024	[  7] FDE for: _glDeleteShader
+0x00013988	0x00000024	[  7] FDE for: ___glDeleteShader
+0x000139AC	0x00000024	[  7] FDE for: _glDeleteTextures
+0x000139D0	0x00000024	[  7] FDE for: ___glDeleteTextures
+0x000139F4	0x00000024	[  7] FDE for: _glDepthFunc
+0x00013A18	0x00000024	[  7] FDE for: ___glDepthFunc
+0x00013A3C	0x00000024	[  7] FDE for: _glDepthMask
+0x00013A60	0x00000024	[  7] FDE for: ___glDepthMask
+0x00013A84	0x00000024	[  7] FDE for: _glDepthRangef
+0x00013AA8	0x00000024	[  7] FDE for: ___glDepthRangef
+0x00013ACC	0x00000024	[  7] FDE for: _glDepthRangex
+0x00013AF0	0x00000024	[  7] FDE for: ___glDepthRangex
+0x00013B14	0x00000024	[  7] FDE for: _glDetachShader
+0x00013B38	0x00000024	[  7] FDE for: ___glDetachShader
+0x00013B5C	0x00000024	[  7] FDE for: _glDisable
+0x00013B80	0x00000024	[  7] FDE for: ___glDisable
+0x00013BA4	0x00000024	[  7] FDE for: _glDisableClientState
+0x00013BC8	0x00000024	[  7] FDE for: ___glDisableClientState
+0x00013BEC	0x00000024	[  7] FDE for: _glDisableVertexAttribArray
+0x00013C10	0x00000024	[  7] FDE for: ___glDisableVertexAttribArray
+0x00013C34	0x00000024	[  7] FDE for: _glDrawArrays
+0x00013C58	0x00000024	[  7] FDE for: ___glDrawArrays
+0x00013C7C	0x00000024	[  7] FDE for: _glDrawElements
+0x00013CA0	0x00000024	[  7] FDE for: ___glDrawElements
+0x00013CC4	0x00000024	[  7] FDE for: _glEnable
+0x00013CE8	0x00000024	[  7] FDE for: ___glEnable
+0x00013D0C	0x00000024	[  7] FDE for: _glEnableClientState
+0x00013D30	0x00000024	[  7] FDE for: ___glEnableClientState
+0x00013D54	0x00000024	[  7] FDE for: _glEnableVertexAttribArray
+0x00013D78	0x00000024	[  7] FDE for: ___glEnableVertexAttribArray
+0x00013D9C	0x00000024	[  7] FDE for: _glFinish
+0x00013DC0	0x00000024	[  7] FDE for: ___glFinish
+0x00013DE4	0x00000024	[  7] FDE for: _glFlush
+0x00013E08	0x00000024	[  7] FDE for: ___glFlush
+0x00013E2C	0x00000024	[  7] FDE for: _glFogf
+0x00013E50	0x00000024	[  7] FDE for: ___glFogf
+0x00013E74	0x00000024	[  7] FDE for: _glFogfv
+0x00013E98	0x00000024	[  7] FDE for: ___glFogfv
+0x00013EBC	0x00000024	[  7] FDE for: _glFogx
+0x00013EE0	0x00000024	[  7] FDE for: ___glFogx
+0x00013F04	0x00000024	[  7] FDE for: _glFogxv
+0x00013F28	0x00000024	[  7] FDE for: ___glFogxv
+0x00013F4C	0x00000024	[  7] FDE for: _glFramebufferRenderbuffer
+0x00013F70	0x00000024	[  7] FDE for: ___glFramebufferRenderbuffer
+0x00013F94	0x00000024	[  7] FDE for: _glFramebufferTexture2D
+0x00013FB8	0x00000024	[  7] FDE for: ___glFramebufferTexture2D
+0x00013FDC	0x00000024	[  7] FDE for: _glFrontFace
+0x00014000	0x00000024	[  7] FDE for: ___glFrontFace
+0x00014024	0x00000024	[  7] FDE for: _glFrustumf
+0x00014048	0x00000024	[  7] FDE for: ___glFrustumf
+0x0001406C	0x00000024	[  7] FDE for: _glFrustumx
+0x00014090	0x00000024	[  7] FDE for: ___glFrustumx
+0x000140B4	0x00000024	[  7] FDE for: _glGenBuffers
+0x000140D8	0x00000024	[  7] FDE for: ___glGenBuffers
+0x000140FC	0x00000024	[  7] FDE for: _glGenFramebuffers
+0x00014120	0x00000024	[  7] FDE for: ___glGenFramebuffers
+0x00014144	0x00000024	[  7] FDE for: _glGenRenderbuffers
+0x00014168	0x00000024	[  7] FDE for: ___glGenRenderbuffers
+0x0001418C	0x00000024	[  7] FDE for: _glGenTextures
+0x000141B0	0x00000024	[  7] FDE for: ___glGenTextures
+0x000141D4	0x00000024	[  7] FDE for: _glGenerateMipmap
+0x000141F8	0x00000024	[  7] FDE for: ___glGenerateMipmap
+0x0001421C	0x00000024	[  7] FDE for: _glGetActiveAttrib
+0x00014240	0x00000024	[  7] FDE for: ___glGetActiveAttrib
+0x00014264	0x00000024	[  7] FDE for: _glGetActiveUniform
+0x00014288	0x00000024	[  7] FDE for: ___glGetActiveUniform
+0x000142AC	0x00000024	[  7] FDE for: _glGetAttachedShaders
+0x000142D0	0x00000024	[  7] FDE for: ___glGetAttachedShaders
+0x000142F4	0x00000024	[  7] FDE for: _glGetAttribLocation
+0x00014318	0x00000024	[  7] FDE for: ___glGetAttribLocation
+0x0001433C	0x00000024	[  7] FDE for: _glGetBooleanv
+0x00014360	0x00000024	[  7] FDE for: ___glGetBooleanv
+0x00014384	0x00000024	[  7] FDE for: _glGetBufferParameteriv
+0x000143A8	0x00000024	[  7] FDE for: ___glGetBufferParameteriv
+0x000143CC	0x00000024	[  7] FDE for: _glGetClipPlanef
+0x000143F0	0x00000024	[  7] FDE for: ___glGetClipPlanef
+0x00014414	0x00000024	[  7] FDE for: _glGetClipPlanex
+0x00014438	0x00000024	[  7] FDE for: ___glGetClipPlanex
+0x0001445C	0x00000024	[  7] FDE for: _glGetError
+0x00014480	0x00000024	[  7] FDE for: ___glGetError
+0x000144A4	0x00000024	[  7] FDE for: _glGetFixedv
+0x000144C8	0x00000024	[  7] FDE for: ___glGetFixedv
+0x000144EC	0x00000024	[  7] FDE for: _glGetFloatv
+0x00014510	0x00000024	[  7] FDE for: ___glGetFloatv
+0x00014534	0x00000024	[  7] FDE for: _glGetFramebufferAttachmentParameteriv
+0x00014558	0x00000024	[  7] FDE for: ___glGetFramebufferAttachmentParameteriv
+0x0001457C	0x00000024	[  7] FDE for: _glGetIntegerv
+0x000145A0	0x00000024	[  7] FDE for: ___glGetIntegerv
+0x000145C4	0x00000024	[  7] FDE for: _glGetLightfv
+0x000145E8	0x00000024	[  7] FDE for: ___glGetLightfv
+0x0001460C	0x00000024	[  7] FDE for: _glGetLightxv
+0x00014630	0x00000024	[  7] FDE for: ___glGetLightxv
+0x00014654	0x00000024	[  7] FDE for: _glGetMaterialfv
+0x00014678	0x00000024	[  7] FDE for: ___glGetMaterialfv
+0x0001469C	0x00000024	[  7] FDE for: _glGetMaterialxv
+0x000146C0	0x00000024	[  7] FDE for: ___glGetMaterialxv
+0x000146E4	0x00000024	[  7] FDE for: _glGetPointerv
+0x00014708	0x00000024	[  7] FDE for: ___glGetPointerv
+0x0001472C	0x00000024	[  7] FDE for: _glGetProgramInfoLog
+0x00014750	0x00000024	[  7] FDE for: ___glGetProgramInfoLog
+0x00014774	0x00000024	[  7] FDE for: _glGetProgramiv
+0x00014798	0x00000024	[  7] FDE for: ___glGetProgramiv
+0x000147BC	0x00000024	[  7] FDE for: _glGetRenderbufferParameteriv
+0x000147E0	0x00000024	[  7] FDE for: ___glGetRenderbufferParameteriv
+0x00014804	0x00000024	[  7] FDE for: _glGetShaderInfoLog
+0x00014828	0x00000024	[  7] FDE for: ___glGetShaderInfoLog
+0x0001484C	0x00000024	[  7] FDE for: _glGetShaderPrecisionFormat
+0x00014870	0x00000024	[  7] FDE for: ___glGetShaderPrecisionFormat
+0x00014894	0x00000024	[  7] FDE for: _glGetShaderSource
+0x000148B8	0x00000024	[  7] FDE for: ___glGetShaderSource
+0x000148DC	0x00000024	[  7] FDE for: _glGetShaderiv
+0x00014900	0x00000024	[  7] FDE for: ___glGetShaderiv
+0x00014924	0x00000024	[  7] FDE for: _glGetString
+0x00014948	0x00000024	[  7] FDE for: ___glGetString
+0x0001496C	0x00000024	[  7] FDE for: _glGetTexEnvfv
+0x00014990	0x00000024	[  7] FDE for: ___glGetTexEnvfv
+0x000149B4	0x00000024	[  7] FDE for: _glGetTexEnviv
+0x000149D8	0x00000024	[  7] FDE for: ___glGetTexEnviv
+0x000149FC	0x00000024	[  7] FDE for: _glGetTexEnvxv
+0x00014A20	0x00000024	[  7] FDE for: ___glGetTexEnvxv
+0x00014A44	0x00000024	[  7] FDE for: _glGetTexParameterfv
+0x00014A68	0x00000024	[  7] FDE for: ___glGetTexParameterfv
+0x00014A8C	0x00000024	[  7] FDE for: _glGetTexParameteriv
+0x00014AB0	0x00000024	[  7] FDE for: ___glGetTexParameteriv
+0x00014AD4	0x00000024	[  7] FDE for: _glGetTexParameterxv
+0x00014AF8	0x00000024	[  7] FDE for: ___glGetTexParameterxv
+0x00014B1C	0x00000024	[  7] FDE for: _glGetUniformLocation
+0x00014B40	0x00000024	[  7] FDE for: ___glGetUniformLocation
+0x00014B64	0x00000024	[  7] FDE for: _glGetUniformfv
+0x00014B88	0x00000024	[  7] FDE for: ___glGetUniformfv
+0x00014BAC	0x00000024	[  7] FDE for: _glGetUniformiv
+0x00014BD0	0x00000024	[  7] FDE for: ___glGetUniformiv
+0x00014BF4	0x00000024	[  7] FDE for: _glGetVertexAttribPointerv
+0x00014C18	0x00000024	[  7] FDE for: ___glGetVertexAttribPointerv
+0x00014C3C	0x00000024	[  7] FDE for: _glGetVertexAttribfv
+0x00014C60	0x00000024	[  7] FDE for: ___glGetVertexAttribfv
+0x00014C84	0x00000024	[  7] FDE for: _glGetVertexAttribiv
+0x00014CA8	0x00000024	[  7] FDE for: ___glGetVertexAttribiv
+0x00014CCC	0x00000024	[  7] FDE for: _glHint
+0x00014CF0	0x00000024	[  7] FDE for: ___glHint
+0x00014D14	0x00000024	[  7] FDE for: _glIsBuffer
+0x00014D38	0x00000024	[  7] FDE for: ___glIsBuffer
+0x00014D5C	0x00000024	[  7] FDE for: _glIsEnabled
+0x00014D80	0x00000024	[  7] FDE for: ___glIsEnabled
+0x00014DA4	0x00000024	[  7] FDE for: _glIsFramebuffer
+0x00014DC8	0x00000024	[  7] FDE for: ___glIsFramebuffer
+0x00014DEC	0x00000024	[  7] FDE for: _glIsProgram
+0x00014E10	0x00000024	[  7] FDE for: ___glIsProgram
+0x00014E34	0x00000024	[  7] FDE for: _glIsRenderbuffer
+0x00014E58	0x00000024	[  7] FDE for: ___glIsRenderbuffer
+0x00014E7C	0x00000024	[  7] FDE for: _glIsShader
+0x00014EA0	0x00000024	[  7] FDE for: ___glIsShader
+0x00014EC4	0x00000024	[  7] FDE for: _glIsTexture
+0x00014EE8	0x00000024	[  7] FDE for: ___glIsTexture
+0x00014F0C	0x00000024	[  7] FDE for: _glLightModelf
+0x00014F30	0x00000024	[  7] FDE for: ___glLightModelf
+0x00014F54	0x00000024	[  7] FDE for: _glLightModelfv
+0x00014F78	0x00000024	[  7] FDE for: ___glLightModelfv
+0x00014F9C	0x00000024	[  7] FDE for: _glLightModelx
+0x00014FC0	0x00000024	[  7] FDE for: ___glLightModelx
+0x00014FE4	0x00000024	[  7] FDE for: _glLightModelxv
+0x00015008	0x00000024	[  7] FDE for: ___glLightModelxv
+0x0001502C	0x00000024	[  7] FDE for: _glLightf
+0x00015050	0x00000024	[  7] FDE for: ___glLightf
+0x00015074	0x00000024	[  7] FDE for: _glLightfv
+0x00015098	0x00000024	[  7] FDE for: ___glLightfv
+0x000150BC	0x00000024	[  7] FDE for: _glLightx
+0x000150E0	0x00000024	[  7] FDE for: ___glLightx
+0x00015104	0x00000024	[  7] FDE for: _glLightxv
+0x00015128	0x00000024	[  7] FDE for: ___glLightxv
+0x0001514C	0x00000024	[  7] FDE for: _glLineWidth
+0x00015170	0x00000024	[  7] FDE for: ___glLineWidth
+0x00015194	0x00000024	[  7] FDE for: _glLineWidthx
+0x000151B8	0x00000024	[  7] FDE for: ___glLineWidthx
+0x000151DC	0x00000024	[  7] FDE for: _glLinkProgram
+0x00015200	0x00000024	[  7] FDE for: ___glLinkProgram
+0x00015224	0x00000024	[  7] FDE for: _glLoadIdentity
+0x00015248	0x00000024	[  7] FDE for: ___glLoadIdentity
+0x0001526C	0x00000024	[  7] FDE for: _glLoadMatrixf
+0x00015290	0x00000024	[  7] FDE for: ___glLoadMatrixf
+0x000152B4	0x00000024	[  7] FDE for: _glLoadMatrixx
+0x000152D8	0x00000024	[  7] FDE for: ___glLoadMatrixx
+0x000152FC	0x00000024	[  7] FDE for: _glLogicOp
+0x00015320	0x00000024	[  7] FDE for: ___glLogicOp
+0x00015344	0x00000024	[  7] FDE for: _glMaterialf
+0x00015368	0x00000024	[  7] FDE for: ___glMaterialf
+0x0001538C	0x00000024	[  7] FDE for: _glMaterialfv
+0x000153B0	0x00000024	[  7] FDE for: ___glMaterialfv
+0x000153D4	0x00000024	[  7] FDE for: _glMaterialx
+0x000153F8	0x00000024	[  7] FDE for: ___glMaterialx
+0x0001541C	0x00000024	[  7] FDE for: _glMaterialxv
+0x00015440	0x00000024	[  7] FDE for: ___glMaterialxv
+0x00015464	0x00000024	[  7] FDE for: _glMatrixIndexPointerOES
+0x00015488	0x00000024	[  7] FDE for: ___glMatrixIndexPointerOES
+0x000154AC	0x00000024	[  7] FDE for: _glMatrixMode
+0x000154D0	0x00000024	[  7] FDE for: ___glMatrixMode
+0x000154F4	0x00000024	[  7] FDE for: _glMultMatrixf
+0x00015518	0x00000024	[  7] FDE for: ___glMultMatrixf
+0x0001553C	0x00000024	[  7] FDE for: _glMultMatrixx
+0x00015560	0x00000024	[  7] FDE for: ___glMultMatrixx
+0x00015584	0x00000024	[  7] FDE for: _glMultiTexCoord4f
+0x000155A8	0x00000024	[  7] FDE for: ___glMultiTexCoord4f
+0x000155CC	0x00000024	[  7] FDE for: _glMultiTexCoord4x
+0x000155F0	0x00000024	[  7] FDE for: ___glMultiTexCoord4x
+0x00015614	0x00000024	[  7] FDE for: _glNormal3f
+0x00015638	0x00000024	[  7] FDE for: ___glNormal3f
+0x0001565C	0x00000024	[  7] FDE for: _glNormal3x
+0x00015680	0x00000024	[  7] FDE for: ___glNormal3x
+0x000156A4	0x00000024	[  7] FDE for: _glNormalPointer
+0x000156C8	0x00000024	[  7] FDE for: ___glNormalPointer
+0x000156EC	0x00000024	[  7] FDE for: _glOrthof
+0x00015710	0x00000024	[  7] FDE for: ___glOrthof
+0x00015734	0x00000024	[  7] FDE for: _glOrthox
+0x00015758	0x00000024	[  7] FDE for: ___glOrthox
+0x0001577C	0x00000024	[  7] FDE for: _glPixelStorei
+0x000157A0	0x00000024	[  7] FDE for: ___glPixelStorei
+0x000157C4	0x00000024	[  7] FDE for: _glPointParameterf
+0x000157E8	0x00000024	[  7] FDE for: ___glPointParameterf
+0x0001580C	0x00000024	[  7] FDE for: _glPointParameterfv
+0x00015830	0x00000024	[  7] FDE for: ___glPointParameterfv
+0x00015854	0x00000024	[  7] FDE for: _glPointParameterx
+0x00015878	0x00000024	[  7] FDE for: ___glPointParameterx
+0x0001589C	0x00000024	[  7] FDE for: _glPointParameterxv
+0x000158C0	0x00000024	[  7] FDE for: ___glPointParameterxv
+0x000158E4	0x00000024	[  7] FDE for: _glPointSize
+0x00015908	0x00000024	[  7] FDE for: ___glPointSize
+0x0001592C	0x00000024	[  7] FDE for: _glPointSizePointerOES
+0x00015950	0x00000024	[  7] FDE for: ___glPointSizePointerOES
+0x00015974	0x00000024	[  7] FDE for: _glPointSizex
+0x00015998	0x00000024	[  7] FDE for: ___glPointSizex
+0x000159BC	0x00000024	[  7] FDE for: _glPolygonOffset
+0x000159E0	0x00000024	[  7] FDE for: ___glPolygonOffset
+0x00015A04	0x00000024	[  7] FDE for: _glPolygonOffsetx
+0x00015A28	0x00000024	[  7] FDE for: ___glPolygonOffsetx
+0x00015A4C	0x00000024	[  7] FDE for: _glPopMatrix
+0x00015A70	0x00000024	[  7] FDE for: ___glPopMatrix
+0x00015A94	0x00000024	[  7] FDE for: _glPushMatrix
+0x00015AB8	0x00000024	[  7] FDE for: ___glPushMatrix
+0x00015ADC	0x00000024	[  7] FDE for: _glReadPixels
+0x00015B00	0x00000024	[  7] FDE for: ___glReadPixels
+0x00015B24	0x00000024	[  7] FDE for: _glReleaseShaderCompiler
+0x00015B48	0x00000024	[  7] FDE for: ___glReleaseShaderCompiler
+0x00015B6C	0x00000024	[  7] FDE for: _glRenderbufferStorage
+0x00015B90	0x00000024	[  7] FDE for: ___glRenderbufferStorage
+0x00015BB4	0x00000024	[  7] FDE for: _glRotatef
+0x00015BD8	0x00000024	[  7] FDE for: ___glRotatef
+0x00015BFC	0x00000024	[  7] FDE for: _glRotatex
+0x00015C20	0x00000024	[  7] FDE for: ___glRotatex
+0x00015C44	0x00000024	[  7] FDE for: _glSampleCoverage
+0x00015C68	0x00000024	[  7] FDE for: ___glSampleCoverage
+0x00015C8C	0x00000024	[  7] FDE for: _glSampleCoveragex
+0x00015CB0	0x00000024	[  7] FDE for: ___glSampleCoveragex
+0x00015CD4	0x00000024	[  7] FDE for: _glScalef
+0x00015CF8	0x00000024	[  7] FDE for: ___glScalef
+0x00015D1C	0x00000024	[  7] FDE for: _glScalex
+0x00015D40	0x00000024	[  7] FDE for: ___glScalex
+0x00015D64	0x00000024	[  7] FDE for: _glScissor
+0x00015D88	0x00000024	[  7] FDE for: ___glScissor
+0x00015DAC	0x00000024	[  7] FDE for: _glShadeModel
+0x00015DD0	0x00000024	[  7] FDE for: ___glShadeModel
+0x00015DF4	0x00000024	[  7] FDE for: _glShaderBinary
+0x00015E18	0x00000024	[  7] FDE for: ___glShaderBinary
+0x00015E3C	0x00000024	[  7] FDE for: _glShaderSource
+0x00015E60	0x00000024	[  7] FDE for: ___glShaderSource
+0x00015E84	0x00000024	[  7] FDE for: _glStencilFunc
+0x00015EA8	0x00000024	[  7] FDE for: ___glStencilFunc
+0x00015ECC	0x00000024	[  7] FDE for: _glStencilFuncSeparate
+0x00015EF0	0x00000024	[  7] FDE for: ___glStencilFuncSeparate
+0x00015F14	0x00000024	[  7] FDE for: _glStencilMask
+0x00015F38	0x00000024	[  7] FDE for: ___glStencilMask
+0x00015F5C	0x00000024	[  7] FDE for: _glStencilMaskSeparate
+0x00015F80	0x00000024	[  7] FDE for: ___glStencilMaskSeparate
+0x00015FA4	0x00000024	[  7] FDE for: _glStencilOp
+0x00015FC8	0x00000024	[  7] FDE for: ___glStencilOp
+0x00015FEC	0x00000024	[  7] FDE for: _glStencilOpSeparate
+0x00016010	0x00000024	[  7] FDE for: ___glStencilOpSeparate
+0x00016034	0x00000024	[  7] FDE for: _glTexCoordPointer
+0x00016058	0x00000024	[  7] FDE for: ___glTexCoordPointer
+0x0001607C	0x00000024	[  7] FDE for: _glTexEnvf
+0x000160A0	0x00000024	[  7] FDE for: ___glTexEnvf
+0x000160C4	0x00000024	[  7] FDE for: _glTexEnvfv
+0x000160E8	0x00000024	[  7] FDE for: ___glTexEnvfv
+0x0001610C	0x00000024	[  7] FDE for: _glTexEnvi
+0x00016130	0x00000024	[  7] FDE for: ___glTexEnvi
+0x00016154	0x00000024	[  7] FDE for: _glTexEnviv
+0x00016178	0x00000024	[  7] FDE for: ___glTexEnviv
+0x0001619C	0x00000024	[  7] FDE for: _glTexEnvx
+0x000161C0	0x00000024	[  7] FDE for: ___glTexEnvx
+0x000161E4	0x00000024	[  7] FDE for: _glTexEnvxv
+0x00016208	0x00000024	[  7] FDE for: ___glTexEnvxv
+0x0001622C	0x00000024	[  7] FDE for: _glTexImage2D
+0x00016250	0x00000024	[  7] FDE for: ___glTexImage2D
+0x00016274	0x00000024	[  7] FDE for: _glTexParameterf
+0x00016298	0x00000024	[  7] FDE for: ___glTexParameterf
+0x000162BC	0x00000024	[  7] FDE for: _glTexParameterfv
+0x000162E0	0x00000024	[  7] FDE for: ___glTexParameterfv
+0x00016304	0x00000024	[  7] FDE for: _glTexParameteri
+0x00016328	0x00000024	[  7] FDE for: ___glTexParameteri
+0x0001634C	0x00000024	[  7] FDE for: _glTexParameteriv
+0x00016370	0x00000024	[  7] FDE for: ___glTexParameteriv
+0x00016394	0x00000024	[  7] FDE for: _glTexParameterx
+0x000163B8	0x00000024	[  7] FDE for: ___glTexParameterx
+0x000163DC	0x00000024	[  7] FDE for: _glTexParameterxv
+0x00016400	0x00000024	[  7] FDE for: ___glTexParameterxv
+0x00016424	0x00000024	[  7] FDE for: _glTexSubImage2D
+0x00016448	0x00000024	[  7] FDE for: ___glTexSubImage2D
+0x0001646C	0x00000024	[  7] FDE for: _glTranslatef
+0x00016490	0x00000024	[  7] FDE for: ___glTranslatef
+0x000164B4	0x00000024	[  7] FDE for: _glTranslatex
+0x000164D8	0x00000024	[  7] FDE for: ___glTranslatex
+0x000164FC	0x00000024	[  7] FDE for: _glUniform1f
+0x00016520	0x00000024	[  7] FDE for: ___glUniform1f
+0x00016544	0x00000024	[  7] FDE for: _glUniform1fv
+0x00016568	0x00000024	[  7] FDE for: ___glUniform1fv
+0x0001658C	0x00000024	[  7] FDE for: _glUniform1i
+0x000165B0	0x00000024	[  7] FDE for: ___glUniform1i
+0x000165D4	0x00000024	[  7] FDE for: _glUniform1iv
+0x000165F8	0x00000024	[  7] FDE for: ___glUniform1iv
+0x0001661C	0x00000024	[  7] FDE for: _glUniform2f
+0x00016640	0x00000024	[  7] FDE for: ___glUniform2f
+0x00016664	0x00000024	[  7] FDE for: _glUniform2fv
+0x00016688	0x00000024	[  7] FDE for: ___glUniform2fv
+0x000166AC	0x00000024	[  7] FDE for: _glUniform2i
+0x000166D0	0x00000024	[  7] FDE for: ___glUniform2i
+0x000166F4	0x00000024	[  7] FDE for: _glUniform2iv
+0x00016718	0x00000024	[  7] FDE for: ___glUniform2iv
+0x0001673C	0x00000024	[  7] FDE for: _glUniform3f
+0x00016760	0x00000024	[  7] FDE for: ___glUniform3f
+0x00016784	0x00000024	[  7] FDE for: _glUniform3fv
+0x000167A8	0x00000024	[  7] FDE for: ___glUniform3fv
+0x000167CC	0x00000024	[  7] FDE for: _glUniform3i
+0x000167F0	0x00000024	[  7] FDE for: ___glUniform3i
+0x00016814	0x00000024	[  7] FDE for: _glUniform3iv
+0x00016838	0x00000024	[  7] FDE for: ___glUniform3iv
+0x0001685C	0x00000024	[  7] FDE for: _glUniform4f
+0x00016880	0x00000024	[  7] FDE for: ___glUniform4f
+0x000168A4	0x00000024	[  7] FDE for: _glUniform4fv
+0x000168C8	0x00000024	[  7] FDE for: ___glUniform4fv
+0x000168EC	0x00000024	[  7] FDE for: _glUniform4i
+0x00016910	0x00000024	[  7] FDE for: ___glUniform4i
+0x00016934	0x00000024	[  7] FDE for: _glUniform4iv
+0x00016958	0x00000024	[  7] FDE for: ___glUniform4iv
+0x0001697C	0x00000024	[  7] FDE for: _glUniformMatrix2fv
+0x000169A0	0x00000024	[  7] FDE for: ___glUniformMatrix2fv
+0x000169C4	0x00000024	[  7] FDE for: _glUniformMatrix3fv
+0x000169E8	0x00000024	[  7] FDE for: ___glUniformMatrix3fv
+0x00016A0C	0x00000024	[  7] FDE for: _glUniformMatrix4fv
+0x00016A30	0x00000024	[  7] FDE for: ___glUniformMatrix4fv
+0x00016A54	0x00000024	[  7] FDE for: _glUseProgram
+0x00016A78	0x00000024	[  7] FDE for: ___glUseProgram
+0x00016A9C	0x00000024	[  7] FDE for: _glValidateProgram
+0x00016AC0	0x00000024	[  7] FDE for: ___glValidateProgram
+0x00016AE4	0x00000024	[  7] FDE for: _glVertexAttrib1f
+0x00016B08	0x00000024	[  7] FDE for: ___glVertexAttrib1f
+0x00016B2C	0x00000024	[  7] FDE for: _glVertexAttrib1fv
+0x00016B50	0x00000024	[  7] FDE for: ___glVertexAttrib1fv
+0x00016B74	0x00000024	[  7] FDE for: _glVertexAttrib2f
+0x00016B98	0x00000024	[  7] FDE for: ___glVertexAttrib2f
+0x00016BBC	0x00000024	[  7] FDE for: _glVertexAttrib2fv
+0x00016BE0	0x00000024	[  7] FDE for: ___glVertexAttrib2fv
+0x00016C04	0x00000024	[  7] FDE for: _glVertexAttrib3f
+0x00016C28	0x00000024	[  7] FDE for: ___glVertexAttrib3f
+0x00016C4C	0x00000024	[  7] FDE for: _glVertexAttrib3fv
+0x00016C70	0x00000024	[  7] FDE for: ___glVertexAttrib3fv
+0x00016C94	0x00000024	[  7] FDE for: _glVertexAttrib4f
+0x00016CB8	0x00000024	[  7] FDE for: ___glVertexAttrib4f
+0x00016CDC	0x00000024	[  7] FDE for: _glVertexAttrib4fv
+0x00016D00	0x00000024	[  7] FDE for: ___glVertexAttrib4fv
+0x00016D24	0x00000024	[  7] FDE for: _glVertexAttribPointer
+0x00016D48	0x00000024	[  7] FDE for: ___glVertexAttribPointer
+0x00016D6C	0x00000024	[  7] FDE for: _glVertexPointer
+0x00016D90	0x00000024	[  7] FDE for: ___glVertexPointer
+0x00016DB4	0x00000024	[  7] FDE for: _glViewport
+0x00016DD8	0x00000024	[  7] FDE for: ___glViewport
+0x00016DFC	0x00000024	[  7] FDE for: _glWeightPointerOES
+0x00016E20	0x00000024	[  7] FDE for: ___glWeightPointerOES
+0x00016E44	0x00000024	[  7] FDE for: _s3eAccelerometerGetError
+0x00016E68	0x00000024	[  7] FDE for: ___s3eAccelerometerGetError
+0x00016E8C	0x00000024	[  7] FDE for: _s3eAccelerometerGetErrorString
+0x00016EB0	0x00000024	[  7] FDE for: ___s3eAccelerometerGetErrorString
+0x00016ED4	0x00000024	[  7] FDE for: _s3eAccelerometerGetInt
+0x00016EF8	0x00000024	[  7] FDE for: ___s3eAccelerometerGetInt
+0x00016F1C	0x00000024	[  7] FDE for: _s3eAccelerometerGetX
+0x00016F40	0x00000024	[  7] FDE for: ___s3eAccelerometerGetX
+0x00016F64	0x00000024	[  7] FDE for: _s3eAccelerometerGetY
+0x00016F88	0x00000024	[  7] FDE for: ___s3eAccelerometerGetY
+0x00016FAC	0x00000024	[  7] FDE for: _s3eAccelerometerGetZ
+0x00016FD0	0x00000024	[  7] FDE for: ___s3eAccelerometerGetZ
+0x00016FF4	0x00000024	[  7] FDE for: _s3eAccelerometerStart
+0x00017018	0x00000024	[  7] FDE for: ___s3eAccelerometerStart
+0x0001703C	0x00000024	[  7] FDE for: _s3eAccelerometerStop
+0x00017060	0x00000024	[  7] FDE for: ___s3eAccelerometerStop
+0x00017084	0x00000024	[  7] FDE for: _s3eAudioGetError
+0x000170A8	0x00000024	[  7] FDE for: ___s3eAudioGetError
+0x000170CC	0x00000024	[  7] FDE for: _s3eAudioGetErrorString
+0x000170F0	0x00000024	[  7] FDE for: ___s3eAudioGetErrorString
+0x00017114	0x00000024	[  7] FDE for: _s3eAudioGetInt
+0x00017138	0x00000024	[  7] FDE for: ___s3eAudioGetInt
+0x0001715C	0x00000024	[  7] FDE for: _s3eAudioIsCodecSupported
+0x00017180	0x00000024	[  7] FDE for: ___s3eAudioIsCodecSupported
+0x000171A4	0x00000024	[  7] FDE for: _s3eAudioIsPlaying
+0x000171C8	0x00000024	[  7] FDE for: ___s3eAudioIsPlaying
+0x000171EC	0x00000024	[  7] FDE for: _s3eAudioPause
+0x00017210	0x00000024	[  7] FDE for: ___s3eAudioPause
+0x00017234	0x00000024	[  7] FDE for: _s3eAudioPlay
+0x00017258	0x00000024	[  7] FDE for: ___s3eAudioPlay
+0x0001727C	0x00000024	[  7] FDE for: _s3eAudioPlayFromBuffer
+0x000172A0	0x00000024	[  7] FDE for: ___s3eAudioPlayFromBuffer
+0x000172C4	0x00000024	[  7] FDE for: _s3eAudioRegister
+0x000172E8	0x00000024	[  7] FDE for: ___s3eAudioRegister
+0x0001730C	0x00000024	[  7] FDE for: _s3eAudioResume
+0x00017330	0x00000024	[  7] FDE for: ___s3eAudioResume
+0x00017354	0x00000024	[  7] FDE for: _s3eAudioSetInt
+0x00017378	0x00000024	[  7] FDE for: ___s3eAudioSetInt
+0x0001739C	0x00000024	[  7] FDE for: _s3eAudioStop
+0x000173C0	0x00000024	[  7] FDE for: ___s3eAudioStop
+0x000173E4	0x00000024	[  7] FDE for: _s3eAudioUnRegister
+0x00017408	0x00000024	[  7] FDE for: ___s3eAudioUnRegister
+0x0001742C	0x00000024	[  7] FDE for: _s3eCompressionDecomp
+0x00017450	0x00000024	[  7] FDE for: ___s3eCompressionDecomp
+0x00017474	0x00000024	[  7] FDE for: _s3eCompressionDecompFinal
+0x00017498	0x00000024	[  7] FDE for: ___s3eCompressionDecompFinal
+0x000174BC	0x00000024	[  7] FDE for: _s3eCompressionDecompInit
+0x000174E0	0x00000024	[  7] FDE for: ___s3eCompressionDecompInit
+0x00017504	0x00000024	[  7] FDE for: _s3eCompressionDecompRead
+0x00017528	0x00000024	[  7] FDE for: ___s3eCompressionDecompRead
+0x0001754C	0x00000024	[  7] FDE for: _s3eCompressionGetError
+0x00017570	0x00000024	[  7] FDE for: ___s3eCompressionGetError
+0x00017594	0x00000024	[  7] FDE for: _s3eCompressionGetErrorString
+0x000175B8	0x00000024	[  7] FDE for: ___s3eCompressionGetErrorString
+0x000175DC	0x00000024	[  7] FDE for: _s3eConfigGetError
+0x00017600	0x00000024	[  7] FDE for: ___s3eConfigGetError
+0x00017624	0x00000024	[  7] FDE for: _s3eConfigGetErrorString
+0x00017648	0x00000024	[  7] FDE for: ___s3eConfigGetErrorString
+0x0001766C	0x00000024	[  7] FDE for: _s3eConfigGetInt
+0x00017690	0x00000024	[  7] FDE for: ___s3eConfigGetInt
+0x000176B4	0x00000024	[  7] FDE for: _s3eConfigGetIntHash
+0x000176D8	0x00000024	[  7] FDE for: ___s3eConfigGetIntHash
+0x000176FC	0x00000024	[  7] FDE for: _s3eConfigGetString
+0x00017720	0x00000024	[  7] FDE for: ___s3eConfigGetString
+0x00017744	0x00000024	[  7] FDE for: _s3eConfigGetStringHash
+0x00017768	0x00000024	[  7] FDE for: ___s3eConfigGetStringHash
+0x0001778C	0x00000024	[  7] FDE for: _s3eCryptoGetError
+0x000177B0	0x00000024	[  7] FDE for: ___s3eCryptoGetError
+0x000177D4	0x00000024	[  7] FDE for: _s3eCryptoGetErrorString
+0x000177F8	0x00000024	[  7] FDE for: ___s3eCryptoGetErrorString
+0x0001781C	0x00000024	[  7] FDE for: _s3eCryptoRand
+0x00017840	0x00000024	[  7] FDE for: ___s3eCryptoRand
+0x00017864	0x00000024	[  7] FDE for: _s3eCryptoSha1
+0x00017888	0x00000024	[  7] FDE for: ___s3eCryptoSha1
+0x000178AC	0x00000024	[  7] FDE for: _s3eCryptoSha1Final
+0x000178D0	0x00000024	[  7] FDE for: ___s3eCryptoSha1Final
+0x000178F4	0x00000024	[  7] FDE for: _s3eCryptoSha1Init
+0x00017918	0x00000024	[  7] FDE for: ___s3eCryptoSha1Init
+0x0001793C	0x00000024	[  7] FDE for: _s3eCryptoSha1Update
+0x00017960	0x00000024	[  7] FDE for: ___s3eCryptoSha1Update
+0x00017984	0x00000024	[  7] FDE for: _s3eCryptoVerifyRsa
+0x000179A8	0x00000024	[  7] FDE for: ___s3eCryptoVerifyRsa
+0x000179CC	0x00000024	[  7] FDE for: _s3eDebugAssertShow
+0x000179F0	0x00000024	[  7] FDE for: ___s3eDebugAssertShow
+0x00017A14	0x00000024	[  7] FDE for: _s3eDebugErrorShow
+0x00017A38	0x00000024	[  7] FDE for: ___s3eDebugErrorShow
+0x00017A5C	0x00000024	[  7] FDE for: _s3eDebugGetError
+0x00017A80	0x00000024	[  7] FDE for: ___s3eDebugGetError
+0x00017AA4	0x00000024	[  7] FDE for: _s3eDebugGetErrorString
+0x00017AC8	0x00000024	[  7] FDE for: ___s3eDebugGetErrorString
+0x00017AEC	0x00000024	[  7] FDE for: _s3eDebugGetInt
+0x00017B10	0x00000024	[  7] FDE for: ___s3eDebugGetInt
+0x00017B34	0x00000024	[  7] FDE for: _s3eDebugIsDebuggerPresent
+0x00017B58	0x00000024	[  7] FDE for: ___s3eDebugIsDebuggerPresent
+0x00017B7C	0x00000024	[  7] FDE for: _s3eDebugOutputString
+0x00017BA0	0x00000024	[  7] FDE for: ___s3eDebugOutputString
+0x00017BC4	0x00000024	[  7] FDE for: _s3eDebugPrint
+0x00017BE8	0x00000024	[  7] FDE for: ___s3eDebugPrint
+0x00017C0C	0x00000024	[  7] FDE for: _s3eDebugRegister
+0x00017C30	0x00000024	[  7] FDE for: ___s3eDebugRegister
+0x00017C54	0x00000024	[  7] FDE for: _s3eDebugSetInt
+0x00017C78	0x00000024	[  7] FDE for: ___s3eDebugSetInt
+0x00017C9C	0x00000024	[  7] FDE for: _s3eDebugTraceChannelSwitch
+0x00017CC0	0x00000024	[  7] FDE for: ___s3eDebugTraceChannelSwitch
+0x00017CE4	0x00000024	[  7] FDE for: _s3eDebugTraceClearFile
+0x00017D08	0x00000024	[  7] FDE for: ___s3eDebugTraceClearFile
+0x00017D2C	0x00000024	[  7] FDE for: _s3eDebugTraceFlush
+0x00017D50	0x00000024	[  7] FDE for: ___s3eDebugTraceFlush
+0x00017D74	0x00000024	[  7] FDE for: _s3eDebugTraceLine
+0x00017D98	0x00000024	[  7] FDE for: ___s3eDebugTraceLine
+0x00017DBC	0x00000024	[  7] FDE for: _s3eDebugUnRegister
+0x00017DE0	0x00000024	[  7] FDE for: ___s3eDebugUnRegister
+0x00017E04	0x00000024	[  7] FDE for: _s3eDeviceBacklightOn
+0x00017E28	0x00000024	[  7] FDE for: ___s3eDeviceBacklightOn
+0x00017E4C	0x00000024	[  7] FDE for: _s3eDeviceCheckPauseRequest
+0x00017E70	0x00000024	[  7] FDE for: ___s3eDeviceCheckPauseRequest
+0x00017E94	0x00000024	[  7] FDE for: _s3eDeviceCheckQuitRequest
+0x00017EB8	0x00000024	[  7] FDE for: ___s3eDeviceCheckQuitRequest
+0x00017EDC	0x00000024	[  7] FDE for: _s3eDeviceExecPushNext
+0x00017F00	0x00000024	[  7] FDE for: ___s3eDeviceExecPushNext
+0x00017F24	0x00000024	[  7] FDE for: _s3eDeviceExit
+0x00017F48	0x00000024	[  7] FDE for: ___s3eDeviceExit
+0x00017F6C	0x00000024	[  7] FDE for: _s3eDeviceGetError
+0x00017F90	0x00000024	[  7] FDE for: ___s3eDeviceGetError
+0x00017FB4	0x00000024	[  7] FDE for: _s3eDeviceGetErrorString
+0x00017FD8	0x00000024	[  7] FDE for: ___s3eDeviceGetErrorString
+0x00017FFC	0x00000024	[  7] FDE for: _s3eDeviceGetInt
+0x00018020	0x00000024	[  7] FDE for: ___s3eDeviceGetInt
+0x00018044	0x00000024	[  7] FDE for: _s3eDeviceGetString
+0x00018068	0x00000024	[  7] FDE for: ___s3eDeviceGetString
+0x0001808C	0x00000024	[  7] FDE for: _s3eDeviceLoaderCallDone
+0x000180B0	0x00000024	[  7] FDE for: ___s3eDeviceLoaderCallDone
+0x000180D4	0x00000024	[  7] FDE for: _s3eDeviceLoaderCallStart
+0x000180F8	0x00000024	[  7] FDE for: ___s3eDeviceLoaderCallStart
+0x0001811C	0x00000024	[  7] FDE for: _s3eDeviceNetworkCheckStart
+0x00018140	0x00000024	[  7] FDE for: ___s3eDeviceNetworkCheckStart
+0x00018164	0x00000024	[  7] FDE for: _s3eDeviceNetworkCheckStop
+0x00018188	0x00000024	[  7] FDE for: ___s3eDeviceNetworkCheckStop
+0x000181AC	0x00000024	[  7] FDE for: _s3eDeviceRegister
+0x000181D0	0x00000024	[  7] FDE for: ___s3eDeviceRegister
+0x000181F4	0x00000024	[  7] FDE for: _s3eDeviceRequestQuit
+0x00018218	0x00000024	[  7] FDE for: ___s3eDeviceRequestQuit
+0x0001823C	0x00000024	[  7] FDE for: _s3eDeviceSetInt
+0x00018260	0x00000024	[  7] FDE for: ___s3eDeviceSetInt
+0x00018284	0x00000024	[  7] FDE for: _s3eDeviceUnRegister
+0x000182A8	0x00000024	[  7] FDE for: ___s3eDeviceUnRegister
+0x000182CC	0x00000024	[  7] FDE for: _s3eDeviceUnYield
+0x000182F0	0x00000024	[  7] FDE for: ___s3eDeviceUnYield
+0x00018314	0x00000024	[  7] FDE for: _s3eDeviceYield
+0x00018338	0x00000024	[  7] FDE for: ___s3eDeviceYield
+0x0001835C	0x00000024	[  7] FDE for: _s3eDeviceYieldUntilEvent
+0x00018380	0x00000024	[  7] FDE for: ___s3eDeviceYieldUntilEvent
+0x000183A4	0x00000024	[  7] FDE for: _s3eExtGet
+0x000183C8	0x00000024	[  7] FDE for: ___s3eExtGet
+0x000183EC	0x00000024	[  7] FDE for: _s3eExtGetError
+0x00018410	0x00000024	[  7] FDE for: ___s3eExtGetError
+0x00018434	0x00000024	[  7] FDE for: _s3eExtGetErrorString
+0x00018458	0x00000024	[  7] FDE for: ___s3eExtGetErrorString
+0x0001847C	0x00000024	[  7] FDE for: _s3eExtGetHash
+0x000184A0	0x00000024	[  7] FDE for: ___s3eExtGetHash
+0x000184C4	0x00000024	[  7] FDE for: _s3eFileAddUserFileSys
+0x000184E8	0x00000024	[  7] FDE for: ___s3eFileAddUserFileSys
+0x0001850C	0x00000024	[  7] FDE for: _s3eFileCheckExists
+0x00018530	0x00000024	[  7] FDE for: ___s3eFileCheckExists
+0x00018554	0x00000024	[  7] FDE for: _s3eFileClose
+0x00018578	0x00000024	[  7] FDE for: ___s3eFileClose
+0x0001859C	0x00000024	[  7] FDE for: _s3eFileDelete
+0x000185C0	0x00000024	[  7] FDE for: ___s3eFileDelete
+0x000185E4	0x00000024	[  7] FDE for: _s3eFileDeleteDirectory
+0x00018608	0x00000024	[  7] FDE for: ___s3eFileDeleteDirectory
+0x0001862C	0x00000024	[  7] FDE for: _s3eFileEOF
+0x00018650	0x00000024	[  7] FDE for: ___s3eFileEOF
+0x00018674	0x00000024	[  7] FDE for: _s3eFileFlush
+0x00018698	0x00000024	[  7] FDE for: ___s3eFileFlush
+0x000186BC	0x00000024	[  7] FDE for: _s3eFileGetChar
+0x000186E0	0x00000024	[  7] FDE for: ___s3eFileGetChar
+0x00018704	0x00000024	[  7] FDE for: _s3eFileGetError
+0x00018728	0x00000024	[  7] FDE for: ___s3eFileGetError
+0x0001874C	0x00000024	[  7] FDE for: _s3eFileGetErrorString
+0x00018770	0x00000024	[  7] FDE for: ___s3eFileGetErrorString
+0x00018794	0x00000024	[  7] FDE for: _s3eFileGetFileInt
+0x000187B8	0x00000024	[  7] FDE for: ___s3eFileGetFileInt
+0x000187DC	0x00000024	[  7] FDE for: _s3eFileGetFileString
+0x00018800	0x00000024	[  7] FDE for: ___s3eFileGetFileString
+0x00018824	0x00000024	[  7] FDE for: _s3eFileGetFree
+0x00018848	0x00000024	[  7] FDE for: ___s3eFileGetFree
+0x0001886C	0x00000024	[  7] FDE for: _s3eFileGetInt
+0x00018890	0x00000024	[  7] FDE for: ___s3eFileGetInt
+0x000188B4	0x00000024	[  7] FDE for: _s3eFileGetLastWriteTime
+0x000188D8	0x00000024	[  7] FDE for: ___s3eFileGetLastWriteTime
+0x000188FC	0x00000024	[  7] FDE for: _s3eFileGetSize
+0x00018920	0x00000024	[  7] FDE for: ___s3eFileGetSize
+0x00018944	0x00000024	[  7] FDE for: _s3eFileListClose
+0x00018968	0x00000024	[  7] FDE for: ___s3eFileListClose
+0x0001898C	0x00000024	[  7] FDE for: _s3eFileListDirectory
+0x000189B0	0x00000024	[  7] FDE for: ___s3eFileListDirectory
+0x000189D4	0x00000024	[  7] FDE for: _s3eFileListNext
+0x000189F8	0x00000024	[  7] FDE for: ___s3eFileListNext
+0x00018A1C	0x00000024	[  7] FDE for: _s3eFileMakeDirectory
+0x00018A40	0x00000024	[  7] FDE for: ___s3eFileMakeDirectory
+0x00018A64	0x00000024	[  7] FDE for: _s3eFileOpen
+0x00018A88	0x00000024	[  7] FDE for: ___s3eFileOpen
+0x00018AAC	0x00000024	[  7] FDE for: _s3eFileOpenFromMemory
+0x00018AD0	0x00000024	[  7] FDE for: ___s3eFileOpenFromMemory
+0x00018AF4	0x00000024	[  7] FDE for: _s3eFilePutChar
+0x00018B18	0x00000024	[  7] FDE for: ___s3eFilePutChar
+0x00018B3C	0x00000024	[  7] FDE for: _s3eFileRead
+0x00018B60	0x00000024	[  7] FDE for: ___s3eFileRead
+0x00018B84	0x00000024	[  7] FDE for: _s3eFileReadString
+0x00018BA8	0x00000024	[  7] FDE for: ___s3eFileReadString
+0x00018BCC	0x00000024	[  7] FDE for: _s3eFileRemoveUserFileSys
+0x00018BF0	0x00000024	[  7] FDE for: ___s3eFileRemoveUserFileSys
+0x00018C14	0x00000024	[  7] FDE for: _s3eFileRename
+0x00018C38	0x00000024	[  7] FDE for: ___s3eFileRename
+0x00018C5C	0x00000024	[  7] FDE for: _s3eFileSeek
+0x00018C80	0x00000024	[  7] FDE for: ___s3eFileSeek
+0x00018CA4	0x00000024	[  7] FDE for: _s3eFileSetInt
+0x00018CC8	0x00000024	[  7] FDE for: ___s3eFileSetInt
+0x00018CEC	0x00000024	[  7] FDE for: _s3eFileTell
+0x00018D10	0x00000024	[  7] FDE for: ___s3eFileTell
+0x00018D34	0x00000024	[  7] FDE for: _s3eFileTruncate
+0x00018D58	0x00000024	[  7] FDE for: ___s3eFileTruncate
+0x00018D7C	0x00000024	[  7] FDE for: _s3eFileWrite
+0x00018DA0	0x00000024	[  7] FDE for: ___s3eFileWrite
+0x00018DC4	0x00000024	[  7] FDE for: _s3eFree
+0x00018DE8	0x00000024	[  7] FDE for: ___s3eFree
+0x00018E0C	0x00000024	[  7] FDE for: _s3eFreeBase
+0x00018E30	0x00000024	[  7] FDE for: ___s3eFreeBase
+0x00018E54	0x00000024	[  7] FDE for: _s3eGLGetError
+0x00018E78	0x00000024	[  7] FDE for: ___s3eGLGetError
+0x00018E9C	0x00000024	[  7] FDE for: _s3eGLGetErrorString
+0x00018EC0	0x00000024	[  7] FDE for: ___s3eGLGetErrorString
+0x00018EE4	0x00000024	[  7] FDE for: _s3eGLGetInt
+0x00018F08	0x00000024	[  7] FDE for: ___s3eGLGetInt
+0x00018F2C	0x00000024	[  7] FDE for: _s3eGLGetNativeWindow
+0x00018F50	0x00000024	[  7] FDE for: ___s3eGLGetNativeWindow
+0x00018F74	0x00000024	[  7] FDE for: _s3eGLRegister
+0x00018F98	0x00000024	[  7] FDE for: ___s3eGLRegister
+0x00018FBC	0x00000024	[  7] FDE for: _s3eGLUnRegister
+0x00018FE0	0x00000024	[  7] FDE for: ___s3eGLUnRegister
+0x00019004	0x00000024	[  7] FDE for: _s3eGLUnavailable
+0x00019028	0x00000024	[  7] FDE for: ___s3eGLUnavailable
+0x0001904C	0x00000024	[  7] FDE for: _s3eInetAton
+0x00019070	0x00000024	[  7] FDE for: ___s3eInetAton
+0x00019094	0x00000024	[  7] FDE for: _s3eInetHtonl
+0x000190B8	0x00000024	[  7] FDE for: ___s3eInetHtonl
+0x000190DC	0x00000024	[  7] FDE for: _s3eInetHtons
+0x00019100	0x00000024	[  7] FDE for: ___s3eInetHtons
+0x00019124	0x00000024	[  7] FDE for: _s3eInetLookup
+0x00019148	0x00000024	[  7] FDE for: ___s3eInetLookup
+0x0001916C	0x00000024	[  7] FDE for: _s3eInetLookupCancel
+0x00019190	0x00000024	[  7] FDE for: ___s3eInetLookupCancel
+0x000191B4	0x00000024	[  7] FDE for: _s3eInetNtoa
+0x000191D8	0x00000024	[  7] FDE for: ___s3eInetNtoa
+0x000191FC	0x00000024	[  7] FDE for: _s3eInetNtohl
+0x00019220	0x00000024	[  7] FDE for: ___s3eInetNtohl
+0x00019244	0x00000024	[  7] FDE for: _s3eInetNtohs
+0x00019268	0x00000024	[  7] FDE for: ___s3eInetNtohs
+0x0001928C	0x00000024	[  7] FDE for: _s3eInetToString
+0x000192B0	0x00000024	[  7] FDE for: ___s3eInetToString
+0x000192D4	0x00000024	[  7] FDE for: _s3eKeyboardAnyKey
+0x000192F8	0x00000024	[  7] FDE for: ___s3eKeyboardAnyKey
+0x0001931C	0x00000024	[  7] FDE for: _s3eKeyboardClearState
+0x00019340	0x00000024	[  7] FDE for: ___s3eKeyboardClearState
+0x00019364	0x00000024	[  7] FDE for: _s3eKeyboardGetChar
+0x00019388	0x00000024	[  7] FDE for: ___s3eKeyboardGetChar
+0x000193AC	0x00000024	[  7] FDE for: _s3eKeyboardGetDisplayName
+0x000193D0	0x00000024	[  7] FDE for: ___s3eKeyboardGetDisplayName
+0x000193F4	0x00000024	[  7] FDE for: _s3eKeyboardGetError
+0x00019418	0x00000024	[  7] FDE for: ___s3eKeyboardGetError
+0x0001943C	0x00000024	[  7] FDE for: _s3eKeyboardGetErrorString
+0x00019460	0x00000024	[  7] FDE for: ___s3eKeyboardGetErrorString
+0x00019484	0x00000024	[  7] FDE for: _s3eKeyboardGetInt
+0x000194A8	0x00000024	[  7] FDE for: ___s3eKeyboardGetInt
+0x000194CC	0x00000024	[  7] FDE for: _s3eKeyboardGetState
+0x000194F0	0x00000024	[  7] FDE for: ___s3eKeyboardGetState
+0x00019514	0x00000024	[  7] FDE for: _s3eKeyboardRegister
+0x00019538	0x00000024	[  7] FDE for: ___s3eKeyboardRegister
+0x0001955C	0x00000024	[  7] FDE for: _s3eKeyboardSetInt
+0x00019580	0x00000024	[  7] FDE for: ___s3eKeyboardSetInt
+0x000195A4	0x00000024	[  7] FDE for: _s3eKeyboardUnRegister
+0x000195C8	0x00000024	[  7] FDE for: ___s3eKeyboardUnRegister
+0x000195EC	0x00000024	[  7] FDE for: _s3eKeyboardUpdate
+0x00019610	0x00000024	[  7] FDE for: ___s3eKeyboardUpdate
+0x00019634	0x00000024	[  7] FDE for: _s3eLicenseBuy
+0x00019658	0x00000024	[  7] FDE for: ___s3eLicenseBuy
+0x0001967C	0x00000024	[  7] FDE for: _s3eLicenseGetError
+0x000196A0	0x00000024	[  7] FDE for: ___s3eLicenseGetError
+0x000196C4	0x00000024	[  7] FDE for: _s3eLicenseGetErrorString
+0x000196E8	0x00000024	[  7] FDE for: ___s3eLicenseGetErrorString
+0x0001970C	0x00000024	[  7] FDE for: _s3eLicenseGetInt
+0x00019730	0x00000024	[  7] FDE for: ___s3eLicenseGetInt
+0x00019754	0x00000024	[  7] FDE for: _s3eMalloc
+0x00019778	0x00000024	[  7] FDE for: ___s3eMalloc
+0x0001979C	0x00000024	[  7] FDE for: _s3eMallocBase
+0x000197C0	0x00000024	[  7] FDE for: ___s3eMallocBase
+0x000197E4	0x00000024	[  7] FDE for: _s3eMemoryGetError
+0x00019808	0x00000024	[  7] FDE for: ___s3eMemoryGetError
+0x0001982C	0x00000024	[  7] FDE for: _s3eMemoryGetErrorString
+0x00019850	0x00000024	[  7] FDE for: ___s3eMemoryGetErrorString
+0x00019874	0x00000024	[  7] FDE for: _s3eMemoryGetInt
+0x00019898	0x00000024	[  7] FDE for: ___s3eMemoryGetInt
+0x000198BC	0x00000024	[  7] FDE for: _s3eMemoryGetUserMemMgr
+0x000198E0	0x00000024	[  7] FDE for: ___s3eMemoryGetUserMemMgr
+0x00019904	0x00000024	[  7] FDE for: _s3eMemoryHeapAddress
+0x00019928	0x00000024	[  7] FDE for: ___s3eMemoryHeapAddress
+0x0001994C	0x00000024	[  7] FDE for: _s3eMemoryHeapCreate
+0x00019970	0x00000024	[  7] FDE for: ___s3eMemoryHeapCreate
+0x00019994	0x00000024	[  7] FDE for: _s3eMemoryHeapDestroy
+0x000199B8	0x00000024	[  7] FDE for: ___s3eMemoryHeapDestroy
+0x000199DC	0x00000024	[  7] FDE for: _s3eMemorySetInt
+0x00019A00	0x00000024	[  7] FDE for: ___s3eMemorySetInt
+0x00019A24	0x00000024	[  7] FDE for: _s3eMemorySetUserMemMgr
+0x00019A48	0x00000024	[  7] FDE for: ___s3eMemorySetUserMemMgr
+0x00019A6C	0x00000024	[  7] FDE for: _s3ePointerGetError
+0x00019A90	0x00000024	[  7] FDE for: ___s3ePointerGetError
+0x00019AB4	0x00000024	[  7] FDE for: _s3ePointerGetErrorString
+0x00019AD8	0x00000024	[  7] FDE for: ___s3ePointerGetErrorString
+0x00019AFC	0x00000024	[  7] FDE for: _s3ePointerGetInt
+0x00019B20	0x00000024	[  7] FDE for: ___s3ePointerGetInt
+0x00019B44	0x00000024	[  7] FDE for: _s3ePointerGetState
+0x00019B68	0x00000024	[  7] FDE for: ___s3ePointerGetState
+0x00019B8C	0x00000024	[  7] FDE for: _s3ePointerGetTouchState
+0x00019BB0	0x00000024	[  7] FDE for: ___s3ePointerGetTouchState
+0x00019BD4	0x00000024	[  7] FDE for: _s3ePointerGetTouchX
+0x00019BF8	0x00000024	[  7] FDE for: ___s3ePointerGetTouchX
+0x00019C1C	0x00000024	[  7] FDE for: _s3ePointerGetTouchY
+0x00019C40	0x00000024	[  7] FDE for: ___s3ePointerGetTouchY
+0x00019C64	0x00000024	[  7] FDE for: _s3ePointerGetX
+0x00019C88	0x00000024	[  7] FDE for: ___s3ePointerGetX
+0x00019CAC	0x00000024	[  7] FDE for: _s3ePointerGetY
+0x00019CD0	0x00000024	[  7] FDE for: ___s3ePointerGetY
+0x00019CF4	0x00000024	[  7] FDE for: _s3ePointerRegister
+0x00019D18	0x00000024	[  7] FDE for: ___s3ePointerRegister
+0x00019D3C	0x00000024	[  7] FDE for: _s3ePointerSetInt
+0x00019D60	0x00000024	[  7] FDE for: ___s3ePointerSetInt
+0x00019D84	0x00000024	[  7] FDE for: _s3ePointerUnRegister
+0x00019DA8	0x00000024	[  7] FDE for: ___s3ePointerUnRegister
+0x00019DCC	0x00000024	[  7] FDE for: _s3ePointerUpdate
+0x00019DF0	0x00000024	[  7] FDE for: ___s3ePointerUpdate
+0x00019E14	0x00000024	[  7] FDE for: _s3eRealloc
+0x00019E38	0x00000024	[  7] FDE for: ___s3eRealloc
+0x00019E5C	0x00000024	[  7] FDE for: _s3eReallocBase
+0x00019E80	0x00000024	[  7] FDE for: ___s3eReallocBase
+0x00019EA4	0x00000024	[  7] FDE for: _s3eSecureStorageGet
+0x00019EC8	0x00000024	[  7] FDE for: ___s3eSecureStorageGet
+0x00019EEC	0x00000024	[  7] FDE for: _s3eSecureStorageGetError
+0x00019F10	0x00000024	[  7] FDE for: ___s3eSecureStorageGetError
+0x00019F34	0x00000024	[  7] FDE for: _s3eSecureStorageGetErrorString
+0x00019F58	0x00000024	[  7] FDE for: ___s3eSecureStorageGetErrorString
+0x00019F7C	0x00000024	[  7] FDE for: _s3eSecureStoragePut
+0x00019FA0	0x00000024	[  7] FDE for: ___s3eSecureStoragePut
+0x00019FC4	0x00000024	[  7] FDE for: _s3eSocketAccept
+0x00019FE8	0x00000024	[  7] FDE for: ___s3eSocketAccept
+0x0001A00C	0x00000024	[  7] FDE for: _s3eSocketBind
+0x0001A030	0x00000024	[  7] FDE for: ___s3eSocketBind
+0x0001A054	0x00000024	[  7] FDE for: _s3eSocketClose
+0x0001A078	0x00000024	[  7] FDE for: ___s3eSocketClose
+0x0001A09C	0x00000024	[  7] FDE for: _s3eSocketConnect
+0x0001A0C0	0x00000024	[  7] FDE for: ___s3eSocketConnect
+0x0001A0E4	0x00000024	[  7] FDE for: _s3eSocketCreate
+0x0001A108	0x00000024	[  7] FDE for: ___s3eSocketCreate
+0x0001A12C	0x00000024	[  7] FDE for: _s3eSocketGetError
+0x0001A150	0x00000024	[  7] FDE for: ___s3eSocketGetError
+0x0001A174	0x00000024	[  7] FDE for: _s3eSocketGetErrorString
+0x0001A198	0x00000024	[  7] FDE for: ___s3eSocketGetErrorString
+0x0001A1BC	0x00000024	[  7] FDE for: _s3eSocketGetInt
+0x0001A1E0	0x00000024	[  7] FDE for: ___s3eSocketGetInt
+0x0001A204	0x00000024	[  7] FDE for: _s3eSocketGetLocalName
+0x0001A228	0x00000024	[  7] FDE for: ___s3eSocketGetLocalName
+0x0001A24C	0x00000024	[  7] FDE for: _s3eSocketGetPeerName
+0x0001A270	0x00000024	[  7] FDE for: ___s3eSocketGetPeerName
+0x0001A294	0x00000024	[  7] FDE for: _s3eSocketGetString
+0x0001A2B8	0x00000024	[  7] FDE for: ___s3eSocketGetString
+0x0001A2DC	0x00000024	[  7] FDE for: _s3eSocketListen
+0x0001A300	0x00000024	[  7] FDE for: ___s3eSocketListen
+0x0001A324	0x00000024	[  7] FDE for: _s3eSocketReadable
+0x0001A348	0x00000024	[  7] FDE for: ___s3eSocketReadable
+0x0001A36C	0x00000024	[  7] FDE for: _s3eSocketRecv
+0x0001A390	0x00000024	[  7] FDE for: ___s3eSocketRecv
+0x0001A3B4	0x00000024	[  7] FDE for: _s3eSocketRecvFrom
+0x0001A3D8	0x00000024	[  7] FDE for: ___s3eSocketRecvFrom
+0x0001A3FC	0x00000024	[  7] FDE for: _s3eSocketSend
+0x0001A420	0x00000024	[  7] FDE for: ___s3eSocketSend
+0x0001A444	0x00000024	[  7] FDE for: _s3eSocketSendTo
+0x0001A468	0x00000024	[  7] FDE for: ___s3eSocketSendTo
+0x0001A48C	0x00000024	[  7] FDE for: _s3eSocketWritable
+0x0001A4B0	0x00000024	[  7] FDE for: ___s3eSocketWritable
+0x0001A4D4	0x00000024	[  7] FDE for: _s3eSoundChannelGetInt
+0x0001A4F8	0x00000024	[  7] FDE for: ___s3eSoundChannelGetInt
+0x0001A51C	0x00000024	[  7] FDE for: _s3eSoundChannelPause
+0x0001A540	0x00000024	[  7] FDE for: ___s3eSoundChannelPause
+0x0001A564	0x00000024	[  7] FDE for: _s3eSoundChannelPlay
+0x0001A588	0x00000024	[  7] FDE for: ___s3eSoundChannelPlay
+0x0001A5AC	0x00000024	[  7] FDE for: _s3eSoundChannelRegister
+0x0001A5D0	0x00000024	[  7] FDE for: ___s3eSoundChannelRegister
+0x0001A5F4	0x00000024	[  7] FDE for: _s3eSoundChannelResume
+0x0001A618	0x00000024	[  7] FDE for: ___s3eSoundChannelResume
+0x0001A63C	0x00000024	[  7] FDE for: _s3eSoundChannelSetInt
+0x0001A660	0x00000024	[  7] FDE for: ___s3eSoundChannelSetInt
+0x0001A684	0x00000024	[  7] FDE for: _s3eSoundChannelStop
+0x0001A6A8	0x00000024	[  7] FDE for: ___s3eSoundChannelStop
+0x0001A6CC	0x00000024	[  7] FDE for: _s3eSoundChannelUnRegister
+0x0001A6F0	0x00000024	[  7] FDE for: ___s3eSoundChannelUnRegister
+0x0001A714	0x00000024	[  7] FDE for: _s3eSoundGetError
+0x0001A738	0x00000024	[  7] FDE for: ___s3eSoundGetError
+0x0001A75C	0x00000024	[  7] FDE for: _s3eSoundGetErrorString
+0x0001A780	0x00000024	[  7] FDE for: ___s3eSoundGetErrorString
+0x0001A7A4	0x00000024	[  7] FDE for: _s3eSoundGetFreeChannel
+0x0001A7C8	0x00000024	[  7] FDE for: ___s3eSoundGetFreeChannel
+0x0001A7EC	0x00000024	[  7] FDE for: _s3eSoundGetInt
+0x0001A810	0x00000024	[  7] FDE for: ___s3eSoundGetInt
+0x0001A834	0x00000024	[  7] FDE for: _s3eSoundPauseAllChannels
+0x0001A858	0x00000024	[  7] FDE for: ___s3eSoundPauseAllChannels
+0x0001A87C	0x00000024	[  7] FDE for: _s3eSoundResumeAllChannels
+0x0001A8A0	0x00000024	[  7] FDE for: ___s3eSoundResumeAllChannels
+0x0001A8C4	0x00000024	[  7] FDE for: _s3eSoundSetInt
+0x0001A8E8	0x00000024	[  7] FDE for: ___s3eSoundSetInt
+0x0001A90C	0x00000024	[  7] FDE for: _s3eSoundStopAllChannels
+0x0001A930	0x00000024	[  7] FDE for: ___s3eSoundStopAllChannels
+0x0001A954	0x00000024	[  7] FDE for: _s3eSurfaceConvertRGB
+0x0001A978	0x00000024	[  7] FDE for: ___s3eSurfaceConvertRGB
+0x0001A99C	0x00000024	[  7] FDE for: _s3eSurfaceGetError
+0x0001A9C0	0x00000024	[  7] FDE for: ___s3eSurfaceGetError
+0x0001A9E4	0x00000024	[  7] FDE for: _s3eSurfaceGetErrorString
+0x0001AA08	0x00000024	[  7] FDE for: ___s3eSurfaceGetErrorString
+0x0001AA2C	0x00000024	[  7] FDE for: _s3eSurfaceGetInt
+0x0001AA50	0x00000024	[  7] FDE for: ___s3eSurfaceGetInt
+0x0001AA74	0x00000024	[  7] FDE for: _s3eSurfaceInvalidate
+0x0001AA98	0x00000024	[  7] FDE for: ___s3eSurfaceInvalidate
+0x0001AABC	0x00000024	[  7] FDE for: _s3eSurfacePtr
+0x0001AAE0	0x00000024	[  7] FDE for: ___s3eSurfacePtr
+0x0001AB04	0x00000024	[  7] FDE for: _s3eSurfaceRegister
+0x0001AB28	0x00000024	[  7] FDE for: ___s3eSurfaceRegister
+0x0001AB4C	0x00000024	[  7] FDE for: _s3eSurfaceSetDisplayID
+0x0001AB70	0x00000024	[  7] FDE for: ___s3eSurfaceSetDisplayID
+0x0001AB94	0x00000024	[  7] FDE for: _s3eSurfaceSetInt
+0x0001ABB8	0x00000024	[  7] FDE for: ___s3eSurfaceSetInt
+0x0001ABDC	0x00000024	[  7] FDE for: _s3eSurfaceSetup
+0x0001AC00	0x00000024	[  7] FDE for: ___s3eSurfaceSetup
+0x0001AC24	0x00000024	[  7] FDE for: _s3eSurfaceShow
+0x0001AC48	0x00000024	[  7] FDE for: ___s3eSurfaceShow
+0x0001AC6C	0x00000024	[  7] FDE for: _s3eSurfaceUnRegister
+0x0001AC90	0x00000024	[  7] FDE for: ___s3eSurfaceUnRegister
+0x0001ACB4	0x00000024	[  7] FDE for: _s3eTimerCancelTimer
+0x0001ACD8	0x00000024	[  7] FDE for: ___s3eTimerCancelTimer
+0x0001ACFC	0x00000024	[  7] FDE for: _s3eTimerGetError
+0x0001AD20	0x00000024	[  7] FDE for: ___s3eTimerGetError
+0x0001AD44	0x00000024	[  7] FDE for: _s3eTimerGetErrorString
+0x0001AD68	0x00000024	[  7] FDE for: ___s3eTimerGetErrorString
+0x0001AD8C	0x00000024	[  7] FDE for: _s3eTimerGetInt
+0x0001ADB0	0x00000024	[  7] FDE for: ___s3eTimerGetInt
+0x0001ADD4	0x00000024	[  7] FDE for: _s3eTimerGetLocaltimeOffset
+0x0001ADF8	0x00000024	[  7] FDE for: ___s3eTimerGetLocaltimeOffset
+0x0001AE1C	0x00000024	[  7] FDE for: _s3eTimerGetMs
+0x0001AE40	0x00000024	[  7] FDE for: ___s3eTimerGetMs
+0x0001AE64	0x00000024	[  7] FDE for: _s3eTimerGetUST
+0x0001AE88	0x00000024	[  7] FDE for: ___s3eTimerGetUST
+0x0001AEAC	0x00000024	[  7] FDE for: _s3eTimerGetUTC
+0x0001AED0	0x00000024	[  7] FDE for: ___s3eTimerGetUTC
+0x0001AEF4	0x00000024	[  7] FDE for: _s3eTimerSetTimer
+0x0001AF18	0x00000024	[  7] FDE for: ___s3eTimerSetTimer
+0x0001AF3C	0x00000024	[  7] FDE for: _s3eVibraGetError
+0x0001AF60	0x00000024	[  7] FDE for: ___s3eVibraGetError
+0x0001AF84	0x00000024	[  7] FDE for: _s3eVibraGetErrorString
+0x0001AFA8	0x00000024	[  7] FDE for: ___s3eVibraGetErrorString
+0x0001AFCC	0x00000024	[  7] FDE for: _s3eVibraGetInt
+0x0001AFF0	0x00000024	[  7] FDE for: ___s3eVibraGetInt
+0x0001B014	0x00000024	[  7] FDE for: _s3eVibraSetInt
+0x0001B038	0x00000024	[  7] FDE for: ___s3eVibraSetInt
+0x0001B05C	0x00000024	[  7] FDE for: _s3eVibraStop
+0x0001B080	0x00000024	[  7] FDE for: ___s3eVibraStop
+0x0001B0A4	0x00000024	[  7] FDE for: _s3eVibraVibrate
+0x0001B0C8	0x00000024	[  7] FDE for: ___s3eVibraVibrate
+0x0001B0EC	0x00000024	[  7] FDE for: _s3eVideoGetError
+0x0001B110	0x00000024	[  7] FDE for: ___s3eVideoGetError
+0x0001B134	0x00000024	[  7] FDE for: _s3eVideoGetErrorString
+0x0001B158	0x00000024	[  7] FDE for: ___s3eVideoGetErrorString
+0x0001B17C	0x00000024	[  7] FDE for: _s3eVideoGetInt
+0x0001B1A0	0x00000024	[  7] FDE for: ___s3eVideoGetInt
+0x0001B1C4	0x00000024	[  7] FDE for: _s3eVideoIsCodecSupported
+0x0001B1E8	0x00000024	[  7] FDE for: ___s3eVideoIsCodecSupported
+0x0001B20C	0x00000024	[  7] FDE for: _s3eVideoIsPlaying
+0x0001B230	0x00000024	[  7] FDE for: ___s3eVideoIsPlaying
+0x0001B254	0x00000024	[  7] FDE for: _s3eVideoPause
+0x0001B278	0x00000024	[  7] FDE for: ___s3eVideoPause
+0x0001B29C	0x00000024	[  7] FDE for: _s3eVideoPlay
+0x0001B2C0	0x00000024	[  7] FDE for: ___s3eVideoPlay
+0x0001B2E4	0x00000024	[  7] FDE for: _s3eVideoPlayFromBuffer
+0x0001B308	0x00000024	[  7] FDE for: ___s3eVideoPlayFromBuffer
+0x0001B32C	0x00000024	[  7] FDE for: _s3eVideoRegister
+0x0001B350	0x00000024	[  7] FDE for: ___s3eVideoRegister
+0x0001B374	0x00000024	[  7] FDE for: _s3eVideoResume
+0x0001B398	0x00000024	[  7] FDE for: ___s3eVideoResume
+0x0001B3BC	0x00000024	[  7] FDE for: _s3eVideoSetInt
+0x0001B3E0	0x00000024	[  7] FDE for: ___s3eVideoSetInt
+0x0001B404	0x00000024	[  7] FDE for: _s3eVideoStop
+0x0001B428	0x00000024	[  7] FDE for: ___s3eVideoStop
+0x0001B44C	0x00000024	[  7] FDE for: _s3eVideoUnRegister
+0x0001B470	0x00000024	[  7] FDE for: ___s3eVideoUnRegister
+0x0001B494	0x00000024	[  7] FDE for: _s3eEdkCallbacksEnqueue
+0x0001B4B8	0x00000024	[  7] FDE for: ___s3eEdkCallbacksEnqueue
+0x0001B4DC	0x00000024	[  7] FDE for: _s3eEdkCallbacksIsRegistered
+0x0001B500	0x00000024	[  7] FDE for: ___s3eEdkCallbacksIsRegistered
+0x0001B524	0x00000024	[  7] FDE for: _s3eEdkCallbacksRegister
+0x0001B548	0x00000024	[  7] FDE for: ___s3eEdkCallbacksRegister
+0x0001B56C	0x00000024	[  7] FDE for: _s3eEdkCallbacksRegisterInternal
+0x0001B590	0x00000024	[  7] FDE for: ___s3eEdkCallbacksRegisterInternal
+0x0001B5B4	0x00000024	[  7] FDE for: _s3eEdkCallbacksRegisterSpecific
+0x0001B5D8	0x00000024	[  7] FDE for: ___s3eEdkCallbacksRegisterSpecific
+0x0001B5FC	0x00000024	[  7] FDE for: _s3eEdkCallbacksUnRegister
+0x0001B620	0x00000024	[  7] FDE for: ___s3eEdkCallbacksUnRegister
+0x0001B644	0x00000024	[  7] FDE for: _s3eEdkCallbacksUnRegisterDevice
+0x0001B668	0x00000024	[  7] FDE for: ___s3eEdkCallbacksUnRegisterDevice
+0x0001B68C	0x00000024	[  7] FDE for: _s3eEdkErrorGet
+0x0001B6B0	0x00000024	[  7] FDE for: ___s3eEdkErrorGet
+0x0001B6D4	0x00000024	[  7] FDE for: _s3eEdkErrorGetString
+0x0001B6F8	0x00000024	[  7] FDE for: ___s3eEdkErrorGetString
+0x0001B71C	0x00000024	[  7] FDE for: _s3eEdkErrorSet
+0x0001B740	0x00000024	[  7] FDE for: ___s3eEdkErrorSet
+0x0001B764	0x00000024	[  7] FDE for: _s3eEdkErrorSetStringV
+0x0001B788	0x00000024	[  7] FDE for: ___s3eEdkErrorSetStringV
+0x0001B7AC	0x00000024	[  7] FDE for: _s3eEdkFreeOS
+0x0001B7D0	0x00000024	[  7] FDE for: ___s3eEdkFreeOS
+0x0001B7F4	0x00000024	[  7] FDE for: _s3eEdkGetAppVersionMajor
+0x0001B818	0x00000024	[  7] FDE for: ___s3eEdkGetAppVersionMajor
+0x0001B83C	0x00000024	[  7] FDE for: _s3eEdkGetAppVersionMinor
+0x0001B860	0x00000024	[  7] FDE for: ___s3eEdkGetAppVersionMinor
+0x0001B884	0x00000024	[  7] FDE for: _s3eEdkGlobalsGet
+0x0001B8A8	0x00000024	[  7] FDE for: ___s3eEdkGlobalsGet
+0x0001B8CC	0x00000024	[  7] FDE for: _s3eEdkIsInitialised
+0x0001B8F0	0x00000024	[  7] FDE for: ___s3eEdkIsInitialised
+0x0001B914	0x00000024	[  7] FDE for: _s3eEdkLibraryClose
+0x0001B938	0x00000024	[  7] FDE for: ___s3eEdkLibraryClose
+0x0001B95C	0x00000024	[  7] FDE for: _s3eEdkLibraryError
+0x0001B980	0x00000024	[  7] FDE for: ___s3eEdkLibraryError
+0x0001B9A4	0x00000024	[  7] FDE for: _s3eEdkLibraryGetSymbol
+0x0001B9C8	0x00000024	[  7] FDE for: ___s3eEdkLibraryGetSymbol
+0x0001B9EC	0x00000024	[  7] FDE for: _s3eEdkLibraryOpen
+0x0001BA10	0x00000024	[  7] FDE for: ___s3eEdkLibraryOpen
+0x0001BA34	0x00000024	[  7] FDE for: _s3eEdkMallocOS
+0x0001BA58	0x00000024	[  7] FDE for: ___s3eEdkMallocOS
+0x0001BA7C	0x00000024	[  7] FDE for: _s3eEdkReallocOS
+0x0001BAA0	0x00000024	[  7] FDE for: ___s3eEdkReallocOS
+0x0001BAC4	0x00000024	[  7] FDE for: _s3eEdkRegister
+0x0001BAE8	0x00000024	[  7] FDE for: ___s3eEdkRegister
+0x0001BB0C	0x00000024	[  7] FDE for: _s3eEdkThreadRunOnOSAsyncV
+0x0001BB30	0x00000024	[  7] FDE for: ___s3eEdkThreadRunOnOSAsyncV
+0x0001BB54	0x00000024	[  7] FDE for: _s3eEdkThreadRunOnOSV
+0x0001BB78	0x00000024	[  7] FDE for: ___s3eEdkThreadRunOnOSV
+0x0001BB9C	0x00000024	[  7] FDE for: _s3eEdkThreadSetResumed
+0x0001BBC0	0x00000024	[  7] FDE for: ___s3eEdkThreadSetResumed
+0x0001BBE4	0x00000024	[  7] FDE for: _s3eEdkThreadSetSuspended
+0x0001BC08	0x00000024	[  7] FDE for: ___s3eEdkThreadSetSuspended
+0x0001BC2C	0x00000024	[  7] FDE for: _s3eEdkThreadSleep
+0x0001BC50	0x00000024	[  7] FDE for: ___s3eEdkThreadSleep
+0x0001BC74	0x00000018	[  8] CIE
+0x0001BC8C	0x00000024	[  8] FDE for: _s3eEdkErrorSetString
+0x0001BCB0	0x00000024	[  8] FDE for: _s3eEdkThreadRunOnOSAsync
+0x0001BCD4	0x00000024	[  8] FDE for: _s3eEdkThreadRunOnOS
+0x0001BCF8	0x00000018	[  9] CIE
+0x0001BD10	0x00000028	[  9] FDE for: __GLOBAL__I_g_DebugGlobals
+0x0001BD38	0x00000024	[  9] FDE for: _IwAssertRegisterTextCallback
+0x0001BD5C	0x00000024	[  9] FDE for: _IwAssertRegisterCallback
+0x0001BD80	0x00000024	[  9] FDE for: _IwDebugTraceSetTraceChannel
+0x0001BDA4	0x00000024	[  9] FDE for: _IwDebugErrorRegisterCallback
+0x0001BDC8	0x00000024	[  9] FDE for: _IwDebugAssertSetUID
+0x0001BDEC	0x00000028	[  9] FDE for: _IwDebugClearConfigCache
+0x0001BE14	0x0000002C	[  9] FDE for: _IwDebugErrorShow
+0x0001BE40	0x0000002C	[  9] FDE for: _IwDebugTraceLineVPrintf
+0x0001BE6C	0x00000024	[  9] FDE for: _IwDebugTraceLinePrintf
+0x0001BE90	0x0000002C	[  9] FDE for: _IwDebugTraceIsChannelOn
+0x0001BEBC	0x0000002C	[  9] FDE for: _IwDebugTraceChannelSwitch
+0x0001BEE8	0x0000002C	[  9] FDE for: _IwDebugAssertIsChannelOn
+0x0001BF14	0x00000024	[  9] FDE for: _IwDebugTraceDisable
+0x0001BF38	0x0000002C	[  9] FDE for: _IwDebugAssertSetMessage
+0x0001BF64	0x0000002C	[  9] FDE for: _IwDebugAssertSetSolution
+0x0001BF90	0x0000002C	[  9] FDE for: _IwDebugAssertShow
+0x0001BFBC	0x00000018	[ 10] CIE
+0x0001BFD4	0x00000024	[ 10] FDE for: __IwMain
+0x0001C000	0x00000004	[  0] non-lazy-pointer-to-local: dyld_stub_binder
+0x0001C004	0x00000004	[  0] non-lazy-pointer
+0x0001C008	0x00000004	[  2] non-lazy-pointer-to: __Z14s3eMapViewInitv
+0x0001C00C	0x00000004	[  2] non-lazy-pointer-to: __Z19s3eMapViewTerminatev
+0x0001C010	0x00000004	[  2] non-lazy-pointer-to: __s3eMapViewAddPOI
+0x0001C014	0x00000004	[  2] non-lazy-pointer-to: __s3eMapViewGoTo
+0x0001C018	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewCreate
+0x0001C01C	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewDestroy
+0x0001C020	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewGetPlatformLicensingString
+0x0001C024	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewRemovePOI
+0x0001C028	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewSetScreenRect
+0x0001C02C	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewSetShowUserLocation
+0x0001C030	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewSetType
+0x0001C034	0x00000004	[  2] non-lazy-pointer-to: _s3eMapViewSetVisible
+0x0001C038	0x00000004	[  5] non-lazy-pointer-to: _NSApp
+0x0001C03C	0x00000004	[  7] non-lazy-pointer-to: _g_S3E_API
+0x0001C040	0x00000004	[  7] _s3eConfigGetInt
+0x0001C044	0x00000004	[  7] _s3eDebugAssertShow
+0x0001C048	0x00000004	[  7] _s3eDebugErrorShow
+0x0001C04C	0x00000004	[  7] _s3eDebugIsDebuggerPresent
+0x0001C050	0x00000004	[  7] _s3eDebugSetInt
+0x0001C054	0x00000004	[  7] _s3eDebugTraceLine
+0x0001C058	0x00000004	[  7] _s3eEdkCallbacksEnqueue
+0x0001C05C	0x00000004	[  7] _s3eEdkCallbacksRegister
+0x0001C060	0x00000004	[  7] _s3eEdkCallbacksUnRegister
+0x0001C064	0x00000004	[  7] _s3eEdkErrorSetStringV
+0x0001C068	0x00000004	[  7] _s3eEdkRegister
+0x0001C06C	0x00000004	[  7] _s3eEdkThreadRunOnOSAsyncV
+0x0001C070	0x00000004	[  7] _s3eEdkThreadRunOnOSV
+0x0001C074	0x00000004	[  7] _s3eTimerGetUTC
+0x0001C078	0x00000004	[ 11] _CLLocationCoordinate2DMake
+0x0001C07C	0x00000004	[ 12] __Znwm
+0x0001C080	0x00000004	[ 13] ___moddi3
+0x0001C084	0x00000004	[ 13] _localtime
+0x0001C088	0x00000004	[ 13] _memset
+0x0001C08C	0x00000004	[ 13] _snprintf
+0x0001C090	0x00000004	[ 13] _sprintf
+0x0001C094	0x00000004	[ 13] _strftime$UNIX2003
+0x0001C098	0x00000004	[ 13] _strlen
+0x0001C09C	0x00000004	[ 13] _strncat
+0x0001C0A0	0x00000004	[ 13] _strncpy
+0x0001C0A4	0x00000004	[ 13] _time
+0x0001C0A8	0x00000004	[ 13] _vsnprintf
+0x0001C0AC	0x00000004	[ 14] _NSLog
+0x0001C0B0	0x00000004	[ 15] _objc_msgSend
+0x0001C0B4	0x00000004	[ 15] _objc_msgSendSuper
+0x0001C0B8	0x00000004	[ 15] _objc_msgSend_stret
+0x0001C0BC	0x00000004	[ 15] _objc_setProperty
+0x0001C0C0	0x00000004	[  9] anon
+0x0001C0C4	0x00000010	[  4] CFString
+0x0001C0D4	0x00000010	[  4] CFString
+0x0001C0E4	0x00000010	[  4] CFString
+0x0001C0F4	0x00000010	[  4] CFString
+0x0001C104	0x00000010	[  4] CFString
+0x0001C114	0x00000010	[  5] CFString
+0x0001C124	0x00000010	[  5] CFString
+0x0001C140	0x00002200	[  6] _g_S3E_API
+0x0001E340	0x00000001	[  6] __IwAppVersionMajor
+0x0001E341	0x00000001	[  6] __IwAppVersionMinor
+0x0001E360	0x00000300	[  6] __ZL9g_Message
+0x0001E660	0x00002928	[  9] _g_DebugGlobals
+0x00021000	0x00000030	[  3] .objc_class_name_S3eMapViewAnnotation
+0x00021030	0x00000030	[  4] .objc_class_name_S3eMapViewController
+0x00021060	0x00000004	[  3] pointer-to-literal-cstring
+0x00021064	0x00000004	[  3] pointer-to-literal-cstring
+0x00021068	0x00000004	[  3] pointer-to-literal-cstring
+0x0002106C	0x00000004	[  4] pointer-to-literal-cstring
+0x00021070	0x00000004	[  4] pointer-to-literal-cstring
+0x00021074	0x00000004	[  4] pointer-to-literal-cstring
+0x00021078	0x00000004	[  4] pointer-to-literal-cstring
+0x0002107C	0x00000004	[  4] pointer-to-literal-cstring
+0x00021080	0x00000004	[  4] pointer-to-literal-cstring
+0x00021084	0x00000004	[  4] pointer-to-literal-cstring
+0x00021088	0x00000004	[  4] pointer-to-literal-cstring
+0x0002108C	0x00000004	[  4] pointer-to-literal-cstring
+0x00021090	0x00000004	[  4] pointer-to-literal-cstring
+0x00021094	0x00000004	[  4] pointer-to-literal-cstring
+0x00021098	0x00000004	[  4] pointer-to-literal-cstring
+0x0002109C	0x00000004	[  4] pointer-to-literal-cstring
+0x000210A0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210A4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210A8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210AC	0x00000004	[  4] pointer-to-literal-cstring
+0x000210B0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210B4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210B8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210BC	0x00000004	[  4] pointer-to-literal-cstring
+0x000210C0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210C4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210C8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210CC	0x00000004	[  4] pointer-to-literal-cstring
+0x000210D0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210D4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210D8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210DC	0x00000004	[  4] pointer-to-literal-cstring
+0x000210E0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210E4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210E8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210EC	0x00000004	[  4] pointer-to-literal-cstring
+0x000210F0	0x00000004	[  4] pointer-to-literal-cstring
+0x000210F4	0x00000004	[  4] pointer-to-literal-cstring
+0x000210F8	0x00000004	[  4] pointer-to-literal-cstring
+0x000210FC	0x00000004	[  5] pointer-to-literal-cstring
+0x00021100	0x00000004	[  5] pointer-to-literal-cstring
+0x00021104	0x00000004	[  5] pointer-to-literal-cstring
+0x00021108	0x00000004	[  5] pointer-to-literal-cstring
+0x0002110C	0x00000004	[  5] pointer-to-literal-cstring
+0x00021110	0x00000004	[  5] pointer-to-literal-cstring
+0x00021114	0x00000004	[  5] pointer-to-literal-cstring
+0x00021118	0x00000004	[  5] pointer-to-literal-cstring
+0x0002111C	0x00000004	[  5] pointer-to-literal-cstring
+0x00021120	0x00000004	[  5] pointer-to-literal-cstring
+0x00021124	0x00000004	[  5] pointer-to-literal-cstring
+0x00021128	0x00000004	[  5] pointer-to-literal-cstring
+0x0002112C	0x00000004	[  5] pointer-to-literal-cstring
+0x00021130	0x00000010	[  3] anon
+0x00021140	0x00000010	[  4] anon
+0x00021150	0x0000000C	[  5] anon
+0x0002115C	0x00000040	[  3] anon
+0x0002119C	0x00000034	[  4] anon
+0x000211D0	0x0000008C	[  3] anon
+0x0002125C	0x0000008C	[  4] anon
+0x000212E8	0x00000030	[  3] l_OBJC_$_PROP_LIST_S3eMapViewAnnotation
+0x00021318	0x00000010	[  3] l_OBJC_$_PROP_PROTO_LIST_MKAnnotation
+0x00021328	0x0000000C	[  3] anon
+0x00021334	0x00000028	[  3] anon
+0x0002135C	0x00000028	[  4] anon
+0x00021384	0x00000020	[  3] anon
+0x000213A4	0x00000020	[  4] anon
+0x000213C4	0x00000030	[  3] anon
+0x000213F4	0x00000030	[  4] anon
+0x00021424	0x000000C8	[  3] anon
+0x000214EC	0x0000013C	[  4] anon
+0x00021628	0x00000020	[  3] anon
+0x00021648	0x00000020	[  4] anon
+0x00021668	0x00000010	[  3] anon
+0x00021678	0x00000010	[  4] anon
+0x00021688	0x00000010	[  5] anon
+0x00021698	0x00000004	[  3] pointer-to-literal-objc-class-name
+0x0002169C	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216A0	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216A4	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216A8	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216AC	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216B0	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216B4	0x00000004	[  4] pointer-to-literal-objc-class-name
+0x000216B8	0x00000004	[  5] pointer-to-literal-objc-class-name
+0x000216BC	0x00000008	[  0] objc image info
