@@ -125,7 +125,7 @@ s3eMapView* s3eMapViewCreate_platform() {
 
 s3eResult s3eMapViewDestroy_platform(s3eMapView* pMapView) {
 	JNIEnv* env = s3eEdkJNIGetEnv();
-	env->CallIntMethod(pMapView, g_s3eMapViewDestroy);
+	env->CallVoidMethod(pMapView, g_s3eMapViewDestroy);
 	env->DeleteGlobalRef(pMapView);
 	return S3E_RESULT_SUCCESS;
 }
