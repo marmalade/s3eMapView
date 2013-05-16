@@ -15,7 +15,6 @@
 }
 
 -(void) dealloc {
-	[myMapView.delegate release];
 	myMapView.delegate = nil;
 	[myMapView release];
 	[super dealloc];
