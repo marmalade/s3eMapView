@@ -2,7 +2,7 @@
 Part of the java implementation of the s3eMapView extension.
 This class is used via JNI from the native code in s3eMapView_platform.cpp
 
-This file contains the "s3eMapView" class, which is responsbile for:
+This file contains the "s3eMapView" class, which is responsible for:
 1. Checking that the Google Maps service is available on this device
 2. Instantiating an "s3eMapActivity" that will hold the actual map
 3. Using LocalActivityManager (as m_mapActivityHost) to host the s3eMapActivity
