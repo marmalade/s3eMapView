@@ -10,7 +10,7 @@
 	myMapView = [[MKMapView alloc] initWithFrame:CGRectMake(10, 10, 300, 400)]; // Default size/shape. Change with s3eMapViewSetScreenRect()
 	[myMapView setHidden:YES];
 	myMapView.delegate = self;
-	myMapView.showsUserLocation = YES;
+	myMapView.showsUserLocation = NO;
 	return self;
 }
 
