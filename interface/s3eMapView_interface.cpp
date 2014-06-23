@@ -10,6 +10,15 @@
 
 #include "s3eMapView.h"
 
+
+#ifndef S3E_EXT_SKIP_LOADER_CALL_LOCK
+// For MIPs (and WP8) platform we do not have asm code for stack switching
+// implemented. So we make LoaderCallStart call manually to set GlobalLock
+#if defined __mips || defined S3E_ANDROID_X86 || (defined(WINAPI_FAMILY) && (WINAPI_FAMILY == WINAPI_FAMILY_PHONE_APP))
+#define LOADER_CALL_LOCK
+#endif
+#endif
+
 /**
  * Definitions for functions types passed to/from s3eExt interface
  */
@@ -59,7 +68,7 @@ static bool _extLoad()
             g_GotExt = true;
         else
             s3eDebugAssertShow(S3E_MESSAGE_CONTINUE_STOP_IGNORE,                 "error loading extension: s3eMapView");
-            
+
         g_TriedExt = true;
         g_TriedNoMsgExt = true;
     }
@@ -95,15 +104,13 @@ s3eResult s3eMapViewRegister(s3eMapViewCallback cbid, s3eCallback fn, void* user
     if (!_extLoad())
         return S3E_RESULT_ERROR;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     s3eResult ret = g_Ext.m_s3eMapViewRegister(cbid, fn, userData);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -117,15 +124,13 @@ s3eResult s3eMapViewUnRegister(s3eMapViewCallback cbid, s3eCallback fn)
     if (!_extLoad())
         return S3E_RESULT_ERROR;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     s3eResult ret = g_Ext.m_s3eMapViewUnRegister(cbid, fn);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -139,15 +144,13 @@ s3eMapView* s3eMapViewCreate()
     if (!_extLoad())
         return NULL;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     s3eMapView* ret = g_Ext.m_s3eMapViewCreate();
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -161,15 +164,13 @@ s3eResult s3eMapViewDestroy(s3eMapView* pMapView)
     if (!_extLoad())
         return S3E_RESULT_ERROR;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     s3eResult ret = g_Ext.m_s3eMapViewDestroy(pMapView);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -183,15 +184,13 @@ void s3eMapViewSetScreenRect(s3eMapView* pMapView, int x, int y, int w, int h)
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eMapViewSetScreenRect(pMapView, x, y, w, h);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -205,15 +204,13 @@ void s3eMapViewSetVisible(s3eMapView* pMapView, bool visible)
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eMapViewSetVisible(pMapView, visible);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -227,15 +224,13 @@ void s3eMapViewSetType(s3eMapView* pMapView, s3eMapViewType type)
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eMapViewSetType(pMapView, type);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -249,15 +244,13 @@ void s3eMapViewSetShowUserLocation(s3eMapView* pMapView, bool show)
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eMapViewSetShowUserLocation(pMapView, show);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -271,15 +264,13 @@ void _s3eMapViewGoTo(s3eMapView* pMapView, const s3eMapViewCoord* center, const 
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m__s3eMapViewGoTo(pMapView, center, span, animate);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -293,15 +284,13 @@ s3eMapViewPOI* _s3eMapViewAddPOI(s3eMapView* pMapView, const s3eMapViewCoord* lo
     if (!_extLoad())
         return NULL;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     s3eMapViewPOI* ret = g_Ext.m__s3eMapViewAddPOI(pMapView, location, title, subtitle, clickable, clickData);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -315,15 +304,13 @@ void s3eMapViewRemovePOI(s3eMapView* pMapView, s3eMapViewPOI* poi)
     if (!_extLoad())
         return;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eMapViewRemovePOI(pMapView, poi);
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -337,15 +324,13 @@ const char* s3eMapViewGetPlatformLicensingString()
     if (!_extLoad())
         return NULL;
 
-#ifdef __mips
-    // For MIPs platform we do not have asm code for stack switching 
-    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     const char* ret = g_Ext.m_s3eMapViewGetPlatformLicensingString();
 
-#ifdef __mips
+#ifdef LOADER_CALL_LOCK
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 

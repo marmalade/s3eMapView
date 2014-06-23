@@ -11,4 +11,12 @@
 #define S3E_EXT_MAPVIEW_NAME "s3eMapView"
 #define S3E_EXT_MAPVIEW_HASH 0x222e0d89
 
+#ifdef S3E_EXT_REGISTER
+#ifndef S3E_EXT_REGISTER_KEY
+#define S3E_EXT_REGISTER_KEY(name, num, key) S3E_EXT_REGISTER(name, num)
+#endif
+S3E_EXT_REGISTER("s3eMapView", 12)
+#else
+
+#endif /* S3E_EXT_REGISTER */
 #endif /* !S3EMAPVIEW_AUTODEFS_H */
