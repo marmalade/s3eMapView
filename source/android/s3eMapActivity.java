@@ -6,7 +6,7 @@ s3eMapActivity is an Android activity class that creates and manages an
 OverlayedMapFragment (subclass of SupportMapFragment), which contains the
 actual GoogleMap.
 
-Code is copyright (c) 2013 Get to Know Society.
+Code is copyright (c) 2013 Morningstar Enterprises Inc.
 Licensed under the zlib license - see LICENSE file.
 
 */

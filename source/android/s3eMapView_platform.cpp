@@ -2,7 +2,7 @@
 Android-specific implementation of the s3eMapView extension.
 This code instantiates an instance of the Java "s3eMapView" class.
 
-Code is copyright (c) 2013 Get to Know Society.
+Code is copyright (c) 2013 Morningstar Enterprises Inc.
 Licensed under the zlib license - see LICENSE file.
 */
 #include "s3eMapView_internal.h"

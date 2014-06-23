@@ -4,7 +4,7 @@ iphone-specific implementation of the s3eMapView extension.
 This file is responsible for instantiating an s3eMapViewController, and passing
 messages from Marmalade to the controller or its MKMapView.
 
-Code is copyright (c) 2013 Get to Know Society.
+Code is copyright (c) 2013 Morningstar Enterprises Inc.
 Licensed under the zlib license - see LICENSE file.
 */
 #include "s3eMapView_internal.h"

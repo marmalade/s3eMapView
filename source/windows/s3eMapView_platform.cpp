@@ -14,7 +14,7 @@
  * http://msdn.microsoft.com/en-us/library/ms742522.aspx
  * http://msdn.microsoft.com/en-us/library/ms744829.aspx
  *
- * Code is copyright (c) 2013 Get to Know Society.
+ * Code is copyright (c) 2013 Morningstar Enterprises Inc.
  * Licensed under the zlib license - see LICENSE file.
  */
 #include "s3eMapView_internal.h"

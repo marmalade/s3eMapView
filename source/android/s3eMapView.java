@@ -14,7 +14,7 @@ This file contains the "s3eMapView" class, which is responsible for:
    level 12 or higher.)
 4. Passing messages/commands between the Marmalade app and s3eMapActivity
 
-Code is copyright (c) 2013 Get to Know Society.
+Code is copyright (c) 2013 Morningstar Enterprises Inc.
 Licensed under the zlib license - see LICENSE file.
 
 */

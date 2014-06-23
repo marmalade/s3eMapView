@@ -80,11 +80,12 @@ map, allowing one to test apps that require use of POIs. You can trigger a
 
 ### Mac OS X Simulator ###
 
-The OS X simulator is mostly supported, using 
+The OS X simulator is mostly supported on OS X 10.8, using 
 [MacMapKit](https://github.com/Oomph/MacMapKit). The resulting map will look
 similar to the way an iOS map will look.
 
 __Limitations__:
+* Does not yet work on OS X 10.9 or newer (MacMapKit has not been updated)
 * POI subtitles, if present, are not shown on the callout
 * User location is always shown
 * Clickable POI callouts do not support the blue button that allows the user
@@ -309,14 +310,14 @@ Pull requests welcome!
 
 Credits
 -------
-s3eMapView was created at Morningstar Enterprises by the Get to Know Society
-for use in the [OISEAU: Agents of Nature](http://www.agentsofnature.com) app.
+s3eMapView was created by [Morningstar Interactive](http://mstar.io) for use in
+the [Agents of Nature](http://www.agentsofnature.com) app.
 
 
 License
 -------
 
-Copyright (c) 2013 Get to Know Society
+Copyright (c) 2013 Morningstar Enterprises Inc.
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
